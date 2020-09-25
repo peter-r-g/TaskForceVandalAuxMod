@@ -14,7 +14,7 @@ class CfgPatches
         units[] = {
             "TFV_OPTRE_ILCS_Rucksack_LR"
         };
-        weapons[]={};
+        weapons[] = {};
     };
 };
 
