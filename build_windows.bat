@@ -1,13 +1,33 @@
 @ECHO OFF
-set ADDONBUILDER_EXE=E:\Steam Games\steamapps\common\Arma 3 Tools\AddonBuilder\AddonBuilder.exe
-set WORKING_DIR=E:\GitHub\TaskForceVandalAuxMod
 
+rem ### Configuration Options.
+rem ## The directory that this batch file is running in.
+set WORKING_DIR=E:\GitHub\TaskForceVandalAuxMod
+rem ## The path to the addon builder executable.
+set ADDONBUILDER_EXE=E:\Steam Games\steamapps\common\Arma 3 Tools\AddonBuilder\AddonBuilder.exe
+
+rem ## Uncomment next two lines if you want to see the help menu.
+rem "%ADDONBUILDER_EXE%" -help
+rem pause
+rem ##
+
+rem ### Don't edit below here.
+rem ## Delete old build folder.
+rmdir /S/Q build
+rem ## Create build directories.
 mkdir build\addons
 mkdir build\keys
-"%ADDONBUILDER_EXE%" "%WORKING_DIR%/src/addons/TFVMain" "%WORKING_DIR%/build/addons/" -sign="%WORKING_DIR%/TaskForceVandalAuxMod.biprivatekey"
-"%ADDONBUILDER_EXE%" "%WORKING_DIR%/src/addons/TFVEquipment" "%WORKING_DIR%/build/addons/" -sign="%WORKING_DIR%/TaskForceVandalAuxMod.biprivatekey"
-"%ADDONBUILDER_EXE%" "%WORKING_DIR%/src/addons/TFVResupply" "%WORKING_DIR%/build/addons/" -sign="%WORKING_DIR%/TaskForceVandalAuxMod.biprivatekey"
-"%ADDONBUILDER_EXE%" "%WORKING_DIR%/src/addons/TFVMusic" "%WORKING_DIR%/build/addons/" -sign="%WORKING_DIR%/TaskForceVandalAuxMod.biprivatekey"
+rem ## Build PBOs.
+rem # TFV_Main
+"%ADDONBUILDER_EXE%" "%WORKING_DIR%/src/addons/TFV_Main" "%WORKING_DIR%/build/addons/" -sign="%WORKING_DIR%/TaskForceVandalAuxMod.biprivatekey" -include="%WORKING_DIR%/src/addons/TFV_Main/include.txt"
+rem # TFV_Equipment
+"%ADDONBUILDER_EXE%" "%WORKING_DIR%/src/addons/TFV_Equipment" "%WORKING_DIR%/build/addons/" -sign="%WORKING_DIR%/TaskForceVandalAuxMod.biprivatekey" -include="%WORKING_DIR%/src/addons/TFV_Equipment/include.txt"
+rem # TFV_Resupply
+"%ADDONBUILDER_EXE%" "%WORKING_DIR%/src/addons/TFV_Resupply" "%WORKING_DIR%/build/addons/" -sign="%WORKING_DIR%/TaskForceVandalAuxMod.biprivatekey" -include="%WORKING_DIR%/src/addons/TFV_Resupply/include.txt"
+rem # TFV_Music
+"%ADDONBUILDER_EXE%" "%WORKING_DIR%/src/addons/TFV_Music" "%WORKING_DIR%/build/addons/" -sign="%WORKING_DIR%/TaskForceVandalAuxMod.biprivatekey" -include="%WORKING_DIR%/src/addons/TFV_Music/include.txt"
+rem ## Copy mod.cpp and key.
 copy /Y "%WORKING_DIR%\src\mod.cpp" "%WORKING_DIR%\build\mod.cpp"
 copy /Y "%WORKING_DIR%\src\keys\TaskForceVandalAuxMod.bikey" "%WORKING_DIR%\build\keys\TaskForceVandalAuxMod.bikey"
+rem ## Pause so user can see output.
 pause
