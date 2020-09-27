@@ -28,6 +28,11 @@ class CfgVehicles
 {
     class OPTRE_ILCS_Rucksack_Black;
     class OPTRE_UNSC_Rucksack;
+    class OPTRE_ANPRC_521_Black;
+    class OPTRE_ANPRC_521_Green;
+    class OPTRE_ANPRC_521_Snow;
+    class OPTRE_ANPRC_521_Tan;
+    class OPTRE_ANPRC_521_URF;
     class TFV_OPTRE_ILCS_Rucksack_LR: OPTRE_ILCS_Rucksack_Black
     {
         author = "Article 2 Studios & [TW] gunman435";
@@ -58,6 +63,26 @@ class CfgVehicles
 		tf_hasLRradio = 1;
     };
 
+    class TFV_OPTRE_ANPRC_521_Black: OPTRE_ANPRC_521_Black
+    {
+        maximumLoad=250;
+    };
+    class TFV_OPTRE_ANPRC_521_Green: OPTRE_ANPRC_521_Green
+    {
+        maximumLoad=250;
+    };
+    class TFV_OPTRE_ANPRC_521_Snow: OPTRE_ANPRC_521_Snow
+    {
+        maximumLoad=250;
+    };
+    class TFV_OPTRE_ANPRC_521_Tan: OPTRE_ANPRC_521_Tan
+    {
+        maximumLoad=250;
+    };
+    class TFV_OPTRE_ANPRC_521_URF: OPTRE_ANPRC_521_URF
+    {
+        maximumLoad=250;
+    };
 };
 
 class cfgMods
