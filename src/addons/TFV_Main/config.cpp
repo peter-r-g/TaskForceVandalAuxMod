@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class TFVMain
+    class TFV_Main
     {
         name = "Task Force Vandal Aux - Main";
         author = "[TW] gunman435";

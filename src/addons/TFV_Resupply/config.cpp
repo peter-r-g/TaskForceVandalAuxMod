@@ -1,13 +1,13 @@
 class CfgPatches
 {
-    class TFVResupply
+    class TFV_Resupply
     {
         name = "Task Force Vandal Aux - Resupply";
         author = "[TW] gunman435";
 
         requiredVersion = 0.1;
         requiredAddons[] = {
-            "TFVMain",
+            "TFV_Main",
             "OPTRE_Misc_Crates"
         };
 
@@ -171,11 +171,6 @@ class CfgVehicles
                 count = 12;
             };
         };
-    };
-
-    class TFV_OPTRE_SupplyPod_Ammo: OPTRE_Ammo_SupplyPod_Empty
-    {
-        displayName = "[UNSC] Supply Pod (PL Ammo)";
     };
 };
 

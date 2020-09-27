@@ -1,19 +1,24 @@
 class CfgPatches
 {
-    class TFVEquipment
+    class TFV_Equipment
     {
         name = "Task Force Vandal Aux - Equipment";
         author = "[TW] gunman435";
 
         requiredVersion = 0.1;
         requiredAddons[] = {
-            "TFVMain",
+            "TFV_Main",
             "OPTRE_Weapons_Backpacks"
         };
 
         units[] = {
             "TFV_OPTRE_ILCS_Rucksack_LR",
-            "TFV_OPTRE_ONI_Rucksack"
+            "TFV_OPTRE_ONI_Rucksack",
+            "TFV_OPTRE_ANPRC_521_Black",
+            "TFV_OPTRE_ANPRC_521_Green",
+            "TFV_OPTRE_ANPRC_521_Snow",
+            "TFV_OPTRE_ANPRC_521_Tan",
+            "TFV_OPTRE_ANPRC_521_URF"
         };
         weapons[] = {};
     };
@@ -52,6 +57,7 @@ class CfgVehicles
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio = 1;
     };
+
 };
 
 class cfgMods

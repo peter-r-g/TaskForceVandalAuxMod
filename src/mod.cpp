@@ -1,8 +1,13 @@
 name = "Task Force Vandal Auxiliary Mod";
-tooltipOwned="Task Force Vandal Aux";
-picture = "TFVMain\logo.paa";
-logoSmall = "TFVMain\logo.paa";
-logo = "TFVMain\logo.paa";
-logoOver = "TFVMain\logo.paa";
-hideName = 0;
-hidePicture = 0;
+description = "The auxiliary mod for the Task Force Vandal halo unit. Containing modified equipment and other useful items used by the unit.";
+actionName = "GitHub";
+action = "https://github.com/peter-r-g/TaskForceVandalAuxMod";
+tooltipOwned = "Task Force Vandal Aux";
+
+picture = "\TFV_Main\logo.paa";
+logoSmall = "\TFV_Main\logo.paa";
+logo = "\TFV_Main\logo.paa";
+logoOver = "\TFV_Main\logo.paa";
+
+hideName = "false";
+hidePicture = "false";
