@@ -33,6 +33,11 @@ class CfgVehicles
                 name = "OPTRE_Biofoam";
                 count = 50;
             };
+            class xx_OPTRE_Medigel
+            {
+                name = "OPTRE_Medigel";
+                count = 50;
+            };
             class xx_OPTRE_MedKit
             {
                 name = "OPTRE_MedKit";
@@ -108,6 +113,11 @@ class CfgVehicles
             class xx_OPTRE_Biofoam
             {
                 name = "OPTRE_Biofoam";
+                count = 5;
+            };
+            class xx_OPTRE_Medigel
+            {
+                name = "OPTRE_Medigel";
                 count = 5;
             };
             class xx_OPTRE_MedKit
