@@ -13,12 +13,7 @@ class CfgPatches
 
         units[] = {
             "TFV_OPTRE_ILCS_Rucksack_LR",
-            "TFV_OPTRE_ONI_Rucksack",
-            "TFV_OPTRE_ANPRC_521_Black",
-            "TFV_OPTRE_ANPRC_521_Green",
-            "TFV_OPTRE_ANPRC_521_Snow",
-            "TFV_OPTRE_ANPRC_521_Tan",
-            "TFV_OPTRE_ANPRC_521_URF"
+            "TFV_OPTRE_ONI_Rucksack"
         };
         weapons[] = {};
     };
@@ -26,13 +21,12 @@ class CfgPatches
 
 class CfgVehicles
 {
+    #pragma region Base
     class OPTRE_ILCS_Rucksack_Black;
     class OPTRE_UNSC_Rucksack;
-    class OPTRE_ANPRC_521_Black;
-    class OPTRE_ANPRC_521_Green;
-    class OPTRE_ANPRC_521_Snow;
-    class OPTRE_ANPRC_521_Tan;
-    class OPTRE_ANPRC_521_URF;
+    #pragma endregion Base
+
+    #pragma region Backpacks
     class TFV_OPTRE_ILCS_Rucksack_LR: OPTRE_ILCS_Rucksack_Black
     {
         author = "Article 2 Studios & Gooman";
@@ -62,27 +56,7 @@ class CfgVehicles
 		tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
 		tf_hasLRradio = 1;
     };
-
-    class TFV_OPTRE_ANPRC_521_Black: OPTRE_ANPRC_521_Black
-    {
-        maximumLoad=250;
-    };
-    class TFV_OPTRE_ANPRC_521_Green: OPTRE_ANPRC_521_Green
-    {
-        maximumLoad=250;
-    };
-    class TFV_OPTRE_ANPRC_521_Snow: OPTRE_ANPRC_521_Snow
-    {
-        maximumLoad=250;
-    };
-    class TFV_OPTRE_ANPRC_521_Tan: OPTRE_ANPRC_521_Tan
-    {
-        maximumLoad=250;
-    };
-    class TFV_OPTRE_ANPRC_521_URF: OPTRE_ANPRC_521_URF
-    {
-        maximumLoad=250;
-    };
+    #pragma endregion Backpacks
 };
 
 class cfgMods
