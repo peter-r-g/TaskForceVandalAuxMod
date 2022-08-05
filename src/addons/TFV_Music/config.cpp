@@ -3,7 +3,7 @@ class CfgPatches
 	class TFV_Music
 	{
 		name = "Task Force Vandal Aux - Music";
-        author = "Callum & [TW] gunman435";
+        author = "Callum & Gooman";
 
         requiredVersion = 0.1;
         requiredAddons[] = {
@@ -257,4 +257,9 @@ class CfgMusic
 		duration = "148";
 		musicClass = "TFV_Halo2AMusic";
 	};
+};
+
+class cfgMods
+{
+    author = "Gooman";
 };

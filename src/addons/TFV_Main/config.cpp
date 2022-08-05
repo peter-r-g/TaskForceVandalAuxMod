@@ -3,7 +3,7 @@ class CfgPatches
     class TFV_Main
     {
         name = "Task Force Vandal Aux - Main";
-        author = "[TW] gunman435";
+        author = "Gooman";
 
         requiredVersion = 0.1;
         requiredAddons[] = {};
@@ -15,5 +15,5 @@ class CfgPatches
 
 class cfgMods
 {
-    author = "[TW] gunman435";
+    author = "Gooman";
 };

@@ -3,7 +3,7 @@ class CfgPatches
     class TFV_Equipment
     {
         name = "Task Force Vandal Aux - Equipment";
-        author = "[TW] gunman435";
+        author = "Gooman";
 
         requiredVersion = 0.1;
         requiredAddons[] = {
@@ -35,7 +35,7 @@ class CfgVehicles
     class OPTRE_ANPRC_521_URF;
     class TFV_OPTRE_ILCS_Rucksack_LR: OPTRE_ILCS_Rucksack_Black
     {
-        author = "Article 2 Studios & [TW] gunman435";
+        author = "Article 2 Studios & Gooman";
         displayName = "ILCS Rucksack [LR]";
         descriptionShort = "ILCS Rucksack [LR]<br>ODST Long Range Radio<br>25km Effective Range";
         maximumLoad=300;
@@ -50,7 +50,7 @@ class CfgVehicles
 
     class TFV_OPTRE_ONI_Rucksack: OPTRE_UNSC_Rucksack
     {
-        author = "Article 2 Studios & [TW] gunman435";
+        author = "Article 2 Studios & Gooman";
         displayName = "ONI Rucksack";
         descriptionShort = "ONI Rucksack<br>ONI Long Range Radio<br>25km Effective Range";
         maximumLoad=400;
@@ -87,5 +87,5 @@ class CfgVehicles
 
 class cfgMods
 {
-    author = "[TW] gunman435";
+    author = "Gooman";
 };
