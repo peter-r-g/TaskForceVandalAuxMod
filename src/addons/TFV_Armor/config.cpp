@@ -22,6 +22,7 @@ class CfgPatches
 
             "TFV_Recon_Helmet_Reeves",
             "TFV_M52D_Vest_Demolitions_Reeves",
+            "TFV_M52D_Vest_Light_Reeves",
             "TFV_M52D_Vest_Rifleman_Reeves",
             "TFV_M52D_Vest_Scout_Reeves",
 
@@ -138,6 +139,12 @@ class CfgWeapons
         displayName = "M52D Body Armor (Demolitions) (Reeves)";
         VEST_REEVES
     };
+
+    class TFV_M52D_Vest_Light_Reeves: OPTRE_UNSC_M52D_Armor_Light
+    {
+        displayName = "M52D Body Armor (Light) (Reeves)";
+        VEST_REEVES
+    }
 
     class TFV_M52D_Vest_Rifleman_Reeves: OPTRE_UNSC_M52D_Armor_Rifleman
     {
