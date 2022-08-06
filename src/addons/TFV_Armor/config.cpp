@@ -65,17 +65,18 @@ class CfgWeapons
 		};
     };
 
+    #define VEST_AASEN hiddenSelectionsTextures[]= \
+    { \
+        "TFV_Armor\data\aasen\aasen_underamour_co.paa", \
+        "TFV_Armor\data\aasen\aasen_vest_co.paa", \
+        "TFV_Armor\data\aasen\aasen_legs_co.paa", \
+        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        "TFV_Armor\data\aasen\aasen_odst_armour_co.paa", \
+    };
     class TFV_M52D_Vest_Light_Aasen: OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Aasen)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\aasen\aasen_underamour_co.paa",
-            "TFV_Armor\data\aasen\aasen_vest_co.paa",
-            "TFV_Armor\data\aasen\aasen_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\aasen\aasen_odst_armour_co.paa",
-		};
+        VEST_AASEN
     };
     #pragma endregion Aasen
 
@@ -91,30 +92,24 @@ class CfgWeapons
 		};
     };
 
+    #define VEST_CASTLE hiddenSelectionsTextures[]= \
+    { \
+        "TFV_Armor\data\castle\castle_underamour_co.paa", \
+        "TFV_Armor\data\castle\castle_vest_co.paa", \
+        "TFV_Armor\data\castle\castle_legs_co.paa", \
+        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        "TFV_Armor\data\castle\castle_odst_armour_co.paa", \
+    };
     class TFV_M52D_Vest_Light_Castle: OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Light) (Castle)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\castle\castle_underamour_co.paa",
-            "TFV_Armor\data\castle\castle_vest_co.paa",
-            "TFV_Armor\data\castle\castle_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\castle\castle_odst_armour_co.paa",
-		};
+        VEST_CASTLE
     };
 
     class TFV_M52D_Vest_Rifleman_Castle: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Castle)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\castle\castle_underamour_co.paa",
-            "TFV_Armor\data\castle\castle_vest_co.paa",
-            "TFV_Armor\data\castle\castle_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\castle\castle_odst_armour_co.paa",
-		};
+        VEST_CASTLE
     };
     #pragma endregion Castle
 
@@ -130,43 +125,30 @@ class CfgWeapons
 		};
     };
 
+    #define VEST_REEVES hiddenSelectionsTextures[]= \
+    { \
+        "TFV_Armor\data\reeves\reeves_underamour_co.paa", \
+        "TFV_Armor\data\reeves\reeves_vest_co.paa", \
+        "TFV_Armor\data\reeves\reeves_legs_co.paa", \
+        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        "TFV_Armor\data\reeves\reeves_odst_armour_co.paa", \
+    };
     class TFV_M52D_Vest_Demolitions_Reeves: OPTRE_UNSC_M52D_Armor_Demolitions
     {
         displayName = "M52D Body Armor (Demolitions) (Reeves)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\reeves\reeves_underamour_co.paa",
-            "TFV_Armor\data\reeves\reeves_vest_co.paa",
-            "TFV_Armor\data\reeves\reeves_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\reeves\reeves_odst_armour_co.paa",
-		};
+        VEST_REEVES
     };
 
     class TFV_M52D_Vest_Rifleman_Reeves: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Reeves)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\reeves\reeves_underamour_co.paa",
-            "TFV_Armor\data\reeves\reeves_vest_co.paa",
-            "TFV_Armor\data\reeves\reeves_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\reeves\reeves_odst_armour_co.paa",
-		};
+        VEST_REEVES
     };
 
     class TFV_M52D_Vest_Scout_Reeves: OPTRE_UNSC_M52D_Armor_Scout
     {
         displayName = "M52D Body Armor (Scout) (Reeves)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\reeves\reeves_underamour_co.paa",
-            "TFV_Armor\data\reeves\reeves_vest_co.paa",
-            "TFV_Armor\data\reeves\reeves_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\reeves\reeves_odst_armour_co.paa",
-		};
+        VEST_REEVES
     };
     #pragma endregion Reeves
 
@@ -182,108 +164,60 @@ class CfgWeapons
 		};
     };
 
+    #define VEST_ROY hiddenSelectionsTextures[]= \
+    { \
+        "TFV_Armor\data\roy\roy_underamour_co.paa", \
+        "TFV_Armor\data\roy\roy_vest_co.paa", \
+        "TFV_Armor\data\roy\roy_legs_co.paa", \
+        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        "TFV_Armor\data\roy\roy_odst_armour_co.paa", \
+    };
     class TFV_M52D_Vest_Basic_Roy: OPTRE_UNSC_M52D_Armor
     {
         displayName = "M52D Body Armor (Basic) (Roy)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\roy\roy_underamour_co.paa",
-            "TFV_Armor\data\roy\roy_vest_co.paa",
-            "TFV_Armor\data\roy\roy_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\roy\roy_odst_armour_co.paa",
-		};
+        VEST_ROY
     };
 
     class TFV_M52D_Vest_Demolitions_Roy: OPTRE_UNSC_M52D_Armor_Demolitions
     {
         displayName = "M52D Body Armor (Demolitions) (Roy)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\roy\roy_underamour_co.paa",
-            "TFV_Armor\data\roy\roy_vest_co.paa",
-            "TFV_Armor\data\roy\roy_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\roy\roy_odst_armour_co.paa",
-		};
+        VEST_ROY
     };
 
     class TFV_M52D_Vest_Light_Roy: OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Light) (Roy)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\roy\roy_underamour_co.paa",
-            "TFV_Armor\data\roy\roy_vest_co.paa",
-            "TFV_Armor\data\roy\roy_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\roy\roy_odst_armour_co.paa",
-		};
+        VEST_ROY
     };
 
     class TFV_M52D_Vest_Marksman_Roy: OPTRE_UNSC_M52D_Armor_Marksman
     {
         displayName = "M52D Body Armor (Marksman) (Roy)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\roy\roy_underamour_co.paa",
-            "TFV_Armor\data\roy\roy_vest_co.paa",
-            "TFV_Armor\data\roy\roy_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\roy\roy_odst_armour_co.paa",
-		};
+        VEST_ROY
     };
 
     class TFV_M52D_Vest_Medic_Roy: OPTRE_UNSC_M52D_Armor_Medic
     {
         displayName = "M52D Body Armor (Medic) (Roy)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\roy\roy_underamour_co.paa",
-            "TFV_Armor\data\roy\roy_vest_co.paa",
-            "TFV_Armor\data\roy\roy_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\roy\roy_odst_armour_co.paa",
-		};
+        VEST_ROY
     };
 
     class TFV_M52D_Vest_Rifleman_Roy: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Roy)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\roy\roy_underamour_co.paa",
-            "TFV_Armor\data\roy\roy_vest_co.paa",
-            "TFV_Armor\data\roy\roy_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\roy\roy_odst_armour_co.paa",
-		};
+        VEST_ROY
     };
 
     class TFV_M52D_Vest_Scout_Roy: OPTRE_UNSC_M52D_Armor_Scout
     {
         displayName = "M52D Body Armor (Scout) (Roy)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\roy\roy_underamour_co.paa",
-            "TFV_Armor\data\roy\roy_vest_co.paa",
-            "TFV_Armor\data\roy\roy_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\roy\roy_odst_armour_co.paa",
-		};
+        VEST_ROY
     };
 
     class TFV_M52D_Vest_Sniper_Roy: OPTRE_UNSC_M52D_Armor_Sniper
     {
         displayName = "M52D Body Armor (Sniper) (Roy)";
-        hiddenSelectionsTextures[]=
-		{
-            "TFV_Armor\data\roy\roy_underamour_co.paa",
-            "TFV_Armor\data\roy\roy_vest_co.paa",
-            "TFV_Armor\data\roy\roy_legs_co.paa",
-            "optre_unsc_units\army\data\ghillie_woodland_co.paa",
-            "TFV_Armor\data\roy\roy_odst_armour_co.paa",
-		};
+        VEST_ROY
     };
     #pragma endregion Roy
 };
