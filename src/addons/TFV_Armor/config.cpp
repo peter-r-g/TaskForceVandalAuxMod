@@ -41,7 +41,7 @@ class CfgPatches
 
 class CfgWeapons
 {
-    #pragma region Base;
+    #pragma region Base
 	class OPTRE_UNSC_RECON_HELMET;
 
     class OPTRE_UNSC_M52D_Armor;
@@ -52,7 +52,7 @@ class CfgWeapons
     class OPTRE_UNSC_M52D_Armor_Rifleman;
     class OPTRE_UNSC_M52D_Armor_Scout;
     class OPTRE_UNSC_M52D_Armor_Sniper;
-    #pragma endregion Bases
+    #pragma endregion Base
 
     #pragma region Aasen
     class TFV_Recon_Helmet_Aasen: OPTRE_UNSC_RECON_HELMET
