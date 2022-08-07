@@ -47,6 +47,98 @@ class CfgWeapons
 
     class OPTRE_UNSC_M52A_Armor1_WDL;
     class OPTRE_UNSC_M52D_Armor: OPTRE_UNSC_M52A_Armor1_WDL { class ItemInfo; };
+    // TODO: OPTRE_UNSC_M52D_Armor_Demolitions has damage protection problems?
+    class TFV_OPTRE_UNSC_M52D_Armor_Demolitions: OPTRE_UNSC_M52D_Armor
+    {
+        dlc="OPTRE";
+		author="Article 2 Studios";
+		displayName="M52D Body Armor (Demolitions)";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"A_KneesMarLeft",
+			"A_KneesMarRight",
+			"A_Ghillie",
+			"A_TacPad",
+			"AS_LargeLeft",
+			"AS_LargeRight",
+			"AS_MediumLeft",
+			"AS_MediumRight",
+			"AS_ODSTLeft",
+			"AS_ODSTCQBRight",
+			"AS_ODSTSniperLeft",
+			"AS_ODSTSniperRight",
+			"AS_SmallLeft",
+			"AS_SmallRight",
+			"AP_AR",
+			"AP_BR",
+			"AP_Canteen",
+			"AP_Knife",
+			"AP_MGThigh",
+			"AP_AR",
+			"AP_Pack",
+			"AP_Pistol",
+			"AP_Rounds",
+			"AP_SG",
+			"AP_SMG",
+			"AP_Sniper",
+			"AP_Thigh",
+			"AP_Frag",
+			"AP_Smoke",
+			"APO_AR",
+			"APO_BR",
+			"APO_Sniper",
+			"CustomKit_Scorch"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"A_KneesMarLeft",
+				"A_KneesMarRight",
+				"A_Ghillie",
+				"A_TacPad",
+				"AS_LargeLeft",
+				"AS_LargeRight",
+				"AS_MediumLeft",
+				"AS_MediumRight",
+				"AS_ODSTLeft",
+				"AS_ODSTCQBRight",
+				"AS_ODSTSniperLeft",
+				"AS_ODSTSniperRight",
+				"AS_SmallLeft",
+				"AS_SmallRight",
+				"AP_AR",
+				"AP_BR",
+				"AP_Canteen",
+				"AP_Knife",
+				"AP_MGThigh",
+				"AP_AR",
+				"AP_Pack",
+				"AP_Pistol",
+				"AP_Rounds",
+				"AP_SG",
+				"AP_SMG",
+				"AP_Sniper",
+				"AP_Thigh",
+				"AP_Frag",
+				"AP_Smoke",
+				"APO_AR",
+				"APO_BR",
+				"APO_Sniper",
+				"CustomKit_Scorch"
+			};
+		};
+    };
     class OPTRE_UNSC_M52D_Armor_Light: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
     class OPTRE_UNSC_M52D_Armor_Marksman: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
     class OPTRE_UNSC_M52D_Armor_Medic: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
@@ -177,7 +269,7 @@ class CfgWeapons
         "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
         "TFV_Armor\data\reeves\reeves_odst_armour_co.paa", \
     };
-    class TFV_M52D_Vest_Demolitions_Reeves: OPTRE_UNSC_M52D_Armor_Demolitions
+    class TFV_M52D_Vest_Demolitions_Reeves: TFV_OPTRE_UNSC_M52D_Armor_Demolitions
     {
         displayName = "M52D Body Armor (Demolitions) (Reeves)";
         VEST_REEVES
@@ -242,7 +334,7 @@ class CfgWeapons
         VEST_ROY
     };
 
-    class TFV_M52D_Vest_Demolitions_Roy: OPTRE_UNSC_M52D_Armor_Demolitions
+    class TFV_M52D_Vest_Demolitions_Roy: TFV_OPTRE_UNSC_M52D_Armor_Demolitions
     {
         displayName = "M52D Body Armor (Demolitions) (Roy)";
         VEST_ROY
