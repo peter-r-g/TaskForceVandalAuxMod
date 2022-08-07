@@ -185,6 +185,10 @@ class CfgWeapons
     {
         displayName = "M52D Body Armor (Aasen)";
         VEST_AASEN;
+        class ItemInfo: ItemInfo
+        {
+            VEST_AASEN;
+        };
     };
     #pragma endregion Aasen
 
@@ -226,12 +230,20 @@ class CfgWeapons
     {
         displayName = "M52D Body Armor (Light) (Castle)";
         VEST_CASTLE;
+        class ItemInfo: ItemInfo
+        {
+            VEST_CASTLE;
+        };
     };
 
     class TFV_M52D_Vest_Rifleman_Castle: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Castle)";
         VEST_CASTLE;
+        class ItemInfo: ItemInfo
+        {
+            VEST_CASTLE;
+        };
     };
     #pragma endregion Castle
 
@@ -273,6 +285,10 @@ class CfgWeapons
     {
         displayName = "M52D Body Armor (Demolitions) (Reeves)";
         VEST_REEVES;
+        class ItemInfo: ItemInfo
+        {
+            VEST_REEVES;
+        };
     };
 
     class TFV_M52D_Vest_Light_Reeves: OPTRE_UNSC_M52D_Armor_Light
@@ -280,17 +296,29 @@ class CfgWeapons
         displayName = "M52D Body Armor (Light) (Reeves)";
     }
         VEST_REEVES;
+        class ItemInfo: ItemInfo
+        {
+            VEST_REEVES;
+        };
 
     class TFV_M52D_Vest_Rifleman_Reeves: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Reeves)";
         VEST_REEVES;
+        class ItemInfo: ItemInfo
+        {
+            VEST_REEVES;
+        };
     };
 
     class TFV_M52D_Vest_Scout_Reeves: OPTRE_UNSC_M52D_Armor_Scout
     {
         displayName = "M52D Body Armor (Scout) (Reeves)";
         VEST_REEVES;
+        class ItemInfo: ItemInfo
+        {
+            VEST_REEVES;
+        };
     };
     #pragma endregion Reeves
 
@@ -332,48 +360,81 @@ class CfgWeapons
     {
         displayName = "M52D Body Armor (Basic) (Roy)";
         VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_ROY;
+        };
     };
 
     class TFV_M52D_Vest_Demolitions_Roy: TFV_OPTRE_UNSC_M52D_Armor_Demolitions
     {
         displayName = "M52D Body Armor (Demolitions) (Roy)";
         VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_ROY;
+        };
     };
 
     class TFV_M52D_Vest_Light_Roy: OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Light) (Roy)";
         VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_ROY;
+        };
     };
 
     class TFV_M52D_Vest_Marksman_Roy: OPTRE_UNSC_M52D_Armor_Marksman
     {
         displayName = "M52D Body Armor (Marksman) (Roy)";
         VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_ROY;
+        };
     };
 
     class TFV_M52D_Vest_Medic_Roy: OPTRE_UNSC_M52D_Armor_Medic
     {
         displayName = "M52D Body Armor (Medic) (Roy)";
         VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_ROY;
+        };
     };
 
     class TFV_M52D_Vest_Rifleman_Roy: OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Roy)";
         VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_ROY;
+        };
     };
 
     class TFV_M52D_Vest_Scout_Roy: OPTRE_UNSC_M52D_Armor_Scout
     {
         displayName = "M52D Body Armor (Scout) (Roy)";
         VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_ROY;
+        };
     };
 
     class TFV_M52D_Vest_Sniper_Roy: OPTRE_UNSC_M52D_Armor_Sniper
     {
         displayName = "M52D Body Armor (Sniper) (Roy)";
         VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_ROY;
+        };
+    };
     };
     #pragma endregion Roy
 };
