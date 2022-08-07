@@ -374,12 +374,12 @@ class CfgWeapons
     class TFV_M52D_Vest_Light_Reeves: OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Light) (Reeves)";
-    }
         VEST_REEVES;
         class ItemInfo: ItemInfo
         {
             VEST_REEVES;
         };
+    };
 
     class TFV_M52D_Vest_Rifleman_Reeves: OPTRE_UNSC_M52D_Armor_Rifleman
     {
