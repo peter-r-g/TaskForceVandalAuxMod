@@ -45,14 +45,14 @@ class CfgWeapons
 	class OPTRE_UNSC_RECON_HELMET;
     class OPTRE_UNSC_RECON_HELMET_dp;
 
-    class OPTRE_UNSC_M52D_Armor;
-    class OPTRE_UNSC_M52D_Armor_Demolitions;
-    class OPTRE_UNSC_M52D_Armor_Light;
-    class OPTRE_UNSC_M52D_Armor_Marksman;
-    class OPTRE_UNSC_M52D_Armor_Medic;
-    class OPTRE_UNSC_M52D_Armor_Rifleman;
-    class OPTRE_UNSC_M52D_Armor_Scout;
-    class OPTRE_UNSC_M52D_Armor_Sniper;
+    class OPTRE_UNSC_M52A_Armor1_WDL;
+    class OPTRE_UNSC_M52D_Armor: OPTRE_UNSC_M52A_Armor1_WDL { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Light: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Marksman: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Medic: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Rifleman: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Scout: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Sniper: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
     #pragma endregion Base
 
     #pragma region Aasen
