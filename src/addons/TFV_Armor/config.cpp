@@ -34,7 +34,8 @@ class CfgPatches
             "TFV_M52D_Vest_Medic_Roy",
             "TFV_M52D_Vest_Rifleman_Roy",
             "TFV_M52D_Vest_Scout_Roy",
-            "TFV_M52D_Vest_Sniper_Roy"
+            "TFV_M52D_Vest_Sniper_Roy",
+            "TFV_M52D_Vest_Roy"
         };
     };
 };
@@ -675,6 +676,89 @@ class CfgWeapons
             VEST_ROY;
         };
     };
+
+    class TFV_M52D_Vest_Roy: OPTRE_UNSC_M52D_Armor
+    {
+        displayName = "M52D Body Armor (Roy)";
+        hiddenSelections[]=
+        {
+            "camo",
+            "camo2",
+            "camo3",
+            "camo4",
+            "camo5",
+            "A_KneesMarLeft",
+            "A_KneesMarRight",
+            "A_Ghillie",
+            "AS_LargeLeft",
+            "AS_LargeRight",
+            "AS_MediumLeft",
+            "AS_MediumRight",
+            "AS_ODSTCQBLeft",
+            "AS_ODSTCQBRight",
+            "AS_ODSTSniperLeft",
+            "AS_ODSTSniperRight",
+            "AS_SmallLeft",
+            "AS_SmallRight",
+            "AP_AR",
+            "AP_BR",
+            "AP_GL",
+            "AP_MGThigh",
+            "AP_AR",
+            "AP_Pack",
+            "AP_Pistol",
+            "AP_Rounds",
+            "AP_SG",
+            "AP_SMG",
+            "AP_Sniper",
+            "APO_AR",
+            "APO_Knife",
+            "APO_SMG",
+            "APO_Sniper",
+            "CustomKit_Scorch"
+        };
+        VEST_ROY;
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelections[]=
+            {
+                "camo",
+                "camo2",
+                "camo3",
+                "camo4",
+                "camo5",
+                "A_KneesMarLeft",
+                "A_KneesMarRight",
+                "A_Ghillie",
+                "AS_LargeLeft",
+                "AS_LargeRight",
+                "AS_MediumLeft",
+                "AS_MediumRight",
+                "AS_ODSTCQBLeft",
+                "AS_ODSTCQBRight",
+                "AS_ODSTSniperLeft",
+                "AS_ODSTSniperRight",
+                "AS_SmallLeft",
+                "AS_SmallRight",
+                "AP_AR",
+                "AP_BR",
+                "AP_GL",
+                "AP_MGThigh",
+                "AP_AR",
+                "AP_Pack",
+                "AP_Pistol",
+                "AP_Rounds",
+                "AP_SG",
+                "AP_SMG",
+                "AP_Sniper",
+                "APO_AR",
+                "APO_Knife",
+                "APO_SMG",
+                "APO_Sniper",
+                "CustomKit_Scorch"
+            };
+            VEST_ROY;
+        };
     };
     #pragma endregion Roy
 };
