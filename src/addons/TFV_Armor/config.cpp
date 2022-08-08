@@ -143,7 +143,98 @@ class CfgWeapons
     class OPTRE_UNSC_M52D_Armor_Light: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
     class OPTRE_UNSC_M52D_Armor_Marksman: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
     class OPTRE_UNSC_M52D_Armor_Medic: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
-    class OPTRE_UNSC_M52D_Armor_Rifleman: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    // TODO: OPTRE_UNSC_M52D_Armor_Rifleman has damage protection problems?
+    class TFV_OPTRE_UNSC_M52D_Armor_Rifleman: OPTRE_UNSC_M52D_Armor
+    {
+        dlc="OPTRE";
+		author="Article 2 Studios";
+		displayName="M52D Body Armor (Rifleman)";
+		hiddenSelections[]=
+		{
+			"camo",
+			"camo2",
+			"camo3",
+			"camo4",
+			"camo5",
+			"A_KneesMarLeft",
+			"A_KneesMarRight",
+			"A_Ghillie",
+			"A_TacPad",
+			"AS_LargeLeft",
+			"AS_LargeRight",
+			"AS_MediumLeft",
+			"AS_MediumRight",
+			"AS_ODSTCQBLeft",
+			"AS_ODSTCQBRight",
+			"AS_ODSTSniperLeft",
+			"AS_ODSTSniperRight",
+			"AS_SmallLeft",
+			"AS_SmallRight",
+			"AP_AR",
+			"AP_BR",
+			"AP_Canteen",
+			"AP_GL",
+			"AP_Knife",
+			"AP_MGThigh",
+			"AP_AR",
+			"AP_Pack",
+			"AP_Pistol",
+			"AP_Rounds",
+			"AP_SG",
+			"AP_SMG",
+			"AP_Sniper",
+			"AP_Thigh",
+			"APO_BR",
+			"APO_Knife",
+			"APO_SMG",
+			"APO_Sniper",
+			"CustomKit_Scorch"
+		};
+		class ItemInfo: ItemInfo
+		{
+			hiddenSelections[]=
+			{
+				"camo",
+				"camo2",
+				"camo3",
+				"camo4",
+				"camo5",
+				"A_KneesMarLeft",
+				"A_KneesMarRight",
+				"A_Ghillie",
+				"A_TacPad",
+				"AS_LargeLeft",
+				"AS_LargeRight",
+				"AS_MediumLeft",
+				"AS_MediumRight",
+				"AS_ODSTCQBLeft",
+				"AS_ODSTCQBRight",
+				"AS_ODSTSniperLeft",
+				"AS_ODSTSniperRight",
+				"AS_SmallLeft",
+				"AS_SmallRight",
+				"AP_AR",
+				"AP_BR",
+				"AP_Canteen",
+				"AP_GL",
+				"AP_Knife",
+				"AP_MGThigh",
+				"AP_AR",
+				"AP_Pack",
+				"AP_Pistol",
+				"AP_Rounds",
+				"AP_SG",
+				"AP_SMG",
+				"AP_Sniper",
+				"AP_Thigh",
+				"APO_BR",
+				"APO_Knife",
+				"APO_SMG",
+				"APO_Sniper",
+				"CustomKit_Scorch"
+			};
+		};
+    };
     class OPTRE_UNSC_M52D_Armor_Scout: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
     class OPTRE_UNSC_M52D_Armor_Sniper: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
     #pragma endregion Base
@@ -237,7 +328,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Rifleman_Castle: OPTRE_UNSC_M52D_Armor_Rifleman
+    class TFV_M52D_Vest_Rifleman_Castle: TFV_OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Castle)";
         VEST_CASTLE;
@@ -382,7 +473,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Rifleman_Reeves: OPTRE_UNSC_M52D_Armor_Rifleman
+    class TFV_M52D_Vest_Rifleman_Reeves: TFV_OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Reeves)";
         hiddenSelections[]=
@@ -647,7 +738,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Rifleman_Roy: OPTRE_UNSC_M52D_Armor_Rifleman
+    class TFV_M52D_Vest_Rifleman_Roy: TFV_OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Roy)";
         VEST_ROY;
