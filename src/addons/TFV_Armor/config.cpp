@@ -308,7 +308,7 @@ class CfgWeapons
         displayName="CH252D Helmet [Castle]";
         hiddenSelectionsTextures[]=
         {
-            "TFV_Armor\data\castle\odst_helmet_frank.paa",
+            "TFV_Armor\data\castle\castle_helmet_odst_co.paa",
 			"TFV_Armor\data\castle\VISR_ODST_CLR.paa"
         };
     };
