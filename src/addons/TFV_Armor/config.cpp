@@ -883,6 +883,51 @@ class CfgWeapons
         };
     };
     #pragma endregion Roy
+
+    #pragma region Autumn
+    class TFV_ODST_Helmet_Autumn: OPTRE_UNSC_CH252D_Helmet
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Autumn]";
+        hiddenSelectionsTextures[]=
+        {
+            "TFV_Armor\data\autumn\autumn_odst_helmet.paa",
+			"TFV_Armor\data\autumn\autumn_odst_visor.paa"
+        };
+    };
+
+    class TFV_ODST_Helmet_Autumn_dp: OPTRE_UNSC_CH252D_Helmet_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Autumn]";
+        hiddenSelectionsTextures[]=
+		{
+            "TFV_Armor\data\autumn\autumn_odst_helmet.paa"
+		};
+    };
+
+    #define VEST_AUTUMN hiddenSelectionsTextures[]= \
+    { \
+        "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", \
+		"optre_unsc_units\army\data\armor_odst_co.paa", \
+		"optre_unsc_units\army\data\legs_odst_co.paa", \
+		"optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+		"TFV_Armor\data\autumn\autumn_odst_armour_co.paa" \
+    }
+
+    class TFV_M52D_Vest_Medic_Autumn: OPTRE_UNSC_M52D_Armor_Medic
+    {
+        displayName = "M52D Body Armor (Medic) (Autumn)";
+        VEST_AUTUMN;
+        class ItemInfo: ItemInfo
+        {
+            VEST_AUTUMN;
+        };
+    };
+    #pragma endregion Autumn
 };
 
 class cfgMods
