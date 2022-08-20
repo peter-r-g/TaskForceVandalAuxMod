@@ -928,6 +928,51 @@ class CfgWeapons
         };
     };
     #pragma endregion Autumn
+
+    #pragma region Shepard
+    class TFV_ODST_Helmet_Shepard: OPTRE_UNSC_CH252D_Helmet
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Shepard]";
+        hiddenSelectionsTextures[]=
+        {
+            "TFV_Armor\data\shepard\shepard_odst_helmet.paa",
+			"TFV_Armor\data\shepard\shepard_odst_visor.paa"
+        };
+    };
+
+    class TFV_ODST_Helmet_Shepard_dp: OPTRE_UNSC_CH252D_Helmet_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Shepard]";
+        hiddenSelectionsTextures[]=
+		{
+            "TFV_Armor\data\shepard\shepard_odst_helmet.paa"
+		};
+    };
+
+    #define VEST_SHEPARD hiddenSelectionsTextures[]= \
+    { \
+        "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", \
+		"optre_unsc_units\army\data\armor_odst_co.paa", \
+		"optre_unsc_units\army\data\legs_odst_co.paa", \
+		"optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+		"TFV_Armor\data\shepard\shepard_odst_armour_co.paa" \
+    }
+
+    class TFV_M52D_Vest_Medic_Shepard: TFV_OPTRE_UNSC_M52D_Armor_Rifleman
+    {
+        displayName = "M52D Body Armor (Rifleman) (Shepard)";
+        VEST_SHEPARD;
+        class ItemInfo: ItemInfo
+        {
+            VEST_SHEPARD;
+        };
+    };
+    #pragma endregion Shepard
 };
 
 class cfgMods
