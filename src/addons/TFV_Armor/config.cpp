@@ -46,11 +46,8 @@ class CfgWeapons
 	class OPTRE_UNSC_RECON_HELMET;
     class OPTRE_UNSC_RECON_HELMET_dp;
 
-    class OPTRE_UNSC_CH252D_Helmet_Base;
-    class OPTRE_UNSC_CH252D_Helmet : OPTRE_UNSC_CH252D_Helmet_Base
-    {
-        class ItemInfo;
-    }
+    class OPTRE_UNSC_CH252D_Helmet;
+    class OPTRE_UNSC_CH252D_Helmet_dp;
 
     class OPTRE_UNSC_M52A_Armor1_WDL;
     class OPTRE_UNSC_M52D_Armor: OPTRE_UNSC_M52A_Armor1_WDL { class ItemInfo; };
@@ -324,6 +321,19 @@ class CfgWeapons
 		{
 			"TFV_Armor\data\castle\castle_helmet_co.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
+		};
+    };
+
+    class TFV_ODST_Helmet_Castle_dp: OPTRE_UNSC_CH252D_Helmet_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Castle]";
+        hiddenSelectionsTextures[]=
+		{
+            "TFV_Armor\data\castle\castle_helmet_odst_co.paa"
 		};
     };
 
