@@ -17,6 +17,7 @@ class CfgPatches
             "TFV_M52D_Vest_Light_Aasen",
 
             "TFV_Recon_Helmet_Castle",
+            "TFV_ODST_Helmet_Castle",
             "TFV_M52D_Vest_Light_Castle",
             "TFV_M52D_Vest_Rifleman_Castle",
 
@@ -35,7 +36,13 @@ class CfgPatches
             "TFV_M52D_Vest_Rifleman_Roy",
             "TFV_M52D_Vest_Scout_Roy",
             "TFV_M52D_Vest_Sniper_Roy",
-            "TFV_M52D_Vest_Roy"
+            "TFV_M52D_Vest_Roy",
+
+            "TFV_ODST_Helmet_Autumn",
+            "TFV_M52D_Vest_Medic_Autumn",
+
+            "TFV_ODST_Helmet_Shepard",
+            "TFV_M52D_Vest_Rifleman_Shepard"
         };
     };
 };
