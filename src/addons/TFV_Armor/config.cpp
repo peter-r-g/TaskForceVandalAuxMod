@@ -50,6 +50,11 @@ class CfgPatches
 class CfgWeapons
 {
     #pragma region Base
+    #define VEST_COMMON "TFV_Armor\data\common\m52d_underarmor_co.paa", \
+        "TFV_Armor\data\common\m52d_vest_co.paa", \
+        "TFV_Armor\data\common\m52d_legs_co.paa", \
+        "optre_unsc_units\army\data\ghillie_woodland_co.paa",
+
 	class OPTRE_UNSC_RECON_HELMET;
     class OPTRE_UNSC_RECON_HELMET_dp;
 
@@ -277,10 +282,7 @@ class CfgWeapons
 
     #define VEST_AASEN hiddenSelectionsTextures[]= \
     { \
-        "TFV_Armor\data\aasen\aasen_underamour_co.paa", \
-        "TFV_Armor\data\aasen\aasen_vest_co.paa", \
-        "TFV_Armor\data\aasen\aasen_legs_co.paa", \
-        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        VEST_COMMON \
         "TFV_Armor\data\aasen\aasen_odst_armour_co.paa", \
     }
     class TFV_M52D_Vest_Light_Aasen: OPTRE_UNSC_M52D_Armor_Light
@@ -346,10 +348,7 @@ class CfgWeapons
 
     #define VEST_CASTLE hiddenSelectionsTextures[]= \
     { \
-        "TFV_Armor\data\castle\castle_underamour_co.paa", \
-        "TFV_Armor\data\castle\castle_vest_co.paa", \
-        "TFV_Armor\data\castle\castle_legs_co.paa", \
-        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        VEST_COMMON \
         "TFV_Armor\data\castle\castle_odst_armour_co.paa", \
     }
     class TFV_M52D_Vest_Light_Castle: OPTRE_UNSC_M52D_Armor_Light
@@ -401,10 +400,7 @@ class CfgWeapons
 
     #define VEST_REEVES hiddenSelectionsTextures[]= \
     { \
-        "TFV_Armor\data\reeves\reeves_underamour_co.paa", \
-        "TFV_Armor\data\reeves\reeves_vest_co.paa", \
-        "TFV_Armor\data\reeves\reeves_legs_co.paa", \
-        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        VEST_COMMON \
         "TFV_Armor\data\reeves\reeves_odst_armour_co.paa", \
     }
     class TFV_M52D_Vest_Demolitions_Reeves: TFV_OPTRE_UNSC_M52D_Armor_Demolitions
@@ -716,10 +712,7 @@ class CfgWeapons
 
     #define VEST_ROY hiddenSelectionsTextures[]= \
     { \
-        "TFV_Armor\data\roy\roy_underamour_co.paa", \
-        "TFV_Armor\data\roy\roy_vest_co.paa", \
-        "TFV_Armor\data\roy\roy_legs_co.paa", \
-        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        VEST_COMMON \
         "TFV_Armor\data\roy\roy_odst_armour_co.paa", \
     }
     class TFV_M52D_Vest_Basic_Roy: OPTRE_UNSC_M52D_Armor
@@ -918,10 +911,7 @@ class CfgWeapons
 
     #define VEST_AUTUMN hiddenSelectionsTextures[]= \
     { \
-        "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", \
-		"optre_unsc_units\army\data\armor_odst_co.paa", \
-		"optre_unsc_units\army\data\legs_odst_co.paa", \
-		"optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        VEST_COMMON \
 		"TFV_Armor\data\autumn\autumn_odst_armour_co.paa" \
     }
 
@@ -963,10 +953,7 @@ class CfgWeapons
 
     #define VEST_SHEPARD hiddenSelectionsTextures[]= \
     { \
-        "OPTRE_UNSC_Units\Army\data\vest_odst_co.paa", \
-		"optre_unsc_units\army\data\armor_odst_co.paa", \
-		"optre_unsc_units\army\data\legs_odst_co.paa", \
-		"optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        VEST_COMMON \
 		"TFV_Armor\data\shepard\shepard_odst_armour_co.paa" \
     }
 
