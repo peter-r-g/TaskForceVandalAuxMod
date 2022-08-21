@@ -963,7 +963,7 @@ class CfgWeapons
 		"TFV_Armor\data\shepard\shepard_odst_armour_co.paa" \
     }
 
-    class TFV_M52D_Vest_Medic_Shepard: TFV_OPTRE_UNSC_M52D_Armor_Rifleman
+    class TFV_M52D_Vest_Rifleman_Shepard: TFV_OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Shepard)";
         VEST_SHEPARD;
