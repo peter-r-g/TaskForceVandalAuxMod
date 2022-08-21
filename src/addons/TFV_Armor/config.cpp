@@ -301,8 +301,8 @@ class CfgWeapons
         displayName="R/B5 Helmet (Castle)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\castle\castle_helmet_co.paa",
-			"TFV_Armor\data\castle\castle_visor_co.paa"
+			"TFV_Armor\data\castle\castle_helmet_recon_co.paa",
+			"TFV_Armor\data\castle\castle_visor_recon_co.paa"
 		};
     };
 
@@ -313,7 +313,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
         {
             "TFV_Armor\data\castle\castle_helmet_odst_co.paa",
-			"TFV_Armor\data\castle\VISR_ODST_CLR.paa"
+			"TFV_Armor\data\castle\castle_visor_odst_co.paa"
         };
     };
 
