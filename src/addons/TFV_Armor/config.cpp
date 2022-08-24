@@ -8,7 +8,8 @@ class CfgPatches
         requiredVersion = 0.1;
         requiredAddons[] = {
             "TFV_Main",
-            "OPTRE_UNSC_Units"
+            "OPTRE_UNSC_Units",
+            "1st_MEU_patch_helmet_pegasus"
         };
 
         units[]={};
@@ -42,7 +43,9 @@ class CfgPatches
             "TFV_M52D_Vest_Medic_Autumn",
 
             "TFV_ODST_Helmet_Shepard",
-            "TFV_M52D_Vest_Rifleman_Shepard"
+            "TFV_M52D_Vest_Rifleman_Shepard",
+
+            "TFV_Pilot_Helmet_Fish"
         };
     };
 };
@@ -60,6 +63,9 @@ class CfgWeapons
 
     class OPTRE_UNSC_CH252D_Helmet;
     class OPTRE_UNSC_CH252D_Helmet_dp;
+
+    class VX19_1stMEU;
+    class VX19_1stMEU_dp;
 
     class OPTRE_UNSC_M52A_Armor1_WDL;
     class OPTRE_UNSC_M52D_Armor: OPTRE_UNSC_M52A_Armor1_WDL { class ItemInfo; };
@@ -967,6 +973,32 @@ class CfgWeapons
         };
     };
     #pragma endregion Shepard
+
+    #pragma region Fish
+    class TFV_Pilot_Helmet_Fish: VX19_1stMEU
+    {
+        author="1st MEU Chaotic & Gooman";
+        displayName="Pegasus (Fish)";
+        hiddenSelectionsTextures[]=
+		{
+			"TFV_Armor\data\fish\fish_helmet_co.paa",
+			"TFV_Armor\data\fish\fish_visor_co.paa"
+		};
+    };
+
+    class TFV_Pilot_Helmet_Fish_dp: VX19_1stMEU_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="1st MEU Chaotic & Gooman";
+        displayName="Pegasus (Fish)";
+        hiddenSelectionsTextures[]=
+		{
+			"TFV_Armor\data\fish\fish_helmet_co.paa"
+		};
+    };
+    #pragma endregion Fish
 };
 
 class cfgMods
