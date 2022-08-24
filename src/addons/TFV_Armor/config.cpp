@@ -915,9 +915,9 @@ class CfgWeapons
 		"TFV_Armor\data\autumn\autumn_odst_armour_co.paa" \
     }
 
-    class TFV_M52D_Vest_Medic_Autumn: OPTRE_UNSC_M52D_Armor_Medic
+    class TFV_M52D_Vest_Basic_Autumn: OPTRE_UNSC_M52D_Armor
     {
-        displayName = "M52D Body Armor (Medic) (Autumn)";
+        displayName = "M52D Body Armor (Basic) (Autumn)";
         VEST_AUTUMN;
         class ItemInfo: ItemInfo
         {
@@ -957,9 +957,9 @@ class CfgWeapons
 		"TFV_Armor\data\shepard\shepard_odst_armour_co.paa" \
     }
 
-    class TFV_M52D_Vest_Rifleman_Shepard: TFV_OPTRE_UNSC_M52D_Armor_Rifleman
+    class TFV_M52D_Vest_Basic_Shepard: OPTRE_UNSC_M52D_Armor
     {
-        displayName = "M52D Body Armor (Rifleman) (Shepard)";
+        displayName = "M52D Body Armor (Basic) (Shepard)";
         VEST_SHEPARD;
         class ItemInfo: ItemInfo
         {
