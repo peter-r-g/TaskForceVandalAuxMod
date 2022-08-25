@@ -33,7 +33,7 @@ class CfgVehicles
         author = "Article 2 Studios & Gooman";
         displayName = "ILCS Rucksack [LR]";
         descriptionShort = "ILCS Rucksack [LR]<br>ODST Long Range Radio<br>25km Effective Range";
-        maximumLoad=300;
+        maximumLoad=600;
 		mass=50;
         tf_encryptionCode = "tf_west_radio_code";
 		tf_dialog = "rt1523g_radio_dialog";
@@ -48,7 +48,7 @@ class CfgVehicles
         author = "Article 2 Studios & Gooman";
         displayName = "ONI Rucksack";
         descriptionShort = "ONI Rucksack<br>ONI Long Range Radio<br>25km Effective Range";
-        maximumLoad=400;
+        maximumLoad=800;
 		mass=50;
         tf_encryptionCode = "tf_west_radio_code";
 		tf_dialog = "rt1523g_radio_dialog";
@@ -62,7 +62,7 @@ class CfgVehicles
     {
         author = "1st MEU & Gooman";
         displayName = "ONI ILCS ANPRC-515";
-        maximumLoad=400;
+        maximumLoad=800;
         mass=50;
         tf_encryptionCode = "tf_west_radio_code";
 		tf_dialog = "rt1523g_radio_dialog";
