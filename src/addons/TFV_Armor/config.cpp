@@ -69,11 +69,25 @@ class CfgWeapons
 
     class OPTRE_UNSC_M52A_Armor1_WDL;
     class OPTRE_UNSC_M52D_Armor: OPTRE_UNSC_M52A_Armor1_WDL { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Light: OPTRE_UNSC_M52D_Armor {};
+    class OPTRE_UNSC_M52D_Armor_Marksman: OPTRE_UNSC_M52D_Armor {};
+    class OPTRE_UNSC_M52D_Armor_Medic: OPTRE_UNSC_M52D_Armor {};
+    class OPTRE_UNSC_M52D_Armor_Scout: OPTRE_UNSC_M52D_Armor {};
+    class OPTRE_UNSC_M52D_Armor_Sniper: OPTRE_UNSC_M52D_Armor {};
+
+    class TFV_OPTRE_UNSC_M52D_Armor: OPTRE_UNSC_M52D_Armor
+    {
+        author="Article 2 Studios & Gooman";
+        class ItemInfo: ItemInfo
+        {
+            containerClass="Supply200";
+        };
+    };
     // TODO: OPTRE_UNSC_M52D_Armor_Demolitions has damage protection problems?
     class TFV_OPTRE_UNSC_M52D_Armor_Demolitions: OPTRE_UNSC_M52D_Armor
     {
         dlc="OPTRE";
-		author="Article 2 Studios";
+		author="Article 2 Studios & Gooman";
 		displayName="M52D Body Armor (Demolitions)";
 		hiddenSelections[]=
 		{
@@ -118,6 +132,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+            containerClass="Supply200";
 			hiddenSelections[]=
 			{
 				"camo",
@@ -161,14 +176,39 @@ class CfgWeapons
 			};
 		};
     };
-    class OPTRE_UNSC_M52D_Armor_Light: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
-    class OPTRE_UNSC_M52D_Armor_Marksman: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
-    class OPTRE_UNSC_M52D_Armor_Medic: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+
+    class TFV_OPTRE_UNSC_M52D_Armor_Light: OPTRE_UNSC_M52D_Armor_Light
+    {
+        author="Article 2 Studios & Gooman";
+        class ItemInfo: ItemInfo
+        {
+            containerClass="Supply200";
+        };
+    };
+    
+    class TFV_OPTRE_UNSC_M52D_Armor_Marksman: OPTRE_UNSC_M52D_Armor_Marksman
+    {
+        author="Article 2 Studios & Gooman";
+        class ItemInfo: ItemInfo
+        {
+            containerClass="Supply200";
+        };
+    };
+
+    class TFV_OPTRE_UNSC_M52D_Armor_Medic: OPTRE_UNSC_M52D_Armor_Medic
+    {
+        author="Article 2 Studios & Gooman";
+        class ItemInfo: ItemInfo
+        {
+            containerClass="Supply200";
+        };
+    };
+
     // TODO: OPTRE_UNSC_M52D_Armor_Rifleman has damage protection problems?
     class TFV_OPTRE_UNSC_M52D_Armor_Rifleman: OPTRE_UNSC_M52D_Armor
     {
         dlc="OPTRE";
-		author="Article 2 Studios";
+		author="Article 2 Studios & Gooman";
 		displayName="M52D Body Armor (Rifleman)";
 		hiddenSelections[]=
 		{
@@ -213,6 +253,7 @@ class CfgWeapons
 		};
 		class ItemInfo: ItemInfo
 		{
+            containerClass="Supply200";
 			hiddenSelections[]=
 			{
 				"camo",
@@ -256,8 +297,24 @@ class CfgWeapons
 			};
 		};
     };
-    class OPTRE_UNSC_M52D_Armor_Scout: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
-    class OPTRE_UNSC_M52D_Armor_Sniper: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+
+    class TFV_OPTRE_UNSC_M52D_Armor_Scout: OPTRE_UNSC_M52D_Armor_Scout
+    {
+        author="Article 2 Studios & Gooman";
+        class ItemInfo: ItemInfo
+        {
+            containerClass="Supply200";
+        };
+    };
+
+    class TFV_OPTRE_UNSC_M52D_Armor_Sniper: OPTRE_UNSC_M52D_Armor_Sniper
+    {
+        author="Article 2 Studios & Gooman";
+        class ItemInfo: ItemInfo
+        {
+            containerClass="Supply200";
+        };
+    };
     #pragma endregion Base
 
     #pragma region Aasen
@@ -291,7 +348,7 @@ class CfgWeapons
         VEST_COMMON \
         "TFV_Armor\data\aasen\aasen_odst_armour_co.paa", \
     }
-    class TFV_M52D_Vest_Light_Aasen: OPTRE_UNSC_M52D_Armor_Light
+    class TFV_M52D_Vest_Light_Aasen: TFV_OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Aasen)";
         VEST_AASEN;
@@ -357,7 +414,7 @@ class CfgWeapons
         VEST_COMMON \
         "TFV_Armor\data\castle\castle_odst_armour_co.paa", \
     }
-    class TFV_M52D_Vest_Light_Castle: OPTRE_UNSC_M52D_Armor_Light
+    class TFV_M52D_Vest_Light_Castle: TFV_OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Light) (Castle)";
         VEST_CASTLE;
@@ -499,7 +556,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Light_Reeves: OPTRE_UNSC_M52D_Armor_Light
+    class TFV_M52D_Vest_Light_Reeves: TFV_OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Light) (Reeves)";
         VEST_REEVES;
@@ -599,7 +656,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Scout_Reeves: OPTRE_UNSC_M52D_Armor_Scout
+    class TFV_M52D_Vest_Scout_Reeves: TFV_OPTRE_UNSC_M52D_Armor_Scout
     {
         displayName = "M52D Body Armor (Scout) (Reeves)";
         hiddenSelections[]=
@@ -721,7 +778,7 @@ class CfgWeapons
         VEST_COMMON \
         "TFV_Armor\data\roy\roy_odst_armour_co.paa", \
     }
-    class TFV_M52D_Vest_Basic_Roy: OPTRE_UNSC_M52D_Armor
+    class TFV_M52D_Vest_Basic_Roy: TFV_OPTRE_UNSC_M52D_Armor
     {
         displayName = "M52D Body Armor (Basic) (Roy)";
         VEST_ROY;
@@ -741,7 +798,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Light_Roy: OPTRE_UNSC_M52D_Armor_Light
+    class TFV_M52D_Vest_Light_Roy: TFV_OPTRE_UNSC_M52D_Armor_Light
     {
         displayName = "M52D Body Armor (Light) (Roy)";
         VEST_ROY;
@@ -751,7 +808,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Marksman_Roy: OPTRE_UNSC_M52D_Armor_Marksman
+    class TFV_M52D_Vest_Marksman_Roy: TFV_OPTRE_UNSC_M52D_Armor_Marksman
     {
         displayName = "M52D Body Armor (Marksman) (Roy)";
         VEST_ROY;
@@ -761,7 +818,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Medic_Roy: OPTRE_UNSC_M52D_Armor_Medic
+    class TFV_M52D_Vest_Medic_Roy: TFV_OPTRE_UNSC_M52D_Armor_Medic
     {
         displayName = "M52D Body Armor (Medic) (Roy)";
         VEST_ROY;
@@ -781,7 +838,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Scout_Roy: OPTRE_UNSC_M52D_Armor_Scout
+    class TFV_M52D_Vest_Scout_Roy: TFV_OPTRE_UNSC_M52D_Armor_Scout
     {
         displayName = "M52D Body Armor (Scout) (Roy)";
         VEST_ROY;
@@ -791,7 +848,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Sniper_Roy: OPTRE_UNSC_M52D_Armor_Sniper
+    class TFV_M52D_Vest_Sniper_Roy: TFV_OPTRE_UNSC_M52D_Armor_Sniper
     {
         displayName = "M52D Body Armor (Sniper) (Roy)";
         VEST_ROY;
@@ -801,7 +858,7 @@ class CfgWeapons
         };
     };
 
-    class TFV_M52D_Vest_Roy: OPTRE_UNSC_M52D_Armor
+    class TFV_M52D_Vest_Roy: TFV_OPTRE_UNSC_M52D_Armor
     {
         displayName = "M52D Body Armor (Roy)";
         hiddenSelections[]=
@@ -921,7 +978,7 @@ class CfgWeapons
 		"TFV_Armor\data\autumn\autumn_odst_armour_co.paa" \
     }
 
-    class TFV_M52D_Vest_Basic_Autumn: OPTRE_UNSC_M52D_Armor
+    class TFV_M52D_Vest_Basic_Autumn: TFV_OPTRE_UNSC_M52D_Armor
     {
         displayName = "M52D Body Armor (Basic) (Autumn)";
         VEST_AUTUMN;
@@ -963,7 +1020,7 @@ class CfgWeapons
 		"TFV_Armor\data\shepard\shepard_odst_armour_co.paa" \
     }
 
-    class TFV_M52D_Vest_Basic_Shepard: OPTRE_UNSC_M52D_Armor
+    class TFV_M52D_Vest_Basic_Shepard: TFV_OPTRE_UNSC_M52D_Armor
     {
         displayName = "M52D Body Armor (Basic) (Shepard)";
         VEST_SHEPARD;
