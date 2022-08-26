@@ -324,8 +324,8 @@ class CfgWeapons
         displayName="R/B5 Helmet (Aasen)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\aasen\aasen_helmet_co.paa",
-			"TFV_Armor\data\aasen\aasen_visor_co.paa"
+			"TFV_Armor\data\aasen\aasen_oni_helmet_co.paa",
+			"TFV_Armor\data\aasen\aasen_oni_visor_co.paa"
 		};
     };
 
@@ -338,7 +338,7 @@ class CfgWeapons
         displayName="R/B5 Helmet (Aasen)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\aasen\aasen_helmet_co.paa",
+			"TFV_Armor\data\aasen\aasen_oni_helmet_co.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
 		};
     };
@@ -346,7 +346,7 @@ class CfgWeapons
     #define VEST_AASEN hiddenSelectionsTextures[]= \
     { \
         VEST_COMMON \
-        "TFV_Armor\data\aasen\aasen_odst_armour_co.paa", \
+        "TFV_Armor\data\aasen\aasen_odst_armor_co.paa", \
     }
     class TFV_M52D_Vest_Light_Aasen: TFV_OPTRE_UNSC_M52D_Armor_Light
     {
@@ -366,8 +366,8 @@ class CfgWeapons
         displayName="R/B5 Helmet (Castle)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\castle\castle_helmet_recon_co.paa",
-			"TFV_Armor\data\castle\castle_visor_recon_co.paa"
+			"TFV_Armor\data\castle\castle_oni_helmet_co.paa",
+			"TFV_Armor\data\castle\castle_oni_visor_co.paa"
 		};
     };
 
@@ -377,8 +377,8 @@ class CfgWeapons
         displayName="CH252D Helmet [Castle]";
         hiddenSelectionsTextures[]=
         {
-            "TFV_Armor\data\castle\castle_helmet_odst_co.paa",
-			"TFV_Armor\data\castle\castle_visor_odst_co.paa"
+            "TFV_Armor\data\castle\castle_odst_helmet_co.paa",
+			"TFV_Armor\data\castle\castle_odst_visor_co.paa"
         };
     };
 
@@ -391,7 +391,7 @@ class CfgWeapons
         displayName="R/B5 Helmet (Castle)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\castle\castle_helmet_co.paa",
+			"TFV_Armor\data\castle\castle_oni_helmet_co.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
 		};
     };
@@ -405,14 +405,14 @@ class CfgWeapons
         displayName="CH252D Helmet [Castle]";
         hiddenSelectionsTextures[]=
 		{
-            "TFV_Armor\data\castle\castle_helmet_odst_co.paa"
+            "TFV_Armor\data\castle\castle_odst_helmet_co.paa"
 		};
     };
 
     #define VEST_CASTLE hiddenSelectionsTextures[]= \
     { \
         VEST_COMMON \
-        "TFV_Armor\data\castle\castle_odst_armour_co.paa", \
+        "TFV_Armor\data\castle\castle_odst_armor_co.paa", \
     }
     class TFV_M52D_Vest_Light_Castle: TFV_OPTRE_UNSC_M52D_Armor_Light
     {
@@ -442,8 +442,11 @@ class CfgWeapons
         displayName="R/B5 Helmet (Reeves)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\reeves\reeves_helmet_co.paa",
-			"TFV_Armor\data\reeves\reeves_visor_co.paa"
+			"TFV_Armor\data\reeves\reeves_oni_helmet_co.paa",
+			"TFV_Armor\data\reeves\reeves_oni_visor_co.paa"
+		};
+    };
+
     class TFV_ODST_Helmet_Reeves2: OPTRE_UNSC_CH252D_Helmet
     {
         author="Article 2 Studios & Gooman";
@@ -464,7 +467,7 @@ class CfgWeapons
         displayName="R/B5 Helmet (Reeves)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\reeves\reeves_helmet_co.paa",
+			"TFV_Armor\data\reeves\reeves_oni_helmet_co.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
 		};
     };
@@ -486,7 +489,8 @@ class CfgWeapons
     #define VEST_REEVES hiddenSelectionsTextures[]= \
     { \
         VEST_COMMON \
-        "TFV_Armor\data\reeves\reeves_odst_armour_co.paa", \
+        "TFV_Armor\data\reeves\reeves_odst_armor_co.paa", \
+    }
     #define VEST_REEVES2 hiddenSelectionsTextures[]= \
     { \
         "TFV_Armor\data\common\m52d_underarmor_co.paa", \
@@ -1064,8 +1068,8 @@ class CfgWeapons
         displayName="R/B5 Helmet (Roy)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\roy\roy_helmet_co.paa",
-			"TFV_Armor\data\roy\roy_visor_co.paa"
+			"TFV_Armor\data\roy\roy_oni_helmet_co.paa",
+			"TFV_Armor\data\roy\roy_oni_visor_co.paa"
 		};
     };
 
@@ -1078,7 +1082,7 @@ class CfgWeapons
         displayName="R/B5 Helmet (Roy)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\roy\roy_helmet_co.paa",
+			"TFV_Armor\data\roy\roy_oni_helmet_co.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
 		};
     };
@@ -1086,7 +1090,7 @@ class CfgWeapons
     #define VEST_ROY hiddenSelectionsTextures[]= \
     { \
         VEST_COMMON \
-        "TFV_Armor\data\roy\roy_odst_armour_co.paa", \
+        "TFV_Armor\data\roy\roy_odst_armor_co.paa", \
     }
     class TFV_M52D_Vest_Basic_Roy: TFV_OPTRE_UNSC_M52D_Armor
     {
@@ -1264,8 +1268,8 @@ class CfgWeapons
         displayName="CH252D Helmet [Autumn]";
         hiddenSelectionsTextures[]=
         {
-            "TFV_Armor\data\autumn\autumn_odst_helmet.paa",
-			"TFV_Armor\data\autumn\autumn_odst_visor.paa"
+            "TFV_Armor\data\autumn\autumn_odst_helmet_co.paa",
+			"TFV_Armor\data\autumn\autumn_odst_visor_co.paa"
         };
     };
 
@@ -1278,14 +1282,14 @@ class CfgWeapons
         displayName="CH252D Helmet [Autumn]";
         hiddenSelectionsTextures[]=
 		{
-            "TFV_Armor\data\autumn\autumn_odst_helmet.paa"
+            "TFV_Armor\data\autumn\autumn_odst_helmet_co.paa"
 		};
     };
 
     #define VEST_AUTUMN hiddenSelectionsTextures[]= \
     { \
         VEST_COMMON \
-		"TFV_Armor\data\autumn\autumn_odst_armour_co.paa" \
+		"TFV_Armor\data\autumn\autumn_odst_armor_co.paa" \
     }
 
     class TFV_M52D_Vest_Basic_Autumn: TFV_OPTRE_UNSC_M52D_Armor
@@ -1306,8 +1310,8 @@ class CfgWeapons
         displayName="CH252D Helmet [Shepard]";
         hiddenSelectionsTextures[]=
         {
-            "TFV_Armor\data\shepard\shepard_odst_helmet.paa",
-			"TFV_Armor\data\shepard\shepard_odst_visor.paa"
+            "TFV_Armor\data\shepard\shepard_odst_helmet_co.paa",
+			"TFV_Armor\data\shepard\shepard_odst_visor_co.paa"
         };
     };
 
@@ -1320,14 +1324,14 @@ class CfgWeapons
         displayName="CH252D Helmet [Shepard]";
         hiddenSelectionsTextures[]=
 		{
-            "TFV_Armor\data\shepard\shepard_odst_helmet.paa"
+            "TFV_Armor\data\shepard\shepard_odst_helmet_co.paa"
 		};
     };
 
     #define VEST_SHEPARD hiddenSelectionsTextures[]= \
     { \
         VEST_COMMON \
-		"TFV_Armor\data\shepard\shepard_odst_armour_co.paa" \
+		"TFV_Armor\data\shepard\shepard_odst_armor_co.paa" \
     }
 
     class TFV_M52D_Vest_Basic_Shepard: TFV_OPTRE_UNSC_M52D_Armor
@@ -1348,8 +1352,8 @@ class CfgWeapons
         displayName="Pegasus (Fish)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\fish\fish_helmet_co.paa",
-			"TFV_Armor\data\fish\fish_visor_co.paa"
+			"TFV_Armor\data\fish\fish_pilot_helmet_co.paa",
+			"TFV_Armor\data\fish\fish_pilot_visor_co.paa"
 		};
     };
 
@@ -1362,7 +1366,7 @@ class CfgWeapons
         displayName="Pegasus (Fish)";
         hiddenSelectionsTextures[]=
 		{
-			"TFV_Armor\data\fish\fish_helmet_co.paa"
+			"TFV_Armor\data\fish\fish_pilot_helmet_co.paa"
 		};
     };
     #pragma endregion Fish
