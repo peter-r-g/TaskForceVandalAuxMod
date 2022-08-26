@@ -1366,6 +1366,48 @@ class CfgWeapons
 		};
     };
     #pragma endregion Fish
+
+    #pragma region Salvador
+    class TFV_ODST_Helmet_Salvador: OPTRE_UNSC_CH252D_Helmet
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Salvador]";
+        hiddenSelectionsTextures[]=
+        {
+            "TFV_Armor\data\salvador\salvador_odst_helmet_co.paa",
+			"TFV_Armor\data\salvador\salvador_odst_visor_co.paa"
+        };
+    };
+
+    class TFV_ODST_Helmet_Salvador_dp: OPTRE_UNSC_CH252D_Helmet_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Salvador]";
+        hiddenSelectionsTextures[]=
+		{
+            "TFV_Armor\data\salvador\salvador_odst_helmet_co.paa"
+		};
+    };
+
+    #define VEST_SALVADOR hiddenSelectionsTextures[]= \
+    { \
+        VEST_COMMON \
+		"TFV_Armor\data\salvador\salvador_odst_armor_co.paa" \
+    }
+
+    class TFV_M52D_Vest_Basic_Salvador: TFV_OPTRE_UNSC_M52D_Armor
+    {
+        displayName = "M52D Body Armor (Basic) (Salvador)";
+        VEST_SALVADOR;
+        class ItemInfo: ItemInfo
+        {
+            VEST_SALVADOR;
+        };
+    };
+    #pragma endregion Salvador
 };
 
 class cfgMods
