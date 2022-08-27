@@ -447,6 +447,17 @@ class CfgWeapons
 		};
     };
 
+    class TFV_Recon_Helmet_Reeves2: OPTRE_UNSC_RECON_HELMET
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="R/B5 Helmet (Reeves VER 2)";
+        hiddenSelectionsTextures[]=
+		{
+			"TFV_Armor\data\reeves\reevestwo_oni_helmet_co.paa",
+			"TFV_Armor\data\reeves\reevestwo_oni_visor_co.paa"
+		};
+    };
+
     class TFV_ODST_Helmet_Reeves2: OPTRE_UNSC_CH252D_Helmet
     {
         author="Article 2 Studios & Gooman";
@@ -468,6 +479,20 @@ class CfgWeapons
         hiddenSelectionsTextures[]=
 		{
 			"TFV_Armor\data\reeves\reeves_oni_helmet_co.paa",
+			"optre_unsc_units\army\data\recon_visor_ca.paa"
+		};
+    };
+
+    class TFV_Recon_Helmet_Reeves2_dp: OPTRE_UNSC_RECON_HELMET_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="R/B5 Helmet (Reeves VER 2)";
+        hiddenSelectionsTextures[]=
+		{
+			"TFV_Armor\data\reeves\reevestwo_oni_helmet_co.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
 		};
     };
