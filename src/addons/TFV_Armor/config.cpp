@@ -1437,6 +1437,48 @@ class CfgWeapons
         };
     };
     #pragma endregion Salvador
+
+    #pragma region Neek
+    class TFV_ODST_Helmet_Neek: OPTRE_UNSC_CH252D_Helmet
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Neek]";
+        hiddenSelectionsTextures[]=
+        {
+            "TFV_Armor\data\neek\neek_odst_helmet_co.paa",
+			"TFV_Armor\data\neek\neek_odst_visor_co.paa"
+        };
+    };
+
+    class TFV_ODST_Helmet_Neek_dp: OPTRE_UNSC_CH252D_Helmet_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Neek]";
+        hiddenSelectionsTextures[]=
+		{
+            "TFV_Armor\data\neek\neek_odst_helmet_co.paa"
+		};
+    };
+
+    #define VEST_NEEK hiddenSelectionsTextures[]= \
+    { \
+        VEST_COMMON \
+		"TFV_Armor\data\neek\neek_odst_armor_co.paa" \
+    }
+
+    class TFV_M52D_Vest_Basic_Neek: TFV_OPTRE_UNSC_M52D_Armor
+    {
+        displayName = "M52D Body Armor (Basic) (Neek)";
+        VEST_NEEK;
+        class ItemInfo: ItemInfo
+        {
+            VEST_NEEK;
+        };
+    };
+    #pragma endregion Neek
 };
 
 class cfgMods
