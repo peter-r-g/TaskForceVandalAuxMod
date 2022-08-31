@@ -40,12 +40,19 @@ class CfgPatches
             "TFV_M52D_Vest_Roy",
 
             "TFV_ODST_Helmet_Autumn",
-            "TFV_M52D_Vest_Medic_Autumn",
+            "TFV_M52D_Vest_Light_Autumn",
+            "TFV_M52D_Vest_Rifleman_Autumn",
 
             "TFV_ODST_Helmet_Shepard",
             "TFV_M52D_Vest_Rifleman_Shepard",
 
-            "TFV_Pilot_Helmet_Fish"
+            "TFV_Pilot_Helmet_Fish",
+
+            "TFV_ODST_Helmet_Salvador",
+            "TFV_M52D_Vest_Basic_Salvador",
+
+            "TFV_ODST_Helmet_Neek",
+            "TFV_M52D_Vest_Basic_Neek"
         };
     };
 };
