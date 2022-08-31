@@ -1301,6 +1301,17 @@ class CfgWeapons
         };
     };
 
+    class TFV_Recon_Helmet_Autumn: OPTRE_UNSC_RECON_HELMET
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="R/B5 Helmet (Autumn)";
+        hiddenSelectionsTextures[]=
+		{
+			"TFV_Armor\data\autumn\autumn_oni_helmet_co.paa",
+			"TFV_Armor\data\autumn\autumn_oni_visor_co.paa"
+		};
+    };
+
     class TFV_ODST_Helmet_Autumn_dp: OPTRE_UNSC_CH252D_Helmet_dp
     {
         scope=1;
@@ -1314,15 +1325,42 @@ class CfgWeapons
 		};
     };
 
+    class TFV_Recon_Helmet_Autumn_dp: OPTRE_UNSC_RECON_HELMET_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="R/B5 Helmet (Autumn)";
+        hiddenSelectionsTextures[]=
+		{
+			"TFV_Armor\data\autumn\autumn_oni_helmet_co.paa",
+			"optre_unsc_units\army\data\recon_visor_ca.paa"
+		};
+    };
+
     #define VEST_AUTUMN hiddenSelectionsTextures[]= \
     { \
-        VEST_COMMON \
-		"TFV_Armor\data\autumn\autumn_odst_armor_co.paa" \
+        "TFV_Armor\data\common\m52d_underarmor_co.paa", \
+        "TFV_Armor\data\common\m52d_vest_co.paa", \
+        "TFV_Armor\data\autumn\autumn_odst_legs_co.paa", \
+        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
+        "TFV_Armor\data\autumn\autumn_odst_armor_co.paa", \
     }
 
-    class TFV_M52D_Vest_Basic_Autumn: TFV_OPTRE_UNSC_M52D_Armor
+    class TFV_M52D_Vest_Light_Autumn: TFV_OPTRE_UNSC_M52D_Armor_Light
     {
-        displayName = "M52D Body Armor (Basic) (Autumn)";
+        displayName = "M52D Body Armor (Light) (Autumn)";
+        VEST_AUTUMN;
+        class ItemInfo: ItemInfo
+        {
+            VEST_AUTUMN;
+        };
+    };
+
+    class TFV_M52D_Vest_Rifleman_Autumn: TFV_OPTRE_UNSC_M52D_Armor_Rifleman
+    {
+        displayName = "M52D Body Armor (Rifleman) (Autumn)";
         VEST_AUTUMN;
         class ItemInfo: ItemInfo
         {
