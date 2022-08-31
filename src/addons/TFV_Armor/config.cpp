@@ -345,7 +345,10 @@ class CfgWeapons
 
     #define VEST_AASEN hiddenSelectionsTextures[]= \
     { \
-        VEST_COMMON \
+        "TFV_Armor\data\common\m52d_underarmor_co.paa", \
+        "TFV_Armor\data\common\m52d_vest_co.paa", \
+        "TFV_Armor\data\aasen\aasen_odst_legs_co.paa", \
+        "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
         "TFV_Armor\data\aasen\aasen_odst_armor_co.paa", \
     }
     class TFV_M52D_Vest_Light_Aasen: TFV_OPTRE_UNSC_M52D_Armor_Light
