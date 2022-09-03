@@ -29,6 +29,7 @@ class CfgPatches
             "TFV_M52D_Vest_Scout_Reeves",
 
             "TFV_Recon_Helmet_Roy",
+            "TFV_ODST_Helmet_Roy",
             "TFV_M52D_Vest_Basic_Roy",
             "TFV_M52D_Vest_Demolitions_Roy",
             "TFV_M52D_Vest_Light_Roy",
@@ -1108,6 +1109,17 @@ class CfgWeapons
 		};
     };
 
+    class TFV_ODST_Helmet_Roy: OPTRE_UNSC_CH252D_Helmet
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Roy]";
+        hiddenSelectionsTextures[]=
+        {
+            "TFV_Armor\data\roy\roy_odst_helmet_co.paa",
+			"TFV_Armor\data\roy\roy_odst_visor_co.paa"
+        };
+    };
+
     class TFV_Recon_Helmet_Roy_dp: OPTRE_UNSC_RECON_HELMET_dp
     {
         scope=1;
@@ -1119,6 +1131,19 @@ class CfgWeapons
 		{
 			"TFV_Armor\data\roy\roy_oni_helmet_co.paa",
 			"optre_unsc_units\army\data\recon_visor_ca.paa"
+		};
+    };
+
+    class TFV_ODST_Helmet_Roy_dp: OPTRE_UNSC_CH252D_Helmet_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Roy]";
+        hiddenSelectionsTextures[]=
+		{
+            "TFV_Armor\data\roy\roy_odst_helmet_co.paa"
 		};
     };
 
