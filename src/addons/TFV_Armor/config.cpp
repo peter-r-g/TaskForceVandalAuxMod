@@ -53,7 +53,9 @@ class CfgPatches
             "TFV_M52D_Vest_Basic_Salvador",
 
             "TFV_ODST_Helmet_Neek",
-            "TFV_M52D_Vest_Basic_Neek"
+            "TFV_M52D_Vest_Basic_Neek",
+
+            "TFV_M52D_Vest_Basic_Probie"
         };
     };
 };
@@ -1552,6 +1554,24 @@ class CfgWeapons
         };
     };
     #pragma endregion Neek
+
+    #pragma region Probie
+    #define VEST_PROBIE hiddenSelectionsTextures[]= \
+    { \
+        VEST_COMMON \
+		"TFV_Armor\data\probie\probie_odst_armor_co.paa" \
+    }
+
+    class TFV_M52D_Vest_Basic_Probie: TFV_OPTRE_UNSC_M52D_Armor
+    {
+        displayName = "M52D Body Armor (Basic) (Probie)";
+        VEST_PROBIE;
+        class ItemInfo: ItemInfo
+        {
+            VEST_PROBIE;
+        };
+    };
+    #pragma endregion Probie
 };
 
 class cfgMods
