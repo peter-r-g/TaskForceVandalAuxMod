@@ -55,6 +55,7 @@ class CfgPatches
             "TFV_ODST_Helmet_Neek",
             "TFV_M52D_Vest_Basic_Neek",
 
+            "TFV_ODST_Helmet_Probie",
             "TFV_M52D_Vest_Basic_Probie"
         };
     };
@@ -1556,6 +1557,30 @@ class CfgWeapons
     #pragma endregion Neek
 
     #pragma region Probie
+    class TFV_ODST_Helmet_Probie: OPTRE_UNSC_CH252D_Helmet
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Probie]";
+        hiddenSelectionsTextures[]=
+        {
+            "TFV_Armor\data\probie\probie_odst_helmet_co.paa",
+			"TFV_Armor\data\probie\probie_odst_visor_co.paa"
+        };
+    };
+
+    class TFV_ODST_Helmet_Probie_dp: OPTRE_UNSC_CH252D_Helmet_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Probie]";
+        hiddenSelectionsTextures[]=
+		{
+            "TFV_Armor\data\probie\probie_odst_helmet_co.paa"
+		};
+    };
+
     #define VEST_PROBIE hiddenSelectionsTextures[]= \
     { \
         VEST_COMMON \
