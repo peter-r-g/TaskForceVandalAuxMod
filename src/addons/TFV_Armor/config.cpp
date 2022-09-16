@@ -56,7 +56,10 @@ class CfgPatches
             "TFV_M52D_Vest_Basic_Neek",
 
             "TFV_ODST_Helmet_Probie",
-            "TFV_M52D_Vest_Basic_Probie"
+            "TFV_M52D_Vest_Basic_Probie",
+
+            "TFV_ODST_Helmet_Foley",
+            "TFV_M52D_Vest_Basic_Foley"
         };
     };
 };
@@ -1597,6 +1600,48 @@ class CfgWeapons
         };
     };
     #pragma endregion Probie
+
+    #pragma region Foley
+    class TFV_ODST_Helmet_Foley: OPTRE_UNSC_CH252D_Helmet
+    {
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Foley]";
+        hiddenSelectionsTextures[]=
+        {
+            "TFV_Armor\data\foley\foley_odst_helmet_co.paa",
+			"TFV_Armor\data\foley\foley_odst_visor_co.paa"
+        };
+    };
+
+    class TFV_ODST_Helmet_Foley_dp: OPTRE_UNSC_CH252D_Helmet_dp
+    {
+        scope=1;
+		scopeArsenal=1;
+		scopeCurator=1;
+        author="Article 2 Studios & Gooman";
+        displayName="CH252D Helmet [Foley]";
+        hiddenSelectionsTextures[]=
+		{
+            "TFV_Armor\data\foley\foley_odst_helmet_co.paa"
+		};
+    };
+
+    #define VEST_FOLEY hiddenSelectionsTextures[]= \
+    { \
+        VEST_COMMON \
+		"TFV_Armor\data\foley\foley_odst_armor_co.paa" \
+    }
+
+    class TFV_M52D_Vest_Basic_Foley: TFV_OPTRE_UNSC_M52D_Armor
+    {
+        displayName = "M52D Body Armor (Basic) (Foley)";
+        VEST_FOLEY;
+        class ItemInfo: ItemInfo
+        {
+            VEST_FOLEY;
+        };
+    };
+    #pragma endregion Foley
 };
 
 class cfgMods
