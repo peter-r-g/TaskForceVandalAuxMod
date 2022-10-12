@@ -378,6 +378,8 @@ class CfgWeapons
             VEST_AASEN;
         };
     };
+
+    #undef VEST_AASEN
     #pragma endregion Aasen
 
     #pragma region Castle
@@ -454,6 +456,8 @@ class CfgWeapons
             VEST_CASTLE;
         };
     };
+
+    #undef VEST_CASTLE
     #pragma endregion Castle
 
     #pragma region Reeves
@@ -1105,6 +1109,9 @@ class CfgWeapons
             VEST_REEVES2;
         };
     };
+
+    #undef VEST_REEVES
+    #undef VEST_REEVES2
     #pragma endregion Reeves
 
     #pragma region Roy
@@ -1329,6 +1336,8 @@ class CfgWeapons
             VEST_ROY;
         };
     };
+
+    #undef VEST_ROY
     #pragma endregion Roy
 
     #pragma region Autumn
@@ -1409,6 +1418,8 @@ class CfgWeapons
             VEST_AUTUMN;
         };
     };
+
+    #undef VEST_AUTUMN
     #pragma endregion Autumn
 
     #pragma region Shepard
@@ -1451,6 +1462,8 @@ class CfgWeapons
             VEST_SHEPARD;
         };
     };
+
+    #undef VEST_SHEPARD
     #pragma endregion Shepard
 
     #pragma region Fish
@@ -1477,6 +1490,8 @@ class CfgWeapons
 			"TFV_Armor\data\fish\fish_pilot_helmet_co.paa"
 		};
     };
+
+    #undef VEST_FISH
     #pragma endregion Fish
 
     #pragma region Salvador
@@ -1519,6 +1534,8 @@ class CfgWeapons
             VEST_SALVADOR;
         };
     };
+
+    #undef VEST_SALVADOR
     #pragma endregion Salvador
 
     #pragma region Neek
@@ -1561,6 +1578,8 @@ class CfgWeapons
             VEST_NEEK;
         };
     };
+
+    #undef VEST_NEEK
     #pragma endregion Neek
 
     #pragma region Probie
@@ -1603,6 +1622,8 @@ class CfgWeapons
             VEST_PROBIE;
         };
     };
+
+    #undef VEST_PROBIE
     #pragma endregion Probie
 
     #pragma region Foley
@@ -1645,6 +1666,8 @@ class CfgWeapons
             VEST_FOLEY;
         };
     };
+
+    #undef VEST_FOLEY
     #pragma endregion Foley
 
     #pragma region Cessna
