@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Operation: TREBUCHET">
+	<Package name="optre_language_weapons">
+		<Container name="Weapons">
+				<Container name="Library">
+					<Container name="MA37K - DisplayName">
+						<Key ID="STR_OPTRE_CfgWeapons_MA37K">
+							<Original>MA37K Carbine</Original>
+							<English>MA37K Carbine</English>
+							<Czech>MA37K Karabina</Czech>
+							<French>MA37K Carabine</French>
+							<German>MA37K Karabiner</German>
+							<Italian>MA37K Carabina</Italian>
+							<Polish>MA37K Karabinek</Polish>
+							<Portuguese>MA37K Carabina</Portuguese>
+							<Russian>MA37K Карабин</Russian>
+							<Spanish>MA37K Carbina</Spanish>
+							<Korean>MA37K Carbine</Korean>
+							<Japanese>MA37K Carbine</Japanese>
+							<Chinese>MA37K 卡賓槍</Chinese>
+							<Chinesesimp>MA37K 卡宾</Chinesesimp>
+							<Turkish>MA37K Carbine</Turkish>
+						</Key>
+					</Container>
+				</Container>
+			</Container>
+	</Package>
+</Project>

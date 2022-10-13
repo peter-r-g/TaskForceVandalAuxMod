@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Operation: TREBUCHET">
+	<Package name="optre_language_weapons_MA_ICWS">
+		<Container name="Weapons - MA5B - displayName">
+			<Key ID="STR_TFV_Weapons_MA5B_displayName">
+				<Original>MA5B ICWS Assault Rifle</Original>
+				<English>MA5B ICWS Assault Rifle</English>
+				<Spanish>Rifle de Asalto MA5B</Spanish>
+				<French>Fusil d'assaut MA5B</French>
+				<Russian>MA5B Штурмовая винтовка</Russian>
+				<Turkish>MA5B Taarruz Tüfeği</Turkish>
+				<German>MA5B Sturmgewehr</German>
+				<Chinese>MA5B 系列</Chinese>
+				<Polish>Karabinek MA5B</Polish>
+				<Italian>MA5B fucile d'assalto</Italian>
+			</Key>
+		</Container>
+	</Package>
+</Project>

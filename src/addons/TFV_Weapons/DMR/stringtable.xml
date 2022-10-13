@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Operation: TREBUCHET">
+	<Package name="optre_language_weapons">
+		<Container name="Weapons">
+					<Container name="M392 - DisplayName">
+						<Key ID="STR_OPTRE_CfgWeapons_M392_displayName">
+							<Original>M392 DMR</Original>
+							<English>M392 DMR</English>
+							<Czech>M392 Určená střelecká puška</Czech>
+							<French>M392 Fusil de précision</French>
+							<German>M392 Designiertes Scharfschützengewehr</German>
+							<Italian>M392 Fucile di Precisione</Italian>
+							<Polish>M392 Karabin Wyborowy</Polish>
+							<Portuguese>M392 Rifle de atirador designado</Portuguese>
+							<Russian>М392 Марксманская винтовка</Russian>
+							<Spanish>M392 Rifle de tirador designado</Spanish>
+							<Korean>M392 지정사수소총</Korean>
+							<Japanese>M392 指定射手ライフル</Japanese>
+							<Chinese>M392 精準射手步槍</Chinese>
+							<Chinesesimp>M392 精準射手步槍</Chinesesimp>
+							<Turkish>M392 Belirlenmiş Nişancı Tüfeği</Turkish>
+					</Key>
+				</Container>
+			<Container name="M392 - DescriptionShort">
+				<Key ID="STR_OPTRE_CfgWeapons_M392_descriptionShort">
+					<Original>M392 Designated Marksman Rifle</Original>
+					<English>M392 Designated Marksman Rifle</English>
+					<Czech>M392 Určená střelecká puška</Czech>
+					<French>M392 Fusil de précision</French>
+					<German>M392 Designiertes Scharfschützengewehr</German>
+					<Italian>M392 Fucile di Precisione</Italian>
+					<Polish>M392 Karabin Wyborowy</Polish>
+					<Portuguese>M392 Rifle de atirador designado</Portuguese>
+					<Russian>М392 Марксманская винтовка</Russian>
+					<Spanish>M392 Rifle de tirador designado</Spanish>
+					<Korean>M392 지정사수소총</Korean>
+					<Japanese>M392 指定射手ライフル</Japanese>
+					<Chinese>M392 指定射手步槍</Chinese>
+					<Chinesesimp>M392 指定射手步枪</Chinesesimp>
+					<Turkish>M392 Belirlenmiş Nişancı Tüfeği</Turkish>
+				</Key>
+			</Container>
+			</Container>
+	</Package>
+</Project>
