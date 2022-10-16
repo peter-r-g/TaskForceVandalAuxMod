@@ -8,7 +8,8 @@ class CfgPatches
         requiredVersion = 0.1;
         requiredAddons[] = {
             "TFV_Main",
-            "OPTRE_Weapons_Backpacks"
+            "OPTRE_Weapons_Backpacks",
+            "NSM_patch_end"
         };
 
         units[] = {
@@ -72,6 +73,9 @@ class CfgVehicles
 		tf_hasLRradio = 1;
     };
     #pragma endregion Backpacks
+
+    #pragma region Jetpacks
+    #pragma endregion Jetpacks
 };
 
 class cfgMods
