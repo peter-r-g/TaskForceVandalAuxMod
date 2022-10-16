@@ -26,5 +26,9 @@ for /D %%a in (%cd%\src\addons\*) do (
 rem ## Copy mod.cpp and key.
 copy /Y/V "%cd%\src\mod.cpp" "%cd%\build\mod.cpp"
 copy /Y/V "%cd%\src\keys\TaskForceVandalAuxMod.bikey" "%cd%\build\keys\TaskForceVandalAuxMod.bikey"
+
+rem ## Copy third party addons
+xcopy /s "%cd%\thirdparty" "%cd%\build"
+
 rem ## Pause so user can see output.
 pause
