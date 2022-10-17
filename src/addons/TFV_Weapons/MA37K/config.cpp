@@ -5,6 +5,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		requiredVersion=0.1;
@@ -37,7 +38,7 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="MA37K Suppressor";
-		model="TFV_Weapons\MA37K\ma37k_suppressor.p3d";
+		model="OPTRE_Weapons\MA37K\ma37k_suppressor.p3d";
 		picture="\a3\Weapons_F_Exp\Acc\Data\UI\icon_muzzle_snds_65_ti_blk_f_ca.paa";
 	};
 	class TFV_MA37K: arifle_Mk20_F
@@ -46,7 +47,7 @@ class CfgWeapons
 		displayName="$STR_TFV_CfgWeapons_MA37K";
 		descriptionShort="MA37K Carbine";
 		description="MA37K Carbine";
-		model="\TFV_Weapons\MA37K\MA37K.p3d";
+		model="\OPTRE_Weapons\MA37K\MA37K.p3d";
 		cursor="OPTRE_MA37";
 		hiddenSelections[]=
 		{
@@ -54,7 +55,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\TFV_Weapons\MA37K\data\MA37K_CO.paa"
+			"\OPTRE_Weapons\MA37K\data\MA37K_CO.paa"
 		};
 		magazines[]=
 		{
@@ -67,7 +68,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\MA37K\data\anim\MA37K.rtm",
+			"\OPTRE_Weapons\MA37K\data\anim\MA37K.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\ma5k_handanim_Spartan.rtm"
 		};

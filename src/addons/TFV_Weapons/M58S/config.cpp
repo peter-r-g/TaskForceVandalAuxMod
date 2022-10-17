@@ -11,6 +11,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"A3_Weapons_F",
+			"OPTRE_Weapons",
 			"TFV_Weapons"
 		};
 		author="Article 2 Studios";
@@ -26,7 +27,7 @@ class CfgMagazines
 	{
 		displayName="[TFV] 42Rnd 9.5x40mm Magazine";
 		displaynameshort="9.5x40mm";
-		model="\TFV_Weapons\br\BMR_Magazine.p3d";
+		model="\OPTRE_Weapons\br\BMR_Magazine.p3d";
 		ammo="TFV_B_95x40_Ball";
 		count=42;
 		initspeed=835;
@@ -39,7 +40,7 @@ class CfgMagazines
 	{
 		displayName="[TFV] 42Rnd 9.5x40mm Magazine (Tracers)";
 		displaynameshort="9.5x40mm Tracer";
-		model="\TFV_Weapons\br\BMR_Magazine.p3d";
+		model="\OPTRE_Weapons\br\BMR_Magazine.p3d";
 		ammo="TFV_B_95x40_Tracer";
 		count=42;
 		initspeed=835;
@@ -52,7 +53,7 @@ class CfgMagazines
 	{
 		displayName="[TFV] 42Rnd 9.5x40mm Magazine (Tracers, Yellow)";
 		displaynameshort="9.5x40mm Tracer Yellow";
-		model="\TFV_Weapons\br\BMR_Magazine.p3d";
+		model="\OPTRE_Weapons\br\BMR_Magazine.p3d";
 		ammo="TFV_B_95x40_Tracer_Yellow";
 		count=42;
 		initspeed=835;
@@ -84,7 +85,7 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] M58S Special Applications Rifle";
 		descriptionShort="SOCOM Rifle";
-		model="\TFV_Weapons\M58S\M58S.p3d";
+		model="\OPTRE_Weapons\M58S\M58S.p3d";
 		baseWeapon="TFV_M58S";
 		magazines[]=
 		{
@@ -102,7 +103,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\M58S\data\anims\M58_handanim.rtm",
+			"\OPTRE_Weapons\M58S\data\anims\M58_handanim.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\Handanim_M395_Spartan.rtm"
 		};

@@ -20,7 +20,8 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"OPTRE_Core"
+			"OPTRE_Core",
+			"OPTRE_Weapons"
 		};
 		author="Article 2 Studios";
 	};
@@ -61,7 +62,7 @@ class CfgGesturesMale
 	{
 		class GestureReloadBR55: Default
 		{
-			file="\TFV_Weapons\br\Data\anim\BR55ReloadGesture.rtm";
+			file="\OPTRE_Weapons\br\Data\anim\BR55ReloadGesture.rtm";
 			looped=0;
 			speed=0.27000001;
 			mask="handsWeapon";
@@ -73,7 +74,7 @@ class CfgGesturesMale
 		};
 		class GestureReloadBR55_Prone: Default
 		{
-			file="\TFV_Weapons\br\Data\anim\BR55ReloadGesture_Prone.rtm";
+			file="\OPTRE_Weapons\br\Data\anim\BR55ReloadGesture_Prone.rtm";
 			looped=0;
 			speed=0.27000001;
 			mask="handsWeapon";
@@ -122,7 +123,7 @@ class CfgGesturesSevenFoot
 	{
 		class GestureReloadBR55: Default
 		{
-			file="\TFV_Weapons\br\Data\anim\BR55ReloadGesture_Spartan.rtm";
+			file="\OPTRE_Weapons\br\Data\anim\BR55ReloadGesture_Spartan.rtm";
 			looped=0;
 			speed=0.27000001;
 			mask="handsWeapon";
@@ -134,7 +135,7 @@ class CfgGesturesSevenFoot
 		};
 		class GestureReloadBR55_Prone: Default
 		{
-			file="\TFV_Weapons\br\Data\anim\BR55ReloadGesture_Spartan.rtm";
+			file="\OPTRE_Weapons\br\Data\anim\BR55ReloadGesture_Spartan.rtm";
 			looped=0;
 			speed=0.27000001;
 			mask="handsWeapon";
@@ -176,7 +177,7 @@ class CfgWeapons
 	};
 	class TFV_BR_gripod_slot: TFV_rifle_gripod_slot
 	{
-		linkProxy="TFV_Weapons\BR\OPTREGripProxy";
+		linkProxy="OPTRE_Weapons\BR\OPTREGripProxy";
 	};
 	class TFV_BMR_Scope: optic_Aco
 	{
@@ -184,8 +185,8 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=2;
 		displayName="[TFV] M295 Designated Marksman Rifle A4 Scope";
-		picture="\TFV_Weapons\br\icons\scope.paa";
-		model="\TFV_Weapons\BR\BMR_Scope.p3d";
+		picture="\OPTRE_Weapons\br\icons\scope.paa";
+		model="\OPTRE_Weapons\BR\BMR_Scope.p3d";
 		descriptionShort="2-4x Scope for BMR Service Rifle";
 		weaponInfoType="RscWeaponZeroing";
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -193,7 +194,7 @@ class CfgWeapons
 			mass=2;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\BR\BMR_Scope.p3d";
+			modelOptics="\OPTRE_Weapons\BR\BMR_Scope.p3d";
 			class OpticsModes
 			{
 				class BMR_Scope
@@ -222,7 +223,7 @@ class CfgWeapons
 					cameraDir="";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\DMR\M395_optic10"
+						"\OPTRE_Weapons\DMR\M395_optic10"
 					};
 				};
 			};
@@ -236,7 +237,7 @@ class CfgWeapons
 		displayName="[TFV] UNSC MEQ-7 Infrared Target Pointer";
 		descriptionUse="$STR_A3_cfgWeapons_use_pointer_IR0";
 		picture="\A3\weapons_F\Data\UI\gear_accv_pointer_CA.paa";
-		model="\TFV_Weapons\br\BMR_Laser.p3d";
+		model="\OPTRE_Weapons\br\BMR_Laser.p3d";
 		descriptionShort="MEQ-7";
 		class ItemInfo: InventoryFlashLightItem_Base_F
 		{
@@ -260,7 +261,7 @@ class CfgWeapons
 		displayName="[TFV] UNSC Tactical Flashlight";
 		descriptionUse="$STR_A3_cfgWeapons_use_pointer_IR0";
 		picture="\A3\weapons_F\Data\UI\gear_accv_pointer_CA.paa";
-		model="\TFV_Weapons\br\BMR_Flashlight.p3d";
+		model="\OPTRE_Weapons\br\BMR_Flashlight.p3d";
 		descriptionShort="Flashlight";
 		class ItemInfo: InventoryFlashLightItem_Base_F
 		{
@@ -300,8 +301,8 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=2;
 		displayName="[TFV] BR55 A2 Scope";
-		picture="\TFV_Weapons\br\icons\scope.paa";
-		model="\TFV_Weapons\BR\BR_Scope.p3d";
+		picture="\OPTRE_Weapons\br\icons\scope.paa";
+		model="\OPTRE_Weapons\BR\BR_Scope.p3d";
 		descriptionShort="2-4x Scope for BR55HB Service Rifle";
 		weaponInfoType="RscWeaponZeroing";
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -309,7 +310,7 @@ class CfgWeapons
 			mass=2;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\BR\BR_Scope.p3d";
+			modelOptics="\OPTRE_Weapons\BR\BR_Scope.p3d";
 			class OpticsModes
 			{
 				class BR55HB_BUIS
@@ -353,8 +354,8 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\BR\BR55_Optic_2x.p3d",
-						"\TFV_Weapons\BR\BR55_Optic_4x.p3d"
+						"\OPTRE_Weapons\BR\BR55_Optic_2x.p3d",
+						"\OPTRE_Weapons\BR\BR55_Optic_4x.p3d"
 					};
 					visionMode[]=
 					{
@@ -372,8 +373,8 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=2;
 		displayName="[TFV] BR45 A3 Scope";
-		picture="\TFV_Weapons\br\icons\scope.paa";
-		model="\TFV_Weapons\BR\BR_Scope_V2.p3d";
+		picture="\OPTRE_Weapons\br\icons\scope.paa";
+		model="\OPTRE_Weapons\BR\BR_Scope_V2.p3d";
 		descriptionShort="2-4x Scope for Short to Medium Engagements";
 		weaponInfoType="RscWeaponZeroing";
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -381,7 +382,7 @@ class CfgWeapons
 			mass=2;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\BR\BR_Scope_V2.p3d";
+			modelOptics="\OPTRE_Weapons\BR\BR_Scope_V2.p3d";
 			class OpticsModes
 			{
 				class BR55HB_BUIS
@@ -425,8 +426,8 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\BR\BR45_Optic_2x.p3d",
-						"\TFV_Weapons\BR\BR45_Optic_4x.p3d"
+						"\OPTRE_Weapons\BR\BR45_Optic_2x.p3d",
+						"\OPTRE_Weapons\BR\BR45_Optic_4x.p3d"
 					};
 					visionMode[]=
 					{
@@ -449,12 +450,12 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\BR\data\anim\br55_handpos.rtm",
+			"\OPTRE_Weapons\BR\data\anim\br55_handpos.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\Handanim_M395_Spartan.rtm"
 		};
 		reloadAction="GestureReloadBR55";
-		model="\TFV_Weapons\BR\BRHB";
+		model="\OPTRE_Weapons\BR\BRHB";
 		displayName="[TFV] BR55HB Battle Rifle";
 		magazines[]=
 		{
@@ -464,11 +465,11 @@ class CfgWeapons
 		};
 		magazineWell[]={};
 		descriptionShort="UNSC Battle Rifle";
-		picture="\TFV_Weapons\br\icons\br.paa";
+		picture="\OPTRE_Weapons\br\icons\br.paa";
 		recoil="recoil_mx";
 		baseWeapon="TFV_BR55HB";
 		cursor="OPTRE_BR55";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_BR";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_BR";
 		Eye="OPTRE_EYE_HUD_AmmoCount_BR";
@@ -586,70 +587,70 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-01.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-01.ogg",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-02.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-02.ogg",
 					1,
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-03.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-03.ogg",
 					1,
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-04.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-04.ogg",
 					1,
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-05.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-05.ogg",
 					1,
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-06.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-06.ogg",
 					1,
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-07.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-07.ogg",
 					1,
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-08.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-08.ogg",
 					1,
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-09.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-09.ogg",
 					1,
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-10.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-10.ogg",
 					1,
 					1,
 					2000
@@ -809,70 +810,70 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-01.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-01.ogg",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-02.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-02.ogg",
 					1,
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-03.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-03.ogg",
 					1,
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-04.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-04.ogg",
 					1,
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-05.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-05.ogg",
 					1,
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-06.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-06.ogg",
 					1,
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-07.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-07.ogg",
 					1,
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-08.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-08.ogg",
 					1,
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-09.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-09.ogg",
 					1,
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle-10.ogg",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle-10.ogg",
 					1,
 					1,
 					2000
@@ -1015,7 +1016,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\BR\BR";
+		model="\OPTRE_Weapons\BR\BR";
 		displayName="[TFV] BR55 Battle Rifle";
 		baseWeapon="TFV_BR55";
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -1035,7 +1036,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\BR\BR45";
+		model="\OPTRE_Weapons\BR\BR45";
 		displayName="[TFV] BR45B Battle Rifle";
 		baseWeapon="TFV_BR45";
 		cursor="OPTRE_BR45";
@@ -1069,7 +1070,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle_1.wss",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle_1.wss",
 					1,
 					1,
 					2000
@@ -1274,7 +1275,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\BR\Data\sounds\BattleRifle_1.wss",
+					"\OPTRE_Weapons\BR\Data\sounds\BattleRifle_1.wss",
 					1,
 					1,
 					2000
@@ -1549,8 +1550,8 @@ class CfgWeapons
 		baseWeapon="TFV_BR37";
 		displayName="[TFV] BR37 Battle Rifle";
 		descriptionShort="BR37 Battle Rifle";
-		model="TFV_Weapons\BR\BR37.p3d";
-		picture="\TFV_Weapons\br\icons\br.paa";
+		model="OPTRE_Weapons\BR\BR37.p3d";
+		picture="\OPTRE_Weapons\br\icons\br.paa";
 		magazines[]=
 		{
 			"TFV_10RND_338_SP",
@@ -1573,7 +1574,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\BR\data\anim\br55_handpos.rtm",
+			"\OPTRE_Weapons\BR\data\anim\br55_handpos.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\Handanim_M395_Spartan.rtm"
 		};
@@ -1601,7 +1602,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\DMR\Data\sounds\DMR_1.ogg",
+					"\OPTRE_Weapons\DMR\Data\sounds\DMR_1.ogg",
 					2.5,
 					1,
 					1500
@@ -1776,7 +1777,7 @@ class CfgWeapons
 	class TFV_BR45Grip: bipod_01_F_blk
 	{
 		scope=2;
-		model="TFV_Weapons\br\BR45Grip";
+		model="OPTRE_Weapons\br\BR45Grip";
 		displayName="[TFV] Grip Pod";
 		descriptionShort="BR45 Rail Grip System";
 		class ItemInfo
@@ -1796,7 +1797,7 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=1;
 		scopeArsenal=1;
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
 		class LinkedItems
 		{
 			class LinkedItemsOptic

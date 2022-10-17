@@ -12,6 +12,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		magazines[]={};
@@ -22,7 +23,7 @@ class CfgNonAIVehicles
 	class ProxyWeapon;
 	class ProxyMagazine: ProxyWeapon
 	{
-		model="\TFV_Weapons\SRM77\SRM77_10rnd_Mag.p3d";
+		model="\OPTRE_Weapons\SRM77\SRM77_10rnd_Mag.p3d";
 		simulation="magazine";
 	};
 };
@@ -32,12 +33,12 @@ class CfgMagazines
 	class TFV_10Rnd_127x99: TFV_8Rnd_127x40_Mag
 	{
 		dlc="OPTRE";
-		modelSpecial="\TFV_Weapons\SRM77\SRM77_10rnd_Mag.p3d";
+		modelSpecial="\OPTRE_Weapons\SRM77\SRM77_10rnd_Mag.p3d";
 		modelSpecialIsProxy=1;
-		model="\TFV_Weapons\SRM77\SRM77_10rnd_Mag.p3d";
+		model="\OPTRE_Weapons\SRM77\SRM77_10rnd_Mag.p3d";
 		displayName="[TFV] 10Rnd SRM77 Magazine";
 		displayNameShort="12.7x99";
-		picture="\TFV_Weapons\br\icons\magazine.paa";
+		picture="\OPTRE_Weapons\br\icons\magazine.paa";
 		ammo="TFV_B_127x99_Ball";
 		initSpeed=900;
 		count=10;
@@ -46,9 +47,9 @@ class CfgMagazines
 	};
 	class TFV_5Rnd_127x99: TFV_10Rnd_127x99
 	{
-		modelSpecial="\TFV_Weapons\SRM77\SRM77_5rnd_Mag.p3d";
+		modelSpecial="\OPTRE_Weapons\SRM77\SRM77_5rnd_Mag.p3d";
 		modelSpecialIsProxy=1;
-		model="\TFV_Weapons\SRM77\SRM77_5rnd_Mag.p3d";
+		model="\OPTRE_Weapons\SRM77\SRM77_5rnd_Mag.p3d";
 		displayName="[TFV] 5Rnd SRM77 Magazine";
 		count=5;
 	};
@@ -77,7 +78,7 @@ class CfgWeapons
 		descriptionShort="Insurrection Marksman Rifle";
 		scope=2;
 		scopeArsenal=2;
-		model="\TFV_Weapons\SRM77\SRM77_S1";
+		model="\OPTRE_Weapons\SRM77\SRM77_S1";
 		baseWeapon="TFV_SRM77_S1";
 		magazines[]=
 		{
@@ -92,7 +93,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\BR\data\anim\BR.rtm",
+			"\OPTRE_Weapons\BR\data\anim\BR.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\Handanim_DMR_Spartan.rtm"
 		};
@@ -237,14 +238,14 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\SRM77\data\srm_black_co.paa"
+			"OPTRE_Weapons\SRM77\data\srm_black_co.paa"
 		};
 	};
 	class TFV_SRM77_S2: TFV_SRM77_S1
 	{
 		displayName="[TFV] SRM77 S2";
 		baseWeapon="TFV_SRM77_S2";
-		model="\TFV_Weapons\SRM77\SRM77_S2";
+		model="\OPTRE_Weapons\SRM77\SRM77_S2";
 		modes[]=
 		{
 			"Single"
@@ -388,17 +389,17 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] SRM77 Scope";
-		picture="\TFV_Weapons\sniper\icons\scope.paa";
-		model="\TFV_Weapons\SRM77\SRM77_Scope.p3d";
+		picture="\OPTRE_Weapons\sniper\icons\scope.paa";
+		model="\OPTRE_Weapons\SRM77\SRM77_Scope.p3d";
 		descriptionShort="SRM77 Scope";
 		weaponInfoType="RscOptics_nightstalker";
-		modelOptics="\TFV_Weapons\SRM77\SRM77_Scope.p3d";
+		modelOptics="\OPTRE_Weapons\SRM77\SRM77_Scope.p3d";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\SRM77\SRM77_Scope.p3d";
+			modelOptics="\OPTRE_Weapons\SRM77\SRM77_Scope.p3d";
 			class OpticsModes
 			{
 				class SRM77_Scope_View
@@ -422,9 +423,9 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\SRM77\SRM_77_Optic_5.p3d",
-						"\TFV_Weapons\SRM77\SRM_77_Optic_10.p3d",
-						"\TFV_Weapons\SRM77\SRM_77_Optic_12.p3d"
+						"\OPTRE_Weapons\SRM77\SRM_77_Optic_5.p3d",
+						"\OPTRE_Weapons\SRM77\SRM_77_Optic_10.p3d",
+						"\OPTRE_Weapons\SRM77\SRM_77_Optic_12.p3d"
 					};
 					opticsPPEffects[]=
 					{

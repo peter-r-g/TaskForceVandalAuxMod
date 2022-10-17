@@ -11,7 +11,8 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"A3_Weapons_F"
+			"A3_Weapons_F",
+			"OPTRE_Weapons"
 		};
 		author="Article 2 Studios";
 	};
@@ -38,9 +39,9 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] HMG-38 Carry Handle";
-		picture="TFV_Weapons\HMG38\icons\HMG_38_CarryHandle_Icon.paa";
+		picture="OPTRE_Weapons\HMG38\icons\HMG_38_CarryHandle_Icon.paa";
 		descriptionShort="Carry Handle Sight";
-		model="TFV_Weapons\HMG38\HMG38_CarryHandle.p3d";
+		model="OPTRE_Weapons\HMG38\HMG38_CarryHandle.p3d";
 		inertia=0.1;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -104,15 +105,15 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"TFV_Weapons\HMG38\anim\HMG_38_HandAnim.rtm",
+			"OPTRE_Weapons\HMG38\anim\HMG_38_HandAnim.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\HMG_38_Spartan_HandAnim.rtm"
 		};
-		model="TFV_Weapons\HMG38\HMG38.p3d";
+		model="OPTRE_Weapons\HMG38\HMG38.p3d";
 		displayName="[TFV] HMG-38 Automatic Rifle";
 		baseWeapon="TFV_HMG38";
 		descriptionShort="Insurection Era Rifle";
-		picture="TFV_Weapons\HMG38\icons\HMG_38_Icon.paa";
+		picture="OPTRE_Weapons\HMG38\icons\HMG_38_Icon.paa";
 		magazines[]=
 		{
 			"TFV_40Rnd_30x06_Mag",
@@ -296,21 +297,21 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"TFV_Weapons\HMG38\sound\HMGShotOutdoor1.wss",
+					"OPTRE_Weapons\HMG38\sound\HMGShotOutdoor1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"TFV_Weapons\HMG38\sound\HMGShotOutdoor2.wss",
+					"OPTRE_Weapons\HMG38\sound\HMGShotOutdoor2.wss",
 					1,
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"TFV_Weapons\HMG38\sound\HMGShotOutdoor3.wss",
+					"OPTRE_Weapons\HMG38\sound\HMGShotOutdoor3.wss",
 					1,
 					1,
 					2000
@@ -354,7 +355,7 @@ class CfgWeapons
 					{
 						sound[]=
 						{
-							"TFV_Weapons\HMG38\sound\HMGShotIndoor1",
+							"OPTRE_Weapons\HMG38\sound\HMGShotIndoor1",
 							1.5848932,
 							1,
 							1400
@@ -519,21 +520,21 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"TFV_Weapons\HMG38\sound\HMGShotOutdoor1.wss",
+					"OPTRE_Weapons\HMG38\sound\HMGShotOutdoor1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"TFV_Weapons\HMG38\sound\HMGShotOutdoor2.wss",
+					"OPTRE_Weapons\HMG38\sound\HMGShotOutdoor2.wss",
 					1,
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"TFV_Weapons\HMG38\sound\HMGShotOutdoor3.wss",
+					"OPTRE_Weapons\HMG38\sound\HMGShotOutdoor3.wss",
 					1,
 					1,
 					2000
@@ -577,7 +578,7 @@ class CfgWeapons
 					{
 						sound[]=
 						{
-							"TFV_Weapons\HMG38\sound\HMGShotIndoor1",
+							"OPTRE_Weapons\HMG38\sound\HMGShotIndoor1",
 							1.5848932,
 							1,
 							1400

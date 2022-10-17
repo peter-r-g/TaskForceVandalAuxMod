@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class OPTRE_Weapons_Optics
+	class TFV_Weapons_Optics
 	{
 		units[]={};
 		weapons[]={};
@@ -8,6 +8,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";

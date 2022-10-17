@@ -22,6 +22,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";
@@ -88,7 +89,7 @@ class CfgGesturesMale
 	{
 		class OPTRE_GestureReloadM7: Default
 		{
-			file="\TFV_Weapons\smg\data\anim\m7_reload.rtm";
+			file="\OPTRE_Weapons\smg\data\anim\m7_reload.rtm";
 			looped=0;
 			speed=-3;
 			mask="handsWeapon";
@@ -103,7 +104,7 @@ class CfgGesturesMale
 		};
 		class OPTRE_GestureReloadM7_prone: OPTRE_GestureReloadM7
 		{
-			file="\TFV_Weapons\smg\data\anim\m7_reload_prone.rtm";
+			file="\OPTRE_Weapons\smg\data\anim\m7_reload_prone.rtm";
 		};
 		class OPTRE_GestureReloadM7_Context: OPTRE_GestureReloadM7
 		{
@@ -228,8 +229,8 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M7 SS-M 49 Suppressor";
-		picture="\TFV_Weapons\smg\icons\silencer.paa";
-		model="\TFV_Weapons\SMG\m7_silencer.p3d";
+		picture="\OPTRE_Weapons\smg\icons\silencer.paa";
+		model="\OPTRE_Weapons\SMG\m7_silencer.p3d";
 		descriptionShort="M7 Silencer";
 		inertia=0.1;
 		class ItemInfo: InventoryMuzzleItem_Base_F
@@ -278,7 +279,7 @@ class CfgWeapons
 		displayName="[TFV] M7 Flashlight";
 		picture="\a3\weapons_f\data\ui\gear_accv_flashlight_ca.paa";
 		descriptionShort="Flashlight for the M7 SMG";
-		model="\TFV_Weapons\SMG\m7_flashlight.p3d";
+		model="\OPTRE_Weapons\SMG\m7_flashlight.p3d";
 		class ItemInfo: InventoryFlashLightItem_Base_F
 		{
 			mass=1;
@@ -318,9 +319,9 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M7 SLS/V 5B Reflex";
-		picture="\TFV_Weapons\smg\icons\scope.paa";
+		picture="\OPTRE_Weapons\smg\icons\scope.paa";
 		descriptionShort="Smart Link Scope Reflex Sight for the M7 SMG";
-		model="\TFV_Weapons\SMG\m7_sights.p3d";
+		model="\OPTRE_Weapons\SMG\m7_sights.p3d";
 		inertia=0.1;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -364,8 +365,8 @@ class CfgWeapons
 					memoryPointCamera="eye";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\smg\M7_Optic_2x.p3d",
-						"\TFV_Weapons\smg\M7_Optic_4x.p3d"
+						"\OPTRE_Weapons\smg\M7_Optic_2x.p3d",
+						"\OPTRE_Weapons\smg\M7_Optic_4x.p3d"
 					};
 					visionMode[]=
 					{
@@ -383,9 +384,9 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M7 Laser Aiming Module";
-		picture="\TFV_Weapons\smg\icons\laser.paa";
+		picture="\OPTRE_Weapons\smg\icons\laser.paa";
 		descriptionShort="IR Laser for the M7 SMG";
-		model="\TFV_Weapons\SMG\m7_laser.p3d";
+		model="\OPTRE_Weapons\SMG\m7_laser.p3d";
 		inertia=0.1;
 		class ItemInfo: InventoryFlashLightItem_Base_F
 		{
@@ -406,7 +407,7 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] M12 SS-M 47 Suppressor";
 		descriptionShort="M12 Silencer";
-		model="\TFV_Weapons\smg\m12_suppressor.p3d";
+		model="\OPTRE_Weapons\smg\m12_suppressor.p3d";
 	};
 	class TFV_M12_Laser: TFV_M7_Laser
 	{
@@ -416,8 +417,8 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] M12 Laser Aiming Module";
 		descriptionShort="IR Laser for the M12 SOC";
-		picture="\TFV_Weapons\smg\icons\m12_laser.paa";
-		model="\TFV_Weapons\smg\m12_laser.p3d";
+		picture="\OPTRE_Weapons\smg\icons\m12_laser.paa";
+		model="\OPTRE_Weapons\smg\m12_laser.p3d";
 	};
 	class TFV_M12_Optic: TFV_M7_Sight
 	{
@@ -427,8 +428,8 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] M12 SLS/V 3B Holographic Sight";
 		descriptionShort="Smart Link Scope Holographic Sight for the M12 SOC";
-		picture="\TFV_Weapons\smg\icons\m12_scope.paa";
-		model="\TFV_Weapons\smg\m12_holo.p3d";
+		picture="\OPTRE_Weapons\smg\icons\m12_scope.paa";
+		model="\OPTRE_Weapons\smg\m12_holo.p3d";
 	};
 	class TFV_M7: TFV_SubMachineGun_Base
 	{
@@ -439,15 +440,15 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\smg\data\anim\m7_handpos.rtm",
+			"\OPTRE_Weapons\smg\data\anim\m7_handpos.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\smg_handanim_Spartan.rtm"
 		};
 		reloadAction="OPTRE_GestureReloadM7";
-		model="\TFV_Weapons\SMG\SMG.p3d";
+		model="\OPTRE_Weapons\SMG\SMG.p3d";
 		displayName="[TFV] M7/Caseless SMG";
 		descriptionShort="UNSC M7 SMG";
-		picture="\TFV_Weapons\smg\icons\smg.paa";
+		picture="\OPTRE_Weapons\smg\icons\smg.paa";
 		magazines[]=
 		{
 			"TFV_60Rnd_5x23mm_Mag",
@@ -463,7 +464,7 @@ class CfgWeapons
 		recoil="recoil_pdw";
 		baseWeapon="TFV_M7";
 		cursor="OPTRE_M7";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\SMG\SMG_IRON.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\SMG\SMG_IRON.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_SMG";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_SMG";
 		Eye="OPTRE_EYE_HUD_AmmoCount_SMG";
@@ -476,8 +477,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\smg\data\m7_m7_co.paa",
-			"TFV_Weapons\smg\data\m7_magazine_co.paa"
+			"OPTRE_Weapons\smg\data\m7_m7_co.paa",
+			"OPTRE_Weapons\smg\data\m7_magazine_co.paa"
 		};
 		class GunParticles
 		{
@@ -595,7 +596,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\SMG_1.ogg",
+					"\OPTRE_Weapons\SMG\Data\sounds\SMG_1.ogg",
 					1.5,
 					1,
 					2000
@@ -673,14 +674,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\Silenced_1.wss",
+					"\OPTRE_Weapons\SMG\Data\sounds\Silenced_1.wss",
 					1,
 					1,
 					600
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\Silenced_1.wss",
+					"\OPTRE_Weapons\SMG\Data\sounds\Silenced_1.wss",
 					1,
 					1,
 					600
@@ -791,7 +792,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\SMG_1.ogg",
+					"\OPTRE_Weapons\SMG\Data\sounds\SMG_1.ogg",
 					1,
 					1,
 					2000
@@ -869,14 +870,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\Silenced_1.wss",
+					"\OPTRE_Weapons\SMG\Data\sounds\Silenced_1.wss",
 					1,
 					1,
 					600
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\Silenced_1.wss",
+					"\OPTRE_Weapons\SMG\Data\sounds\Silenced_1.wss",
 					1,
 					1,
 					600
@@ -1023,7 +1024,7 @@ class CfgWeapons
 			"OFP2_ManSkeleton"
 		};
 		reloadAction="GestureReloadPistol";
-		model="\TFV_Weapons\SMG\SMG_folded.p3d";
+		model="\OPTRE_Weapons\SMG\SMG_folded.p3d";
 		displayName="[TFV] M7/Caseless SMG (Folded)";
 		descriptionShort="UNSC M7 SMG (Folded)";
 		type=2;
@@ -1071,10 +1072,10 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=2;
 		scopeArsenal=2;
-		model="\TFV_Weapons\smg\m12.p3d";
+		model="\OPTRE_Weapons\smg\m12.p3d";
 		displayName="[TFV] M12 SOC";
 		descriptionShort="UNSC M12 SOC";
-		picture="\TFV_Weapons\smg\icons\m12.paa";
+		picture="\OPTRE_Weapons\smg\icons\m12.paa";
 		baseWeapon="TFV_M12";
 		cursor="OPTRE_M12";
 		selectionFireAnim="zasleh";
@@ -1084,7 +1085,7 @@ class CfgWeapons
 			"TFV_64Rnd_57x31_Mag_Tracer",
 			"TFV_64Rnd_57x31_Mag_Tracer_Yellow"
 		};
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\SMG\SMG_IRON.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\SMG\SMG_IRON.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_SMG";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_SMG";
 		Eye="OPTRE_EYE_HUD_AmmoCount_SMG";
@@ -1098,9 +1099,9 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\TFV_Weapons\smg\data\rifle_CO.paa",
-			"\TFV_Weapons\smg\data\accessories_CO.paa",
-			"\TFV_Weapons\smg\data\logos_CA.paa"
+			"\OPTRE_Weapons\smg\data\rifle_CO.paa",
+			"\OPTRE_Weapons\smg\data\accessories_CO.paa",
+			"\OPTRE_Weapons\smg\data\logos_CA.paa"
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{

@@ -16,6 +16,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";
@@ -59,7 +60,7 @@ class CfgVehicles
 		scopeCurator=2;
 		icon="iconExplosiveGP";
 		ammo="C12_Remote_Ammo";
-		model="\TFV_Weapons\charges\c12.p3d";
+		model="\OPTRE_Weapons\charges\c12.p3d";
 		displayName="[TFV] C12 Explosive";
 		editorCategory="EdCat_Weapons";
 		editorSubcategory="EdSubcat_Explosives";
@@ -74,7 +75,7 @@ class CfgVehicles
 		scopeCurator=2;
 		icon="iconExplosiveGP";
 		ammo="UNSC_Mine_Ammo";
-		model="\TFV_Weapons\charges\UNSCMine.p3d";
+		model="\OPTRE_Weapons\charges\UNSCMine.p3d";
 		displayName="[TFV] UNSC Land Mine";
 		editorCategory="EdCat_Weapons";
 		editorSubcategory="EdSubcat_Explosives";
@@ -89,7 +90,7 @@ class CfgVehicles
 		scopeCurator=2;
 		icon="iconExplosiveGP";
 		ammo="C7_Remote_Ammo";
-		model="\TFV_Weapons\charges\c7.p3d";
+		model="\OPTRE_Weapons\charges\c7.p3d";
 		displayName="[TFV] C7 Explosive Foam";
 		editorCategory="EdCat_Weapons";
 		editorSubcategory="EdSubcat_Explosives";
@@ -104,7 +105,7 @@ class CfgVehicles
 		scopeCurator=2;
 		icon="iconExplosiveGP";
 		ammo="M168_Remote_Ammo";
-		model="\TFV_Weapons\charges\m168.p3d";
+		model="\OPTRE_Weapons\charges\m168.p3d";
 		displayName="[TFV] M168 Demolition Charge";
 		editorCategory="EdCat_Weapons";
 		editorSubcategory="EdSubcat_Explosives";
@@ -114,7 +115,7 @@ class CfgVehicles
 		DLC="OPTRE";
 		author="Article 2 Studios";
 		ammo="M41_IED_Remote_Ammo";
-		model="\TFV_Weapons\charges\m41.p3d";
+		model="\OPTRE_Weapons\charges\m41.p3d";
 		displayName="[TFV] M41 IED";
 	};
 	class TFV_Placed_M41_IED_B: TFV_Placed_M41_IED
@@ -122,7 +123,7 @@ class CfgVehicles
 		DLC="OPTRE";
 		author="Article 2 Studios";
 		ammo="M41_IED_B_Remote_Ammo";
-		model="\TFV_Weapons\charges\m41_b.p3d";
+		model="\OPTRE_Weapons\charges\m41_b.p3d";
 		displayName="[TFV] M41 IED (Buried)";
 	};
 };
@@ -136,11 +137,11 @@ class CfgAmmo
 		indirectHit=3500;
 		indirectHitRange=8;
 		defaultMagazine="C12_Remote_Mag";
-		model="\TFV_Weapons\charges\c12.p3d";
-		picture="\TFV_weapons\charges\icons\c12.paa";
+		model="\OPTRE_Weapons\charges\c12.p3d";
+		picture="\OPTRE_Weapons\charges\icons\c12.paa";
 		explosive=1;
 		explosionType="bomb";
-		mineModelDisabled="\TFV_Weapons\charges\c12G.p3d";
+		mineModelDisabled="\OPTRE_Weapons\charges\c12G.p3d";
 		ExplosionEffects="MineNondirectionalExplosion";
 		CraterEffects="MineNondirectionalCrater";
 		SoundSetExplosion[]=
@@ -181,11 +182,11 @@ class CfgAmmo
 		indirectHit=2500;
 		indirectHitRange=0.5;
 		defaultMagazine="C7_Remote_Mag";
-		model="\TFV_Weapons\charges\C7.p3d";
-		picture="\TFV_weapons\charges\icons\c12.paa";
+		model="\OPTRE_Weapons\charges\C7.p3d";
+		picture="\OPTRE_Weapons\charges\icons\c12.paa";
 		explosive=1;
 		explosionType="bomb";
-		mineModelDisabled="\TFV_Weapons\charges\C7Can.p3d";
+		mineModelDisabled="\OPTRE_Weapons\charges\C7Can.p3d";
 		ExplosionEffects="DirectionalMineExplosion";
 		CraterEffects="";
 		craterShape="\A3\weapons_f\empty.p3d";
@@ -227,11 +228,11 @@ class CfgAmmo
 		indirectHit=4500;
 		indirectHitRange=10;
 		defaultMagazine="M168_Remote_Mag";
-		model="\TFV_Weapons\charges\m168.p3d";
-		picture="\TFV_weapons\charges\icons\c12.paa";
+		model="\OPTRE_Weapons\charges\m168.p3d";
+		picture="\OPTRE_Weapons\charges\icons\c12.paa";
 		explosive=1;
 		explosionType="bomb";
-		mineModelDisabled="\TFV_Weapons\charges\m168g.p3d";
+		mineModelDisabled="\OPTRE_Weapons\charges\m168g.p3d";
 		ExplosionEffects="MineNondirectionalExplosion";
 		CraterEffects="MineNondirectionalCrater";
 		SoundSetExplosion[]=
@@ -271,8 +272,8 @@ class CfgAmmo
 		hit=2000;
 		indirectHit=2000;
 		indirectHitRange=1.5;
-		model="\TFV_Weapons\charges\UNSCmine.p3d";
-		mineModelDisabled="\TFV_Weapons\charges\UNSCmine.p3d";
+		model="\OPTRE_Weapons\charges\UNSCmine.p3d";
+		mineModelDisabled="\OPTRE_Weapons\charges\UNSCmine.p3d";
 		defaultMagazine="UNSCMine_Range_Mag";
 		soundHit1[]=
 		{
@@ -307,11 +308,11 @@ class CfgAmmo
 		indirectHit=200;
 		indirectHitRange=5;
 		defaultMagazine="M41_IED_Remote_Mag";
-		model="\TFV_Weapons\charges\m41.p3d";
-		picture="\TFV_weapons\rockets\icons\rocket.paa";
+		model="\OPTRE_Weapons\charges\m41.p3d";
+		picture="\OPTRE_Weapons\rockets\icons\rocket.paa";
 		explosive=1;
 		explosionType="bomb";
-		mineModelDisabled="\TFV_Weapons\charges\m41g.p3d";
+		mineModelDisabled="\OPTRE_Weapons\charges\m41g.p3d";
 		ExplosionEffects="MineNondirectionalExplosionSmall";
 		CraterEffects="MineNondirectionalCraterSmall";
 		soundHit[]=
@@ -350,8 +351,8 @@ class CfgAmmo
 	class M41_IED_B_Remote_Ammo: M41_IED_Remote_Ammo
 	{
 		defaultMagazine="M41_IED_B_Remote_Mag";
-		model="\TFV_Weapons\charges\m41_b.p3d";
-		mineModelDisabled="\TFV_Weapons\charges\m41g.p3d";
+		model="\OPTRE_Weapons\charges\m41_b.p3d";
+		mineModelDisabled="\OPTRE_Weapons\charges\m41g.p3d";
 	};
 };
 class CfgWeapons
@@ -431,8 +432,8 @@ class CfgMagazines
 		type="2* 256";
 		allowedSlots[]={901,701};
 		ammo="C12_Remote_Ammo";
-		model="\TFV_Weapons\charges\c12G.p3d";
-		picture="\TFV_weapons\charges\icons\c12.paa";
+		model="\OPTRE_Weapons\charges\c12G.p3d";
+		picture="\OPTRE_Weapons\charges\icons\c12.paa";
 		mass=90;
 		count=1;
 		maxLeadSpeed=0;
@@ -459,8 +460,8 @@ class CfgMagazines
 		type="2* 256";
 		allowedSlots[]={901,701};
 		ammo="C7_Remote_Ammo";
-		model="\TFV_Weapons\charges\C7Can.p3d";
-		picture="\TFV_weapons\charges\icons\c7.paa";
+		model="\OPTRE_Weapons\charges\C7Can.p3d";
+		picture="\OPTRE_Weapons\charges\icons\c7.paa";
 		mass=40;
 		count=1;
 		maxLeadSpeed=0;
@@ -483,8 +484,8 @@ class CfgMagazines
 		mass=60;
 		displayName="[TFV] M154 AT Mine";
 		descriptionUse="Use mine";
-		picture="\TFV_weapons\charges\icons\mine.paa";
-		model="\TFV_Weapons\charges\UNSCmine.p3d";
+		picture="\OPTRE_Weapons\charges\icons\mine.paa";
+		model="\OPTRE_Weapons\charges\UNSCmine.p3d";
 		useAction=1;
 		useActionTitle="Put %1 (%2 left)";
 		type="2* 256";
@@ -517,8 +518,8 @@ class CfgMagazines
 		type="2* 256";
 		allowedSlots[]={901,701};
 		ammo="M168_Remote_Ammo";
-		model="\TFV_Weapons\charges\m168g.p3d";
-		picture="\TFV_weapons\charges\icons\m168.paa";
+		model="\OPTRE_Weapons\charges\m168g.p3d";
+		picture="\OPTRE_Weapons\charges\icons\m168.paa";
 		mass=150;
 		count=1;
 		maxLeadSpeed=0;
@@ -545,8 +546,8 @@ class CfgMagazines
 		type="2* 256";
 		allowedSlots[]={901,701};
 		ammo="M41_IED_Remote_Ammo";
-		model="\TFV_Weapons\charges\m41.p3d";
-		picture="\TFV_weapons\rockets\icons\rocket.paa";
+		model="\OPTRE_Weapons\charges\m41.p3d";
+		picture="\OPTRE_Weapons\rockets\icons\rocket.paa";
 		mass=40;
 		count=1;
 		maxLeadSpeed=0;
@@ -568,6 +569,6 @@ class CfgMagazines
 		ammo="M41_IED_B_Remote_Ammo";
 		displayName="[TFV] M41 IED (Buried)";
 		displayNameShort="M41 IED (Buried)";
-		model="\TFV_Weapons\charges\m41_b.p3d";
+		model="\OPTRE_Weapons\charges\m41_b.p3d";
 	};
 };

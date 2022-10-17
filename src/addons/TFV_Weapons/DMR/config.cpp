@@ -21,6 +21,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";
@@ -55,8 +56,8 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="EVOS-D Mk1 Scope";
-		picture="\TFV_weapons\br\icons\scope.paa";
-		model="\TFV_Weapons\DMR\M392_Scope.p3d";
+		picture="\OPTRE_Weapons\br\icons\scope.paa";
+		model="\OPTRE_Weapons\DMR\M392_Scope.p3d";
 		descriptionShort="4x Scope for M392 Marksman Rifle";
 		weaponInfoType="RscWeaponZeroing";
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -64,7 +65,7 @@ class CfgWeapons
 			mass=2;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\DMR\M392_Scope.p3d";
+			modelOptics="\OPTRE_Weapons\DMR\M392_Scope.p3d";
 			class OpticsModes
 			{
 				class DMR_Scope
@@ -83,7 +84,7 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\DMR\M395_optic10.p3d"
+						"\OPTRE_Weapons\DMR\M395_optic10.p3d"
 					};
 					visionMode[]=
 					{
@@ -105,16 +106,16 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="EVOS-D Mk3 Scope";
-		picture="\TFV_Weapons\DMR\icons\M395__Scope_Icon.paa";
-		model="\TFV_Weapons\DMR\M395Optic.p3d";
+		picture="\OPTRE_Weapons\DMR\icons\M395__Scope_Icon.paa";
+		model="\OPTRE_Weapons\DMR\M395Optic.p3d";
 		descriptionShort="M393 Scope";
-		modelOptics="\TFV_Weapons\DMR\M395Optic.p3d";
+		modelOptics="\OPTRE_Weapons\DMR\M395Optic.p3d";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=10;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\DMR\M395Optic.p3d";
+			modelOptics="\OPTRE_Weapons\DMR\M395Optic.p3d";
 			class OpticsModes
 			{
 				class M395_Scope_View
@@ -133,9 +134,9 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\DMR\M395_optic5.p3d",
-						"\TFV_Weapons\DMR\M395_optic10.p3d",
-						"\TFV_Weapons\DMR\M395_optic15.p3d"
+						"\OPTRE_Weapons\DMR\M395_optic5.p3d",
+						"\OPTRE_Weapons\DMR\M395_optic10.p3d",
+						"\OPTRE_Weapons\DMR\M395_optic15.p3d"
 					};
 					opticsPPEffects[]=
 					{
@@ -159,15 +160,15 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="M15 Combat Optical Gunsight";
-		picture="\TFV_Weapons\DMR\icons\M395__ACOG_Icon.paa";
-		model="\TFV_Weapons\DMR\M395ACOG.p3d";
+		picture="\OPTRE_Weapons\DMR\icons\M395__ACOG_Icon.paa";
+		model="\OPTRE_Weapons\DMR\M395ACOG.p3d";
 		descriptionShort="Combat Optical Gunsight";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=10;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\DMR\M395Optic.p3d";
+			modelOptics="\OPTRE_Weapons\DMR\M395Optic.p3d";
 			class OpticsModes
 			{
 				class ACOG_Scope
@@ -198,9 +199,9 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="SR-10 Rapid Acquisition Sight";
-		picture="\TFV_Weapons\DMR\icons\M395__EOTECH_Icon.paa";
+		picture="\OPTRE_Weapons\DMR\icons\M395__EOTECH_Icon.paa";
 		descriptionShort="CQB Sight";
-		model="\TFV_Weapons\DMR\M395EOTECH.p3d";
+		model="\OPTRE_Weapons\DMR\M395EOTECH.p3d";
 		inertia=0.1;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -237,8 +238,8 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=2;
 		displayName="M393 Suppressor";
-		picture="\TFV_Weapons\DMR\icons\M395__Suppressor_Icon.paa";
-		model="\TFV_Weapons\DMR\M395Suppressor.p3d";
+		picture="\OPTRE_Weapons\DMR\icons\M395__Suppressor_Icon.paa";
+		model="\OPTRE_Weapons\DMR\M395Suppressor.p3d";
 		descriptionShort="M393 Suppressor";
 		inertia=0.1;
 		class ItemInfo: InventoryMuzzleItem_Base_F
@@ -285,7 +286,7 @@ class CfgWeapons
 		scope=2;
 		displayName="UNSC Tactical Flashlight";
 		picture="\A3\weapons_F\Data\UI\gear_accv_pointer_CA.paa";
-		model="\TFV_weapons\DMR\M392_Light.p3d";
+		model="\OPTRE_Weapons\DMR\M392_Light.p3d";
 	};
 	class TFV_M392_DMR: TFV_LongRifle_Base
 	{
@@ -296,15 +297,15 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\BR\data\anim\BR.rtm",
+			"\OPTRE_Weapons\BR\data\anim\BR.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\Handanim_DMR_Spartan.rtm"
 		};
-		model="\TFV_Weapons\DMR\M392.p3d";
+		model="\OPTRE_Weapons\DMR\M392.p3d";
 		displayName="$STR_TFV_CfgWeapons_M392_displayName";
 		baseWeapon="TFV_M392_DMR";
 		descriptionShort="$STR_TFV_CfgWeapons_M392_descriptionShort";
-		picture="\TFV_Weapons\DMR\icons\M392_CA.paa";
+		picture="\OPTRE_Weapons\DMR\icons\M392_CA.paa";
 		magazines[]=
 		{
 			"TFV_15Rnd_762x51_Mag",
@@ -315,7 +316,7 @@ class CfgWeapons
 		reloadAction="GestureReloadTRG";
 		recoil="recoil_ebr";
 		cursor="OPTRE_M392";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_DMR";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_DMR";
 		Eye="OPTRE_EYE_HUD_AmmoCount_DMR";
@@ -437,7 +438,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\DMR\Data\sounds\DMR_1.ogg",
+					"\OPTRE_Weapons\DMR\Data\sounds\DMR_1.ogg",
 					2.5,
 					1,
 					1500
@@ -626,13 +627,13 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\DMR\anim\Handanim_M395.rtm",
+			"\OPTRE_Weapons\DMR\anim\Handanim_M395.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\Handanim_M395_Spartan.rtm"
 		};
-		model="\TFV_Weapons\DMR\M395.p3d";
+		model="\OPTRE_Weapons\DMR\M395.p3d";
 		displayName="[TFV] M393 DMR";
-		picture="\TFV_Weapons\DMR\icons\M395_Icon.paa";
+		picture="\OPTRE_Weapons\DMR\icons\M395_Icon.paa";
 		baseWeapon="TFV_M393_DMR";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -656,7 +657,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\DMR\M395S.p3d";
+		model="\OPTRE_Weapons\DMR\M395S.p3d";
 		displayName="[TFV] M393/S DMR";
 		baseWeapon="TFV_M393S_DMR";
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -675,7 +676,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\BR\BMR";
+		model="\OPTRE_Weapons\BR\BMR";
 		displayName="[TFV] M295 BMR";
 		scope=2;
 		scopeArsenal=2;
@@ -693,7 +694,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\BR\data\anim\bmr_handanim.rtm",
+			"\OPTRE_Weapons\BR\data\anim\bmr_handanim.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\bmr_handanim_Spartan.rtm"
 		};
@@ -807,7 +808,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\DMR\Data\sounds\DMR_1.ogg",
+					"\OPTRE_Weapons\DMR\Data\sounds\DMR_1.ogg",
 					2.5,
 					1,
 					1500
@@ -1001,11 +1002,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\br\data\BMRWood_co.paa"
+			"OPTRE_Weapons\br\data\BMRWood_co.paa"
 		};
 		hiddenSelectionMaterials[]=
 		{
-			"TFV_Weapons\br\data\BMRWood.rvmat"
+			"OPTRE_Weapons\br\data\BMRWood.rvmat"
 		};
 	};
 	class TFV_M295_BMR_Snow: TFV_M295_BMR
@@ -1020,11 +1021,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\br\data\BMRSnow_co.paa"
+			"OPTRE_Weapons\br\data\BMRSnow_co.paa"
 		};
 		hiddenSelectionMaterials[]=
 		{
-			"TFV_Weapons\br\data\BMRSnow.rvmat"
+			"OPTRE_Weapons\br\data\BMRSnow.rvmat"
 		};
 	};
 	class TFV_M295_BMR_Desert: TFV_M295_BMR
@@ -1039,11 +1040,11 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\br\data\BMRDesert_co.paa"
+			"OPTRE_Weapons\br\data\BMRDesert_co.paa"
 		};
 		hiddenSelectionMaterials[]=
 		{
-			"TFV_Weapons\br\data\BMRDesert.rvmat"
+			"OPTRE_Weapons\br\data\BMRDesert.rvmat"
 		};
 	};
 	class TFV_M392_DMR_ScopedRifle: TFV_M392_DMR
@@ -1052,7 +1053,7 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=1;
 		scopeArsenal=1;
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
 		class LinkedItems
 		{
 			class LinkedItemsOptic
@@ -1068,7 +1069,7 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=1;
 		scopeArsenal=1;
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\BattleRifle\BR_SCOPE.paa";
 		class LinkedItems
 		{
 			class LinkedItemsOptic

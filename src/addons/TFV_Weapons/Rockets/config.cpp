@@ -12,6 +12,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";
@@ -54,24 +55,24 @@ class CfgWeapons
 			"TFV_M41_Twin_Smoke_Y"
 		};
 		magazineWell[]={};
-		picture="\TFV_Weapons\rockets\icons\launcher.paa";
-		model="\TFV_Weapons\Rockets\M41_launcher_loaded.p3d";
+		picture="\OPTRE_Weapons\rockets\icons\launcher.paa";
+		model="\OPTRE_Weapons\Rockets\M41_launcher_loaded.p3d";
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\Rockets\Data\Anim\m41_hand_anim.rtm",
+			"\OPTRE_Weapons\Rockets\Data\Anim\m41_hand_anim.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\m41_hand_anim_Spartan.rtm"
 		};
 		modelOptics[]=
 		{
-			"\TFV_Weapons\Rockets\M41_Optic_2x.p3d",
-			"\TFV_Weapons\Rockets\M41_Optic_4x.p3d",
-			"\TFV_Weapons\Rockets\M41_Optic_10x.p3d"
+			"\OPTRE_Weapons\Rockets\M41_Optic_2x.p3d",
+			"\OPTRE_Weapons\Rockets\M41_Optic_4x.p3d",
+			"\OPTRE_Weapons\Rockets\M41_Optic_10x.p3d"
 		};
 		baseWeapon="TFV_M41_SSR";
 		cursor="OPTRE_M41R";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Launchers\Double.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Launchers\Double.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_RL";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_RL";
 		Eye="OPTRE_EYE_HUD_AmmoCount_RL";
@@ -138,7 +139,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"TFV_Weapons\Rockets\data\sounds\rocket_1.wss",
+					"OPTRE_Weapons\Rockets\data\sounds\rocket_1.wss",
 					2.5,
 					1,
 					1500

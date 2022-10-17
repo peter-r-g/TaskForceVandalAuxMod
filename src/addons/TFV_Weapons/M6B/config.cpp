@@ -11,6 +11,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		units[]={};
@@ -21,7 +22,7 @@ class CfgWeaponCursors
 	class throw;
 	class TFV_M6B: throw
 	{
-		texture="\TFV_Weapons\Optics\data\Reticles\M6C_Reticle.paa";
+		texture="\OPTRE_Weapons\Optics\data\Reticles\M6C_Reticle.paa";
 	};
 };
 class MuzzleSlot;
@@ -45,7 +46,7 @@ class CfgWeapons
 		{
 			libTextDesc="$STR_TFV_CfgWeapons_M6B_Library";
 		};
-		model="\TFV_Weapons\M6B\M6B.p3d";
+		model="\OPTRE_Weapons\M6B\M6B.p3d";
 		cursor="OPTRE_M6B";
 		hiddenSelections[]=
 		{
@@ -53,7 +54,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\TFV_Weapons\M6B\data\M6B_CO.paa"
+			"\OPTRE_Weapons\M6B\data\M6B_CO.paa"
 		};
 		magazines[]=
 		{

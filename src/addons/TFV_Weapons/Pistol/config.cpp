@@ -19,7 +19,8 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"OPTRE_Core"
+			"OPTRE_Core",
+			"OPTRE_Weapons"
 		};
 	};
 };
@@ -107,9 +108,9 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M6G Flashlight";
-		picture="\TFV_Weapons\pistol\icons\flashlight.paa";
+		picture="\OPTRE_Weapons\pistol\icons\flashlight.paa";
 		descriptionShort="Flashlight for the M6G Handgun";
-		model="\TFV_Weapons\Pistol\m6g_flashlight.p3d";
+		model="\OPTRE_Weapons\Pistol\m6g_flashlight.p3d";
 		class ItemInfo: InventoryFlashLightItem_Base_F
 		{
 			mass=1;
@@ -149,8 +150,8 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M6G KFA-2 SmartLink Scope";
-		picture="\TFV_Weapons\pistol\icons\scope.paa";
-		model="\TFV_Weapons\Pistol\m6g_scope.p3d";
+		picture="\OPTRE_Weapons\pistol\icons\scope.paa";
+		model="\OPTRE_Weapons\Pistol\m6g_scope.p3d";
 		descriptionShort="KFA-2 2x SmartLink Scope for M6G Magnum";
 		weaponInfoType="RscWeaponZeroing";
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -158,7 +159,7 @@ class CfgWeapons
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\Pistol\m6g_scope.p3d";
+			modelOptics="\OPTRE_Weapons\Pistol\m6g_scope.p3d";
 			class OpticsModes
 			{
 				class TFV_M6G_BUIS
@@ -199,7 +200,7 @@ class CfgWeapons
 					discreteDistanceInitIndex=0;
 					modelOptics[]=
 					{
-						"\TFV_Weapons\Pistol\M6G_Optic_2x"
+						"\OPTRE_Weapons\Pistol\M6G_Optic_2x"
 					};
 					memoryPointCamera="opticView2";
 					visionMode[]=
@@ -222,8 +223,8 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M6C VnSLS/V 6E SmartLink Scope";
-		picture="\TFV_Weapons\pistol\icons\scope.paa";
-		model="\TFV_Weapons\Pistol\m6c_scope.p3d";
+		picture="\OPTRE_Weapons\pistol\icons\scope.paa";
+		model="\OPTRE_Weapons\Pistol\m6c_scope.p3d";
 		descriptionShort="VnSLS/V 6E 4x SmartLink Scope for M6C Magnum";
 		weaponInfoType="RscWeaponZeroing";
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -231,7 +232,7 @@ class CfgWeapons
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\Pistol\m6c_scope.p3d";
+			modelOptics="\OPTRE_Weapons\Pistol\m6c_scope.p3d";
 			class OpticsModes
 			{
 				class TFV_M6C_BUIS
@@ -249,7 +250,7 @@ class CfgWeapons
 					opticsZoomInit=0.75;
 					modelOptics[]=
 					{
-						"\TFV_Weapons\Pistol\M6C_Optic_2x"
+						"\OPTRE_Weapons\Pistol\M6C_Optic_2x"
 					};
 					memoryPointCamera="opticView2";
 					visionMode[]={};
@@ -276,7 +277,7 @@ class CfgWeapons
 					discreteDistanceInitIndex=0;
 					modelOptics[]=
 					{
-						"\TFV_Weapons\Pistol\M6C_Optic_2x"
+						"\OPTRE_Weapons\Pistol\M6C_Optic_2x"
 					};
 					memoryPointCamera="opticView2";
 					visionMode[]=
@@ -299,7 +300,7 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M6 Series Suppressor";
-		model="\TFV_Weapons\Pistol\m6c_silencer.p3d";
+		model="\OPTRE_Weapons\Pistol\m6c_silencer.p3d";
 		descriptionShort="M6 Series Suppressor";
 		inertia=0.1;
 		class ItemInfo: InventoryMuzzleItem_Base_F
@@ -346,7 +347,7 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M6C Compensator";
-		model="\TFV_Weapons\Pistol\m6c_comp.p3d";
+		model="\OPTRE_Weapons\Pistol\m6c_comp.p3d";
 		descriptionShort="M6C Compensator";
 		inertia=0.1;
 		class ItemInfo: InventoryMuzzleItem_Base_F
@@ -394,7 +395,7 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] M6C Laser Aiming Module";
 		descriptionShort="IR Laser for the M6C Handgun";
-		model="\TFV_Weapons\pistol\m6c_lam.p3d";
+		model="\OPTRE_Weapons\pistol\m6c_lam.p3d";
 		inertia=0.1;
 		class ItemInfo: InventoryFlashLightItem_Base_F
 		{
@@ -413,18 +414,18 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=2;
 		scopeArsenal=2;
-		model="\TFV_Weapons\Pistol\m6g.p3d";
+		model="\OPTRE_Weapons\Pistol\m6g.p3d";
 		hiddenSelections[]=
 		{
 			"camo1"
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\TFV_Weapons\Pistol\data\M6G_CO.paa"
+			"\OPTRE_Weapons\Pistol\data\M6G_CO.paa"
 		};
 		displayName="[TFV] M6G Magnum";
 		descriptionShort="12.7x40mm Magnum Pistol";
-		picture="\TFV_Weapons\pistol\icons\pistol_a.paa";
+		picture="\OPTRE_Weapons\pistol\icons\pistol_a.paa";
 		magazines[]=
 		{
 			"TFV_8Rnd_127x40_Mag",
@@ -435,7 +436,7 @@ class CfgWeapons
 		recoil="recoil_pistol_zubr";
 		baseWeapon="TFV_M6G";
 		cursor="OPTRE_M6G";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Pistols\M6F_IRON.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Pistols\M6F_IRON.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_PistolSmart";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_PistolSmart";
 		Eye="OPTRE_EYE_HUD_AmmoCount_PistolSmart";
@@ -517,14 +518,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\Pistol\data\sounds\Magnum_1.wss",
+					"\OPTRE_Weapons\Pistol\data\sounds\Magnum_1.wss",
 					1.3,
 					1,
 					200
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\Pistol\data\sounds\Magnum_2.wss",
+					"\OPTRE_Weapons\Pistol\data\sounds\Magnum_2.wss",
 					1.3,
 					1,
 					200
@@ -714,10 +715,10 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\Pistol\m6c.p3d";
+		model="\OPTRE_Weapons\Pistol\m6c.p3d";
 		displayName="[TFV] M6C Handgun";
 		descriptionShort="12.7x40mm Handgun";
-		picture="\TFV_Weapons\pistol\icons\pistol_a.paa";
+		picture="\OPTRE_Weapons\pistol\icons\pistol_a.paa";
 		magazines[]=
 		{
 			"TFV_12Rnd_127x40_Mag",
@@ -728,7 +729,7 @@ class CfgWeapons
 		recoil="recoil_pistol_zubr";
 		baseWeapon="TFV_M6C";
 		cursor="OPTRE_M6C";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Pistols\M6F_IRON.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Pistols\M6F_IRON.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_PistolODST";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_PistolODST";
 		Eye="OPTRE_EYE_HUD_AmmoCount_PistolSmart";
@@ -795,7 +796,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\Pistol\data\sounds\Magnum_1.wss",
+					"\OPTRE_Weapons\Pistol\data\sounds\Magnum_1.wss",
 					1.3,
 					1,
 					200
@@ -1080,8 +1081,8 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=1;
 		scopeArsenal=1;
-		picture="\TFV_Weapons\pistol\icons\pistol_b.paa";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Pistols\M6G_SMART.paa";
+		picture="\OPTRE_Weapons\pistol\icons\pistol_b.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Pistols\M6G_SMART.paa";
 		class LinkedItems
 		{
 			class LinkedItemsOptic

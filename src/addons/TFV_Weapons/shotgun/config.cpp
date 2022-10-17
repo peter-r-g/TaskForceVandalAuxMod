@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class TFV_weapons_Shotgun
+	class TFV_Weapons_Shotgun
 	{
 		units[]={};
 		weapons[]=
@@ -19,7 +19,8 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"OPTRE_Core"
+			"OPTRE_Core",
+			"OPTRE_Weapons"
 		};
 	};
 };
@@ -149,7 +150,7 @@ class CfgWeapons
 		displayName="[TFV] M45 Flashlight";
 		picture="\a3\weapons_f\data\ui\gear_accv_flashlight_ca.paa";
 		descriptionShort="Flashlight for the M45 Tactical Shotgun";
-		model="\TFV_weapons\Shotgun\flashlight.p3d";
+		model="\OPTRE_Weapons\Shotgun\flashlight.p3d";
 		class ItemInfo: InventoryFlashLightItem_Base_F
 		{
 			mass=1;
@@ -295,18 +296,18 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_weapons\Shotgun\data\anim\OPTRE_M45_handanim.rtm",
+			"\OPTRE_Weapons\Shotgun\data\anim\OPTRE_M45_handanim.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\benelli_Spartan.rtm"
 		};
-		model="\TFV_weapons\Shotgun\shotgun.p3d";
+		model="\OPTRE_Weapons\Shotgun\shotgun.p3d";
 		displayName="[TFV] M45 Tactical Shotgun";
 		descriptionShort="8 Gauge Shotgun";
-		picture="\TFV_weapons\shotgun\icons\shotgun_black.paa";
+		picture="\OPTRE_Weapons\shotgun\icons\shotgun_black.paa";
 		reloadAction="GestureReloadSMG_01";
 		reloadMagazineSound[]=
 		{
-			"\TFV_weapons\Shotgun\data\sounds\reload.ogg",
+			"\OPTRE_Weapons\Shotgun\data\sounds\reload.ogg",
 			1.3,
 			1,
 			30
@@ -318,7 +319,7 @@ class CfgWeapons
 		recoil="recoil_gm6";
 		baseWeapon="TFV_M45";
 		cursor="OPTRE_M45";
-		pictureWire="\TFV_weapons\data\Pictures\WireWeaponIcons\Prime\Shotgun\Shotgun.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\Shotgun\Shotgun.paa";
 		magazines[]=
 		{
 			"TFV_6Rnd_8Gauge_Pellets",
@@ -451,7 +452,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_weapons\Shotgun\data\sounds\fire1.ogg",
+					"\OPTRE_Weapons\Shotgun\data\sounds\fire1.ogg",
 					1.3,
 					1,
 					1500
@@ -543,7 +544,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_weapons\Shotgun\shotgun_e.p3d";
+		model="\OPTRE_Weapons\Shotgun\shotgun_e.p3d";
 		displayName="[TFV] M45E Combat Shotgun";
 		magazines[]=
 		{
@@ -569,7 +570,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_weapons\Shotgun\shotguntac.p3d";
+		model="\OPTRE_Weapons\Shotgun\shotguntac.p3d";
 		displayName="[TFV] M45 Combat Shotgun (Tactical)";
 		magazines[]=
 		{
@@ -625,7 +626,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_weapons\Shotgun\data\sounds\fire2.ogg",
+					"\OPTRE_Weapons\Shotgun\data\sounds\fire2.ogg",
 					1.3,
 					1,
 					200
@@ -706,7 +707,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_weapons\Shotgun\shotgun_etac.p3d";
+		model="\OPTRE_Weapons\Shotgun\shotgun_etac.p3d";
 		displayName="[TFV] M45A Semi Automatic Shotgun (Tactical)";
 		magazines[]=
 		{
@@ -727,7 +728,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_weapons\Shotgun\m90a.p3d";
+		model="\OPTRE_Weapons\Shotgun\m90a.p3d";
 		displayName="[TFV] M90A CAWS Shotgun";
 		fireSpreadAngle=2;
 		baseWeapon="TFV_M90A";
@@ -787,42 +788,42 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_weapons\Shotgun\data\sounds\M90_1.ogg",
+					"\OPTRE_Weapons\Shotgun\data\sounds\M90_1.ogg",
 					1.3,
 					1,
 					1500
 				};
 				begin2[]=
 				{
-					"\TFV_weapons\Shotgun\data\sounds\M90_2.ogg",
+					"\OPTRE_Weapons\Shotgun\data\sounds\M90_2.ogg",
 					1.3,
 					1,
 					1500
 				};
 				begin3[]=
 				{
-					"\TFV_weapons\Shotgun\data\sounds\M90_3.ogg",
+					"\OPTRE_Weapons\Shotgun\data\sounds\M90_3.ogg",
 					1.3,
 					1,
 					1500
 				};
 				begin4[]=
 				{
-					"\TFV_weapons\Shotgun\data\sounds\M90_4.ogg",
+					"\OPTRE_Weapons\Shotgun\data\sounds\M90_4.ogg",
 					1.3,
 					1,
 					1500
 				};
 				begin5[]=
 				{
-					"\TFV_weapons\Shotgun\data\sounds\M90_5.ogg",
+					"\OPTRE_Weapons\Shotgun\data\sounds\M90_5.ogg",
 					1.3,
 					1,
 					1500
 				};
 				begin6[]=
 				{
-					"\TFV_weapons\Shotgun\data\sounds\M90_6.ogg",
+					"\OPTRE_Weapons\Shotgun\data\sounds\M90_6.ogg",
 					1.3,
 					1,
 					1500

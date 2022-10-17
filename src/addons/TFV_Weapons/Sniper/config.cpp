@@ -18,6 +18,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";
@@ -92,7 +93,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		class RifleReloadProneBase;
 		class OPTRE_AnimReloadProne_SRS99C: RifleReloadProneBase
 		{
-			file="\TFV_Weapons\sniper\data\anim\srs99c_reload.rtm";
+			file="\OPTRE_Weapons\sniper\data\anim\srs99c_reload.rtm";
 			speed=1;
 			rightHandIKCurve[]={1};
 			leftHandIKCurve[]={0,1,0.050000001,0,0.94999999,0,1,1};
@@ -113,7 +114,7 @@ class CfgGesturesMale
 	{
 		class OPTRE_GestureReloadSRS99C: GestureReloadBase
 		{
-			file="\TFV_Weapons\sniper\data\anim\srs99c_reload.rtm";
+			file="\OPTRE_Weapons\sniper\data\anim\srs99c_reload.rtm";
 			speed=1;
 			rightHandIKCurve[]={1};
 			leftHandIKCurve[]={0,1,0.050000001,0,0.94999999,0,1,1};
@@ -129,7 +130,7 @@ class CfgGesturesMale
 		};
 		class OPTRE_GestureReloadSRS99C_prone: OPTRE_GestureReloadSRS99C
 		{
-			file="\TFV_Weapons\sniper\data\anim\srs99c_reload.rtm";
+			file="\OPTRE_Weapons\sniper\data\anim\srs99c_reload.rtm";
 		};
 	};
 };
@@ -158,8 +159,8 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] SRS99D Suppressor";
-		picture="\TFV_Weapons\smg\icons\silencer.paa";
-		model="\TFV_Weapons\Sniper\SRS99D_Sup.p3d";
+		picture="\OPTRE_Weapons\smg\icons\silencer.paa";
+		model="\OPTRE_Weapons\Sniper\SRS99D_Sup.p3d";
 		descriptionShort="SRS99D Suppressor";
 		inertia=0.1;
 		class ItemInfo: InventoryMuzzleItem_Base_F
@@ -204,17 +205,17 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] Oracle N-variant SRS99D Scope";
-		picture="\TFV_Weapons\sniper\icons\scope.paa";
-		model="\TFV_Weapons\Sniper\SRS99D_Scope.p3d";
+		picture="\OPTRE_Weapons\sniper\icons\scope.paa";
+		model="\OPTRE_Weapons\Sniper\SRS99D_Scope.p3d";
 		descriptionShort="Oracle N-variant SRS99D Sniper Rifle 5-10x56 Scope";
 		weaponInfoType="RscOptics_nightstalker";
-		modelOptics="\TFV_Weapons\Sniper\SRS99D_Scope.p3d";
+		modelOptics="\OPTRE_Weapons\Sniper\SRS99D_Scope.p3d";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\Sniper\SRS99D_Scope.p3d";
+			modelOptics="\OPTRE_Weapons\Sniper\SRS99D_Scope.p3d";
 			class OpticsModes
 			{
 				class SRS99_Scope_View
@@ -233,7 +234,7 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\Sniper\Sniper_Oracle10_Optic"
+						"\OPTRE_Weapons\Sniper\Sniper_Oracle10_Optic"
 					};
 					opticsPPEffects[]=
 					{
@@ -259,13 +260,13 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] Oracle N-variant SRS99C Scope";
-		picture="\TFV_Weapons\sniper\icons\scope2.paa";
-		model="\TFV_Weapons\Sniper\SRS99C_Scope.p3d";
+		picture="\OPTRE_Weapons\sniper\icons\scope2.paa";
+		model="\OPTRE_Weapons\Sniper\SRS99C_Scope.p3d";
 		descriptionShort="Oracle N-variant SRS99C Sniper Rifle 5-10x56 Scope";
-		modelOptics="\TFV_Weapons\Sniper\SRS99C_Scope.p3d";
+		modelOptics="\OPTRE_Weapons\Sniper\SRS99C_Scope.p3d";
 		class ItemInfo: ItemInfo
 		{
-			modelOptics="\TFV_Weapons\Sniper\SRS99C_Scope.p3d";
+			modelOptics="\OPTRE_Weapons\Sniper\SRS99C_Scope.p3d";
 		};
 	};
 	class TFV_M99A2S3: TFV_LongRifle_Base
@@ -281,10 +282,10 @@ class CfgWeapons
 		descriptionShort="UNSC M99A2S3 stanchion gauss rifle";
 		hiddenSelections[]={};
 		hiddenSelectionsTextures[]={};
-		model="\TFV_Weapons\Sniper\M99";
+		model="\OPTRE_Weapons\Sniper\M99";
 		HUD_BulletInARows=7;
 		HUD_TotalPosibleBullet=7;
-		modelOptics="\TFV_Weapons\Sniper\Sniper_Oracle10_Optic";
+		modelOptics="\OPTRE_Weapons\Sniper\Sniper_Oracle10_Optic";
 		opticType=1;
 		optics=1;
 		opticsID=1;
@@ -368,21 +369,21 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\Sniper\data\sounds\SRS99-01.ogg",
+					"\OPTRE_Weapons\Sniper\data\sounds\SRS99-01.ogg",
 					2,
 					1,
 					3000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\Sniper\data\sounds\SRS99-02.ogg",
+					"\OPTRE_Weapons\Sniper\data\sounds\SRS99-02.ogg",
 					2,
 					1,
 					3000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\Sniper\data\sounds\SRS99-03.ogg",
+					"\OPTRE_Weapons\Sniper\data\sounds\SRS99-03.ogg",
 					2,
 					1,
 					3000
@@ -415,10 +416,10 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=2;
 		scopeArsenal=2;
-		model="\TFV_Weapons\Sniper\SRS99D.p3d";
+		model="\OPTRE_Weapons\Sniper\SRS99D.p3d";
 		displayName="[TFV] SRS99D-S2 Sniper Rifle";
 		descriptionShort="UNSC Sniper Rifle";
-		picture="\TFV_Weapons\sniper\icons\sniper.paa";
+		picture="\OPTRE_Weapons\sniper\icons\sniper.paa";
 		magazines[]=
 		{
 			"TFV_4Rnd_145x114_APFSDS_Mag",
@@ -431,7 +432,7 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\Sniper\data\anim\srs99D_handpos.rtm",
+			"\OPTRE_Weapons\Sniper\data\anim\srs99D_handpos.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\srs99D_Spartan_handpos.rtm"
 		};
@@ -439,7 +440,7 @@ class CfgWeapons
 		hasBipod=1;
 		reloadMagazineSound[]=
 		{
-			"\TFV_Weapons\Sniper\data\anim\srs99c_reload.wss",
+			"\OPTRE_Weapons\Sniper\data\anim\srs99c_reload.wss",
 			1,
 			1,
 			10
@@ -448,7 +449,7 @@ class CfgWeapons
 		baseWeapon="TFV_SRS99D";
 		selectionFireAnim="zasleh";
 		cursor="OPTRE_SRS99";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\Sniper\SNIPER.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\Sniper\SNIPER.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_Snipor";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_Snipor";
 		Eye="OPTRE_ODST_EYE_AmmoCount_Snipor";
@@ -460,7 +461,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\Sniper\data\SRS99D_CO.paa"
+			"OPTRE_Weapons\Sniper\data\SRS99D_CO.paa"
 		};
 		class GunParticles
 		{
@@ -649,13 +650,13 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\Sniper\SRS99C.p3d";
+		model="\OPTRE_Weapons\Sniper\SRS99C.p3d";
 		displayName="[TFV] SRS99C-S2 AM Sniper Rifle";
-		picture="\TFV_Weapons\sniper\icons\sniper2.paa";
+		picture="\OPTRE_Weapons\sniper\icons\sniper2.paa";
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\Sniper\data\anim\srs99c_handpos.rtm",
+			"\OPTRE_Weapons\Sniper\data\anim\srs99c_handpos.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\srs99C_Spartan_handpos.rtm"
 		};
@@ -668,8 +669,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\Sniper\data\mainbody_co.paa",
-			"TFV_Weapons\Sniper\data\mag_co.paa"
+			"OPTRE_Weapons\Sniper\data\mainbody_co.paa",
+			"OPTRE_Weapons\Sniper\data\mag_co.paa"
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -746,7 +747,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"TFV_Weapons\Sniper\data\sounds\SRS99-01_C.wav",
+				"OPTRE_Weapons\Sniper\data\sounds\SRS99-01_C.wav",
 				1
 			}
 		};
@@ -759,7 +760,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"TFV_Weapons\Sniper\data\sounds\SRS99-02_C.wav",
+				"OPTRE_Weapons\Sniper\data\sounds\SRS99-02_C.wav",
 				1
 			}
 		};
@@ -773,7 +774,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"TFV_Weapons\Sniper\data\sounds\SRS99-03_C.wav",
+				"OPTRE_Weapons\Sniper\data\sounds\SRS99-03_C.wav",
 				1
 			}
 		};
@@ -787,7 +788,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"TFV_Weapons\Sniper\data\sounds\SRS99_T_Med.wav",
+				"OPTRE_Weapons\Sniper\data\sounds\SRS99_T_Med.wav",
 				1
 			}
 		};
@@ -807,7 +808,7 @@ class cfgSoundShaders
 		{
 			
 			{
-				"TFV_Weapons\Sniper\data\sounds\SRS99_T_Far.wav",
+				"OPTRE_Weapons\Sniper\data\sounds\SRS99_T_Far.wav",
 				1
 			}
 		};

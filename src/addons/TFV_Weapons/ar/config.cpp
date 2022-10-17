@@ -28,6 +28,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";
@@ -69,7 +70,7 @@ class CfgGesturesMale
 	{
 		class GestureReloadMA5: Default
 		{
-			file="\TFV_Weapons\ar\Data\anim\MA5BReloadGesture.rtm";
+			file="\OPTRE_Weapons\ar\Data\anim\MA5BReloadGesture.rtm";
 			looped=0;
 			speed=0.27000001;
 			mask="handsWeapon";
@@ -81,7 +82,7 @@ class CfgGesturesMale
 		};
 		class GestureReloadMA5_Prone: Default
 		{
-			file="\TFV_Weapons\ar\Data\anim\MA5BReloadGesture_Prone.rtm";
+			file="\OPTRE_Weapons\ar\Data\anim\MA5BReloadGesture_Prone.rtm";
 			looped=0;
 			speed=0.27000001;
 			mask="handsWeapon";
@@ -130,7 +131,7 @@ class CfgGesturesSevenFoot
 	{
 		class GestureReloadMA5: Default
 		{
-			file="\TFV_Weapons\ar\Data\anim\MA5BReloadGesture_Spartan.rtm";
+			file="\OPTRE_Weapons\ar\Data\anim\MA5BReloadGesture_Spartan.rtm";
 			looped=0;
 			speed=0.27000001;
 			mask="handsWeapon";
@@ -142,7 +143,7 @@ class CfgGesturesSevenFoot
 		};
 		class GestureReloadMA5_Prone: Default
 		{
-			file="\TFV_Weapons\ar\Data\anim\MA5BReloadGesture_Spartan.rtm";
+			file="\OPTRE_Weapons\ar\Data\anim\MA5BReloadGesture_Spartan.rtm";
 			looped=0;
 			speed=0.27000001;
 			mask="handsWeapon";
@@ -177,7 +178,7 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] MA5B Smart Link Zoom Enhancement";
-		model="\TFV_Weapons\AR\MA5_smartlink.p3d";
+		model="\OPTRE_Weapons\AR\MA5_smartlink.p3d";
 		descriptionShort="Smart Link Optic For MA5B";
 		weaponInfoType="RscWeaponZeroing";
 		scope=2;
@@ -187,7 +188,7 @@ class CfgWeapons
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\AR\MA5_smartlink.p3d";
+			modelOptics="\OPTRE_Weapons\AR\MA5_smartlink.p3d";
 			inertia=0.1;
 			class OpticsModes
 			{
@@ -226,7 +227,7 @@ class CfgWeapons
 		author="Article 2 Studios";
 		displayName="[TFV] 2x Smart Link Scope";
 		descriptionShort="2x Smart Linked Scope";
-		model="TFV_Weapons\AR\MA37_2x_Scope.p3d";
+		model="OPTRE_Weapons\AR\MA37_2x_Scope.p3d";
 		inertia=0.1;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -259,7 +260,7 @@ class CfgWeapons
 					useModelOptics=1;
 					modelOptics[]=
 					{
-						"\TFV_Weapons\AR\MA37_2x_Scope.p3d"
+						"\OPTRE_Weapons\AR\MA37_2x_Scope.p3d"
 					};
 					opticsPPEffects[]=
 					{
@@ -290,13 +291,13 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] MA5C Smart Link Zoom Enhancement";
-		model="\TFV_Weapons\AR\MA5C_smartlink.p3d";
+		model="\OPTRE_Weapons\AR\MA5C_smartlink.p3d";
 		descriptionShort="Smart Link Optic For MA5C";
 		scope=2;
 		scopeArsenal=2;
 		class ItemInfo: ItemInfo
 		{
-			modelOptics="\TFV_Weapons\AR\MA5C_smartlink.p3d";
+			modelOptics="\OPTRE_Weapons\AR\MA5C_smartlink.p3d";
 		};
 	};
 	class TFV_MA5_BUIS: optic_Aco
@@ -304,7 +305,7 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] MA5 Alternate Ironsights";
-		model="\TFV_Weapons\AR\MA5_irons.p3d";
+		model="\OPTRE_Weapons\AR\MA5_irons.p3d";
 		descriptionShort="Alternate Ironsights For MA5 Rifles";
 		weaponInfoType="RscWeaponZeroing";
 		class ItemInfo: InventoryOpticsItem_Base_F
@@ -312,7 +313,7 @@ class CfgWeapons
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\AR\MA5_irons.p3d";
+			modelOptics="\OPTRE_Weapons\AR\MA5_irons.p3d";
 			inertia=0.1;
 			class OpticsModes
 			{
@@ -345,7 +346,7 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="UNSC Suppressor";
-		model="TFV_Weapons\ar\MA5Suppressor.p3d";
+		model="OPTRE_Weapons\ar\MA5Suppressor.p3d";
 		picture="\a3\Weapons_F_Exp\Acc\Data\UI\icon_muzzle_snds_65_ti_blk_f_ca.paa";
 	};
 	class TFV_MA5B: TFV_Rifle_Base
@@ -357,12 +358,12 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\AR\data\anim\hand_anim_ma5c.rtm",
+			"\OPTRE_Weapons\AR\data\anim\hand_anim_ma5c.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\ma5a_handanim_Spartan.rtm"
 		};
-		model="\TFV_Weapons\AR\MA5B.p3d";
-		displayName="$STR_TFV_Weapons_MA5B_displayName";
+		model="\OPTRE_Weapons\AR\MA5B.p3d";
+		displayName="$STR_OPTRE_Weapons_MA5B_displayName";
 		descriptionShort="UNSC Assault Rifle";
 		magazines[]=
 		{
@@ -375,8 +376,8 @@ class CfgWeapons
 		baseWeapon="TFV_MA5B";
 		recoil="recoil_trg21";
 		cursor="OPTRE_MA5";
-		picture="\TFV_Weapons\ar\icons\ar_a.paa";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\AssaultRifle\AR.paa";
+		picture="\OPTRE_Weapons\ar\icons\ar_a.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\AssaultRifle\AR.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_AR";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_AR";
 		Eye="OPTRE_EYE_HUD_AmmoCount_AR";
@@ -389,8 +390,8 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\ar\data\weapon_co.paa",
-			"TFV_Weapons\ar\data\smartlink_co.paa"
+			"OPTRE_Weapons\ar\data\weapon_co.paa",
+			"OPTRE_Weapons\ar\data\smartlink_co.paa"
 		};
 		class FlashLight
 		{
@@ -536,49 +537,49 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B1.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B1.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B2.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B2.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B3.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B3.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B4.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B4.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B5.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B5.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B6.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B6.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B7.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B7.ogg",
 					"db10",
 					1,
 					2000
@@ -795,49 +796,49 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B1.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B1.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B2.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B2.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B3.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B3.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B4.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B4.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B5.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B5.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B6.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B6.ogg",
 					"db10",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5B7.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5B7.ogg",
 					"db10",
 					1,
 					2000
@@ -1086,17 +1087,17 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\AR\MA5BGL.p3d";
+		model="\OPTRE_Weapons\AR\MA5BGL.p3d";
 		displayName="[TFV] MA5B + M301 GL Assault Rifle";
 		descriptionShort="UNSC Assault Rifle + GL";
-		picture="\TFV_Weapons\ar\icons\argl_a.paa";
+		picture="\OPTRE_Weapons\ar\icons\argl_a.paa";
 		muzzles[]=
 		{
 			"this",
 			"TFV_M301UGL"
 		};
 		baseWeapon="TFV_MA5BGL";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\AssaultRifle\AR_UGL.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\AssaultRifle\AR_UGL.paa";
 		class TFV_M301UGL: UGL_F
 		{
 			displayName="[TFV] M301 Grenade Launcher";
@@ -1165,7 +1166,7 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		scope=2;
-		model="\TFV_Weapons\AR\MA5C.p3d";
+		model="\OPTRE_Weapons\AR\MA5C.p3d";
 		displayName="[TFV] MA5C ICWS Assault Rifle";
 		magazines[]=
 		{
@@ -1208,91 +1209,91 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-01.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-01.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-02.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-02.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-03.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-03.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-04.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-04.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-05.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-05.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-06.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-06.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-07.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-07.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-08.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-08.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-09.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-09.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-10.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-10.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin11[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-11.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-11.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin12[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-12.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-12.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin13[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-13.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-13.ogg",
 					"db5",
 					1,
 					2000
@@ -1353,91 +1354,91 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-01.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-01.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-02.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-02.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-03.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-03.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-04.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-04.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-05.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-05.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-06.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-06.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-07.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-07.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-08.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-08.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-09.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-09.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-10.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-10.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin11[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-11.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-11.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin12[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-12.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-12.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin13[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-13.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-13.ogg",
 					"db5",
 					1,
 					2000
@@ -1528,7 +1529,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\AR\MA5CGL.p3d";
+		model="\OPTRE_Weapons\AR\MA5CGL.p3d";
 		displayName="[TFV] MA5C + M301 GL Assault Rifle";
 		magazines[]=
 		{
@@ -1571,91 +1572,91 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-01.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-01.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-02.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-02.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-03.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-03.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-04.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-04.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-05.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-05.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-06.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-06.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-07.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-07.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-08.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-08.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-09.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-09.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-10.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-10.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin11[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-11.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-11.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin12[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-12.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-12.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin13[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-13.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-13.ogg",
 					"db5",
 					1,
 					2000
@@ -1716,91 +1717,91 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-01.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-01.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-02.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-02.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-03.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-03.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-04.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-04.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-05.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-05.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-06.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-06.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-07.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-07.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-08.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-08.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-09.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-09.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-10.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-10.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin11[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-11.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-11.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin12[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-12.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-12.ogg",
 					"db5",
 					1,
 					2000
 				};
 				begin13[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5C-13.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5C-13.ogg",
 					"db5",
 					1,
 					2000
@@ -1891,7 +1892,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\AR\MA5A.p3d";
+		model="\OPTRE_Weapons\AR\MA5A.p3d";
 		displayName="[TFV] MA3A ICWS Assault Rifle";
 		baseWeapon="TFV_MA5A";
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -1953,7 +1954,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\AR\MA5AGL.p3d";
+		model="\OPTRE_Weapons\AR\MA5AGL.p3d";
 		displayName="[TFV] MA3A + M301 GL Assault Rifle";
 		baseWeapon="TFV_MA5AGL";
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -2018,17 +2019,17 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\AR\data\anim\hand_anim_ma37.rtm",
+			"\OPTRE_Weapons\AR\data\anim\hand_anim_ma37.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\hand_anim_ma37_Spartan.rtm"
 		};
-		model="\TFV_Weapons\AR\MA37.p3d";
+		model="\OPTRE_Weapons\AR\MA37.p3d";
 		displayName="[TFV] MA37 ICWS Assault Rifle";
 		maxZeroing=400;
 		discreteDistance[]={400};
 		baseWeapon="TFV_MA37";
 		cursor="OPTRE_MA37";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\AssaultRifle\37.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\AssaultRifle\37.paa";
 		modes[]=
 		{
 			"FullAuto",
@@ -2062,14 +2063,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
 					1,
 					1,
 					2000
@@ -2276,14 +2277,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
 					1,
 					1,
 					2000
@@ -2535,7 +2536,7 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] MA40 ICWS Assault Rifle";
-		model="\TFV_Weapons\AR\MA37B.p3d";
+		model="\OPTRE_Weapons\AR\MA37B.p3d";
 		baseWeapon="TFV_MA37B";
 		magazines[]=
 		{
@@ -2551,17 +2552,17 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\AR\data\anim\hand_anim_ma37.rtm",
+			"\OPTRE_Weapons\AR\data\anim\hand_anim_ma37.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\hand_anim_ma37_Spartan.rtm"
 		};
-		model="\TFV_Weapons\AR\MA37GL.p3d";
+		model="\OPTRE_Weapons\AR\MA37GL.p3d";
 		displayName="[TFV] MA37 + M301 GL Assault Rifle";
 		maxZeroing=400;
 		discreteDistance[]={400};
 		baseWeapon="TFV_MA37GL";
 		cursor="OPTRE_MA37";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\AssaultRifle\37_UGL.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\AssaultRifle\37_UGL.paa";
 		modes[]=
 		{
 			"FullAuto",
@@ -2595,14 +2596,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
 					1,
 					1,
 					2000
@@ -2809,14 +2810,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
 					1,
 					1,
 					2000
@@ -3068,7 +3069,7 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] MA40 + M301 GL Assault Rifle";
-		model="\TFV_Weapons\AR\MA37BGL.p3d";
+		model="\OPTRE_Weapons\AR\MA37BGL.p3d";
 		baseWeapon="TFV_MA37BGL";
 		magazines[]=
 		{
@@ -3081,7 +3082,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\AR\MA37I.p3d";
+		model="\OPTRE_Weapons\AR\MA37I.p3d";
 		displayName="[TFV] MA32 ICWS Assault Rifle";
 		baseWeapon="TFV_MA32";
 		class WeaponSlotsInfo: WeaponSlotsInfo
@@ -3143,7 +3144,7 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] MA40A ICWS Assault Rifle";
-		model="\TFV_Weapons\AR\MA37BI.p3d";
+		model="\OPTRE_Weapons\AR\MA37BI.p3d";
 		baseWeapon="TFV_MA32B";
 		magazines[]=
 		{
@@ -3156,7 +3157,7 @@ class CfgWeapons
 	{
 		dlc="OPTRE";
 		author="Article 2 Studios";
-		model="\TFV_Weapons\AR\MA37IGL.p3d";
+		model="\OPTRE_Weapons\AR\MA37IGL.p3d";
 		displayName="[TFV] MA32 + M301 GL Assault Rifle";
 		baseWeapon="TFV_MA32GL";
 		cursor="OPTRE_MA37";
@@ -3219,7 +3220,7 @@ class CfgWeapons
 		dlc="OPTRE";
 		author="Article 2 Studios";
 		displayName="[TFV] MA40A + M301 GL Assault Rifle";
-		model="\TFV_Weapons\AR\MA37BIGL.p3d";
+		model="\OPTRE_Weapons\AR\MA37BIGL.p3d";
 		baseWeapon="TFV_MA32BGL";
 		cursor="OPTRE_MA37";
 		magazines[]=
@@ -3237,11 +3238,11 @@ class CfgWeapons
 		handanim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\ar\data\anim\hand_anim_ma5k.rtm",
+			"\OPTRE_Weapons\ar\data\anim\hand_anim_ma5k.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\ma5k_handanim_Spartan.rtm"
 		};
-		model="\TFV_Weapons\AR\MA5K.p3d";
+		model="\OPTRE_Weapons\AR\MA5K.p3d";
 		magazines[]=
 		{
 			"TFV_32Rnd_762x51_Mag",
@@ -3257,7 +3258,7 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\ar\data\ma5k_co.paa"
+			"OPTRE_Weapons\ar\data\ma5k_co.paa"
 		};
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
@@ -3337,70 +3338,70 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-01.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-01.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-02.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-02.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-03.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-03.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-04.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-04.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-05.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-05.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-06.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-06.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-07.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-07.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-08.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-08.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-09.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-09.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-10.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-10.ogg",
 					"db8",
 					1,
 					2000
@@ -3455,70 +3456,70 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-01.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-01.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-02.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-02.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin3[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-03.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-03.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-04.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-04.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-05.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-05.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-06.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-06.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-07.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-07.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-08.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-08.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-09.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-09.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\MA5K\MA5K-10.ogg",
+					"\OPTRE_Weapons\AR\Data\sounds\MA5K\MA5K-10.ogg",
 					"db8",
 					1,
 					2000

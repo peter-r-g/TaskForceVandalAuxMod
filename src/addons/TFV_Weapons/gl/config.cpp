@@ -14,6 +14,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";
@@ -46,11 +47,11 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\gl\data\anim\OPTRE_Handanim_M319.rtm",
+			"\OPTRE_Weapons\gl\data\anim\OPTRE_Handanim_M319.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\m319_Spartan_HandAnim.rtm"
 		};
-		model="\TFV_Weapons\GL\M319.p3d";
+		model="\OPTRE_Weapons\GL\M319.p3d";
 		displayName="[TFV] M319 Individual Grenade Launcher";
 		descriptionShort="Grenade Launcher";
 		magazineWell[]={};
@@ -209,11 +210,11 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\gl\data\anim\OPTRE_Handanim_M319N.rtm",
+			"\OPTRE_Weapons\gl\data\anim\OPTRE_Handanim_M319N.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\m319_Spartan_HandAnim.rtm"
 		};
-		model="\TFV_Weapons\GL\M319N.p3d";
+		model="\OPTRE_Weapons\GL\M319N.p3d";
 		displayName="[TFV] M319N Individual Grenade Launcher";
 		descriptionShort="Grenade Launcher";
 		magazineWell[]={};
@@ -366,7 +367,7 @@ class CfgWeapons
 		scope=2;
 		scopeCurator=2;
 		scopeArsenal=2;
-		model="\TFV_Weapons\GL\M319m.p3d";
+		model="\OPTRE_Weapons\GL\M319m.p3d";
 		displayName="[TFV] M319M Hand Grenade Launcher";
 		descriptionShort="Grenade Launcher";
 		cursor="EmptyCursor";
@@ -521,7 +522,7 @@ class CfgWeapons
 		scope=2;
 		scopeCurator=2;
 		scopeArsenal=2;
-		model="\TFV_Weapons\GL\M319s.p3d";
+		model="\OPTRE_Weapons\GL\M319s.p3d";
 		displayName="[TFV] M319S Signal Flare Launcher";
 		descriptionShort="Grenade Launcher";
 		cursor="EmptyCursor";

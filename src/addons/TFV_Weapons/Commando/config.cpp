@@ -16,7 +16,8 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"A3_Weapons_F",
-			"TFV_Weapons"
+			"OPTRE_Weapons",
+			"OPTRE_Weapons"
 		};
 		author="Article 2 Studios";
 		magazines[]={};
@@ -52,13 +53,13 @@ class CfgMagazines
 	class Commando_20Rnd_65_Mag: 10Rnd_93x64_DMR_05_Mag
 	{
 		dlc="OPTRE";
-		model="\TFV_Weapons\Commando\Commando_Mag.p3d";
+		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
 		displayname="20Rnd 6.5 Creedmoor Magazine";
 		displaynameshort="6.5 Creedmoor";
 		ammo="TFV_65_Creedmoor";
 		count=20;
 		initspeed=900;
-		picture="\TFV_weapons\ar\icons\magazine.paa";
+		picture="\OPTRE_Weapons\ar\icons\magazine.paa";
 		descriptionshort="20 Round Magazine<br>6.5 Creedmoor";
 		mass=12;
 		tracersEvery=0;
@@ -67,13 +68,13 @@ class CfgMagazines
 	class Commando_20Rnd_65_TracerY_Mag: Commando_20Rnd_65_Mag
 	{
 		dlc="OPTRE";
-		model="\TFV_Weapons\Commando\Commando_Mag.p3d";
+		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
 		displayname="20Rnd 6.5 Magazine (Tracers Yellow)";
 		displaynameshort="6.5 Creed Tracer";
 		ammo="TFV_65_Tracer_Y";
 		count=20;
 		initspeed=900;
-		picture="\TFV_weapons\ar\icons\magazine.paa";
+		picture="\OPTRE_Weapons\ar\icons\magazine.paa";
 		descriptionshort="20 Round Magazine<br>6.5 Tracer Yellow";
 		mass=12;
 		tracersEvery=1;
@@ -82,13 +83,13 @@ class CfgMagazines
 	class Command_20Rnd_65_TracerR_Mag: Commando_20Rnd_65_Mag
 	{
 		dlc="OPTRE";
-		model="\TFV_Weapons\Commando\Commando_Mag.p3d";
+		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
 		displayname="20Rnd 6.5 Magazine (Tracers Red)";
 		displaynameshort="6.5 Creed Tracer";
 		ammo="TFV_65_Tracer_R";
 		count=20;
 		initspeed=900;
-		picture="\TFV_weapons\ar\icons\magazine.paa";
+		picture="\OPTRE_Weapons\ar\icons\magazine.paa";
 		descriptionshort="20 Round Magazine<br>6.5 Tracer Red";
 		mass=12;
 		tracersEvery=1;
@@ -97,13 +98,13 @@ class CfgMagazines
 	class Commando_20Rnd_65_ReloadY_Mag: Commando_20Rnd_65_Mag
 	{
 		dlc="OPTRE";
-		model="\TFV_Weapons\Commando\Commando_Mag.p3d";
+		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
 		displayname="20Rnd 6.5 Reload Tracer (Yellow)";
 		displaynameshort="6.5 Creedmoor";
 		ammo="TFV_65_Tracer_Y";
 		count=20;
 		initspeed=900;
-		picture="\TFV_weapons\ar\icons\magazine.paa";
+		picture="\OPTRE_Weapons\ar\icons\magazine.paa";
 		descriptionshort="20 Round Magazine<br>6.5 Creedmoor";
 		mass=12;
 		tracersEvery=0;
@@ -112,13 +113,13 @@ class CfgMagazines
 	class Commando_20Rnd_65_ReloadR_Mag: Commando_20Rnd_65_Mag
 	{
 		dlc="OPTRE";
-		model="\TFV_Weapons\Commando\Commando_Mag.p3d";
+		model="\OPTRE_Weapons\Commando\Commando_Mag.p3d";
 		displayname="20Rnd 6.5 Reload Tracer (Red)";
 		displaynameshort="6.5 Creedmoor";
 		ammo="TFV_65_Tracer_R";
 		count=20;
 		initspeed=900;
-		picture="\TFV_weapons\ar\icons\magazine.paa";
+		picture="\OPTRE_Weapons\ar\icons\magazine.paa";
 		descriptionshort="20 Round Magazine<br>6.5 Creedmoor";
 		mass=12;
 		tracersEvery=0;
@@ -147,8 +148,8 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] VK78 Commando";
 		descriptionShort="Tactical Rifle (Long Range)";
-		picture="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\Commando\VK.paa";
-		model="\TFV_Weapons\Commando\Commando.p3d";
+		picture="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\Commando\VK.paa";
+		model="\OPTRE_Weapons\Commando\Commando.p3d";
 		baseWeapon="TFV_Commando";
 		cursor="OPTRE_M392";
 		magazines[]=
@@ -167,17 +168,17 @@ class CfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\Commando\data\commando_olive_co.paa",
-			"TFV_Weapons\Commando\data\commando2_olive_co.paa"
+			"OPTRE_Weapons\Commando\data\commando_olive_co.paa",
+			"OPTRE_Weapons\Commando\data\commando2_olive_co.paa"
 		};
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\Commando\data\anims\VK78_handanim.rtm",
+			"\OPTRE_Weapons\Commando\data\anims\VK78_handanim.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\Handanim_M395_Spartan.rtm"
 		};
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\Commando\VK.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\Commando\VK.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_DMR";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_DMR";
 		Eye="OPTRE_EYE_HUD_AmmoCount_DMR";
@@ -269,8 +270,8 @@ class CfgWeapons
 		baseWeapon="TFV_Commando_Tan";
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\Commando\data\commando_tan_co.paa",
-			"TFV_Weapons\Commando\data\commando2_tan_co.paa"
+			"OPTRE_Weapons\Commando\data\commando_tan_co.paa",
+			"OPTRE_Weapons\Commando\data\commando2_tan_co.paa"
 		};
 	};
 	class TFV_Commando_Black: TFV_Commando
@@ -279,8 +280,8 @@ class CfgWeapons
 		baseWeapon="TFV_Commando_Black";
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\Commando\data\commando_black_co.paa",
-			"TFV_Weapons\Commando\data\commando2_black_co.paa"
+			"OPTRE_Weapons\Commando\data\commando_black_co.paa",
+			"OPTRE_Weapons\Commando\data\commando2_black_co.paa"
 		};
 	};
 	class TFV_Commando_Snow: TFV_Commando
@@ -289,8 +290,8 @@ class CfgWeapons
 		baseWeapon="TFV_Commando_Snow";
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\Commando\data\commando_snow_co.paa",
-			"TFV_Weapons\Commando\data\commando2_snow_co.paa"
+			"OPTRE_Weapons\Commando\data\commando_snow_co.paa",
+			"OPTRE_Weapons\Commando\data\commando2_snow_co.paa"
 		};
 	};
 	class TFV_Commando_Police: TFV_Commando
@@ -299,8 +300,8 @@ class CfgWeapons
 		baseWeapon="TFV_Commando_Police";
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\Commando\data\commando_police_co.paa",
-			"TFV_Weapons\Commando\data\commando2_police_co.paa"
+			"OPTRE_Weapons\Commando\data\commando_police_co.paa",
+			"OPTRE_Weapons\Commando\data\commando2_police_co.paa"
 		};
 	};
 	class TFV_Commando_Red: TFV_Commando
@@ -309,8 +310,8 @@ class CfgWeapons
 		baseWeapon="TFV_Commando_Red";
 		hiddenSelectionsTextures[]=
 		{
-			"TFV_Weapons\Commando\data\commando_red_co.paa",
-			"TFV_Weapons\Commando\data\commando2_red_co.paa"
+			"OPTRE_Weapons\Commando\data\commando_red_co.paa",
+			"OPTRE_Weapons\Commando\data\commando2_red_co.paa"
 		};
 	};
 };

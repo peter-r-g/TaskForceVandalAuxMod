@@ -13,6 +13,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"A3_Weapons_F"
 		};
 		author="Article 2 Studios";
@@ -40,8 +41,8 @@ class CfgWeapons
 		author="Article 2 Studios";
 		scope=2;
 		displayName="[TFV] M73 Smart Link Scope";
-		picture="\TFV_weapons\MG\icons\scope.paa";
-		model="\TFV_Weapons\MG\M73_SmartLink.p3d";
+		picture="\OPTRE_Weapons\MG\icons\scope.paa";
+		model="\OPTRE_Weapons\MG\M73_SmartLink.p3d";
 		descriptionShort="M73 Smart-Linked Neural Interface Scope";
 		weaponInfoType="RscWeaponZeroing";
 		inertia=0.1;
@@ -50,7 +51,7 @@ class CfgWeapons
 			mass=10;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\MG\M73_SmartLink.p3d";
+			modelOptics="\OPTRE_Weapons\MG\M73_SmartLink.p3d";
 			class OpticsModes
 			{
 				class M73_IS
@@ -91,8 +92,8 @@ class CfgWeapons
 					memoryPointCamera="opticView2";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\MG\MG_Optic_2x.p3d",
-						"\TFV_Weapons\MG\MG_Optic_4x.p3d"
+						"\OPTRE_Weapons\MG\MG_Optic_2x.p3d",
+						"\OPTRE_Weapons\MG\MG_Optic_4x.p3d"
 					};
 					visionMode[]=
 					{
@@ -112,14 +113,14 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\MG\data\anim\OPTRE_M73_handanim.rtm",
+			"\OPTRE_Weapons\MG\data\anim\OPTRE_M73_handanim.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\M73_1_Spartan.rtm"
 		};
-		model="\TFV_Weapons\MG\M73.p3d";
+		model="\OPTRE_Weapons\MG\M73.p3d";
 		displayName="[TFV] M73 Light Machine Gun";
 		descriptionShort="UNSC Light Machine Gun";
-		picture="\TFV_Weapons\MG\icons\M73_1.paa";
+		picture="\OPTRE_Weapons\MG\icons\M73_1.paa";
 		magazines[]=
 		{
 			"TFV_100Rnd_95x40_Box",
@@ -134,7 +135,7 @@ class CfgWeapons
 		recoil="recoil_lim";
 		baseWeapon="TFV_M73";
 		cursor="OPTRE_M73";
-		pictureWire="\TFV_Weapons\data\Pictures\WireWeaponIcons\Prime\MachineGun\MG_IRON.paa";
+		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Prime\MachineGun\MG_IRON.paa";
 		ODST_1="OPTRE_ODST_HUD_AmmoCount_LMG";
 		Glasses="OPTRE_GLASS_HUD_AmmoCount_LMG";
 		Eye="OPTRE_EYE_HUD_AmmoCount_LMG";
@@ -258,56 +259,56 @@ class CfgWeapons
 			{
 				begin3[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-03.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-03.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-04.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-04.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-05.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-05.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-06.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-06.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-07.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-07.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-08.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-08.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-09.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-09.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-10.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-10.ogg",
 					"db8",
 					1,
 					2000
@@ -524,56 +525,56 @@ class CfgWeapons
 			{
 				begin3[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-03.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-03.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin4[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-04.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-04.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin5[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-05.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-05.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin6[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-06.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-06.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin7[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-07.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-07.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin8[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-08.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-08.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin9[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-09.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-09.ogg",
 					"db8",
 					1,
 					2000
 				};
 				begin10[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M73LMG-10.ogg",
+					"\OPTRE_Weapons\MG\data\sounds\M73LMG-10.ogg",
 					"db8",
 					1,
 					2000
@@ -827,11 +828,11 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\MG\data\anim\OPTRE_M247_handanim.rtm",
+			"\OPTRE_Weapons\MG\data\anim\OPTRE_M247_handanim.rtm",
 			"Spartan_ManSkeleton",
 			"\OPTRE_MJOLNIR\data\anims\OPTRE_anims\Weapons\M247_Spartan.rtm"
 		};
-		model="\TFV_Weapons\MG\M247.p3d";
+		model="\OPTRE_Weapons\MG\M247.p3d";
 		displayName="[TFV] M247 General Purpose Machine Gun";
 		descriptionShort="UNSC General Purpose Machine Gun";
 		magazines[]=
@@ -909,14 +910,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M247_1.wss",
+					"\OPTRE_Weapons\MG\data\sounds\M247_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M247_2.wss",
+					"\OPTRE_Weapons\MG\data\sounds\M247_2.wss",
 					1,
 					1,
 					2000
@@ -931,14 +932,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M247_1.wss",
+					"\OPTRE_Weapons\MG\data\sounds\M247_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\MG\data\sounds\M247_2.wss",
+					"\OPTRE_Weapons\MG\data\sounds\M247_2.wss",
 					1,
 					1,
 					2000

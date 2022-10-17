@@ -7,7 +7,8 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"OPTRE_Core"
+			"OPTRE_Core",
+			"OPTRE_Weapons"
 		};
 		author[]=
 		{

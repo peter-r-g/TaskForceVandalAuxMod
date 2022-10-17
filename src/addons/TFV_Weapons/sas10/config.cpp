@@ -11,6 +11,7 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
+			"OPTRE_Weapons",
 			"TFV_Weapons"
 		};
 		magazines[]=
@@ -73,7 +74,7 @@ class CfgMagazines
 	{
 		scope=2;
 		displayName="[TFV] 16Rnd SAS-10 Mag (Ball)";
-		picture="\TFV_Weapons\Pistol\icons\magazine.paa";
+		picture="\OPTRE_Weapons\Pistol\icons\magazine.paa";
 		ammo="TFV_B_10mm_ball";
 		count=16;
 		initSpeed=490;
@@ -133,9 +134,9 @@ class CfgWeapons
 		author="Article 2 Studios";
 		_generalMacro="TFV_hgun_sas10_F";
 		baseWeapon="TFV_hgun_sas10_F";
-		picture="\TFV_Weapons\sas10\data\SAS10_icon_ca.paa";
+		picture="\OPTRE_Weapons\sas10\data\SAS10_icon_ca.paa";
 		scope=2;
-		model="\TFV_Weapons\sas10\optre_sas10";
+		model="\OPTRE_Weapons\sas10\optre_sas10";
 		magazines[]=
 		{
 			"16Rnd_10mm_Ball"
@@ -155,8 +156,8 @@ class CfgWeapons
 		hiddenSelections[]={};
 		hiddenSelectionTextures[]=
 		{
-			"TFV_Weapons\sas10\data\optre_sas10_main_co.paa",
-			"TFV_Weapons\sas10\data\optre_sas10_detail_co.paa"
+			"OPTRE_Weapons\sas10\data\optre_sas10_main_co.paa",
+			"OPTRE_Weapons\sas10\data\optre_sas10_detail_co.paa"
 		};
 		reloadAction="GestureReloadPistol";
 		cursor="OPTRE_M6G";
@@ -231,7 +232,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\SMG_1.ogg",
+					"\OPTRE_Weapons\SMG\Data\sounds\SMG_1.ogg",
 					1.5,
 					1,
 					2000
@@ -309,14 +310,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\Silenced_1.wss",
+					"\OPTRE_Weapons\SMG\Data\sounds\Silenced_1.wss",
 					1,
 					1,
 					600
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\Silenced_1.wss",
+					"\OPTRE_Weapons\SMG\Data\sounds\Silenced_1.wss",
 					1,
 					1,
 					600
@@ -427,7 +428,7 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\SMG_1.ogg",
+					"\OPTRE_Weapons\SMG\Data\sounds\SMG_1.ogg",
 					1,
 					1,
 					2000
@@ -505,14 +506,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\Silenced_1.wss",
+					"\OPTRE_Weapons\SMG\Data\sounds\Silenced_1.wss",
 					1,
 					1,
 					600
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\SMG\Data\sounds\Silenced_1.wss",
+					"\OPTRE_Weapons\SMG\Data\sounds\Silenced_1.wss",
 					1,
 					1,
 					600
