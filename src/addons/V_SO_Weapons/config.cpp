@@ -79,6 +79,7 @@ class CfgPatches
 		requiredAddons[]=
 		{
 			"OPTRE_Core",
+			"OPTRE_Weapons",
 			"TFV_Weapons",
 			"A3_Data_F",
 			"TFV_Weapons_Charges",
@@ -1627,7 +1628,7 @@ class CfgWeapons
 			opticType=1;
 			optics=1;
 			inertia=0;
-			modelOptics="\TFV_Weapons\Sniper\SRS99D_Scope";
+			modelOptics="\OPTRE_Weapons\Sniper\SRS99D_Scope";
 			class OpticsModes
 			{
 				class SRS99_Scope_View
@@ -1646,7 +1647,7 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\Sniper\Sniper_Oracle10_Optic"
+						"\OPTRE_Weapons\Sniper\Sniper_Oracle10_Optic"
 					};
 					opticsPPEffects[]=
 					{
@@ -1673,11 +1674,11 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] Oracle N-variant SRS99C SF Scope";
-		model="\TFV_Weapons\Sniper\SRS99C_Scope";
-		picture="\TFV_weapons\sniper\icons\scope2";
+		model="\OPTRE_Weapons\Sniper\SRS99C_Scope";
+		picture="\OPTRE_Weapons\sniper\icons\scope2";
 		class ItemInfo: ItemInfo
 		{
-			modelOptics="\TFV_Weapons\Sniper\SRS99C_Scope";
+			modelOptics="\OPTRE_Weapons\Sniper\SRS99C_Scope";
 		};
 	};
 	class TFV_M73_Smartlink;
@@ -1694,7 +1695,7 @@ class CfgWeapons
 			mass=5;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\MG\M73_SmartLink";
+			modelOptics="\OPTRE_Weapons\MG\M73_SmartLink";
 			class OpticsModes
 			{
 				class M73_IS_v2
@@ -1731,7 +1732,7 @@ class CfgWeapons
 					distanceZoomMax=1000;
 					modelOptics[]=
 					{
-						"\TFV_Weapons\BR\BR_Optic"
+						"\OPTRE_Weapons\BR\BR_Optic"
 					};
 					visionMode[]={};
 				};
@@ -1751,7 +1752,7 @@ class CfgWeapons
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\Pistol\m6c_scope";
+			modelOptics="\OPTRE_Weapons\Pistol\m6c_scope";
 			inertia=0.1;
 			class OpticsModes
 			{
@@ -1790,7 +1791,7 @@ class CfgWeapons
 					memoryPointCamera="opticView2";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\BR\BR_Optic"
+						"\OPTRE_Weapons\BR\BR_Optic"
 					};
 					visionMode[]={};
 				};
@@ -1804,10 +1805,10 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M6G 6E SmartLink Scope";
-		model="\TFV_Weapons\Pistol\m6g_scope";
+		model="\OPTRE_Weapons\Pistol\m6g_scope";
 		class ItemInfo: ItemInfo
 		{
-			modelOptics="\TFV_Weapons\Pistol\m6g_scope";
+			modelOptics="\OPTRE_Weapons\Pistol\m6g_scope";
 		};
 	};
 	class TFV_M6D_Smartlink: TFV_M6GX_Scope
@@ -1831,13 +1832,13 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] MA5 - Series Smart Link Optic";
-		model="\TFV_Weapons\AR\MA5_smartlink";
+		model="\OPTRE_Weapons\AR\MA5_smartlink";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\AR\MA5_smartlink";
+			modelOptics="\OPTRE_Weapons\AR\MA5_smartlink";
 			inertia=0.1;
 			class OpticsModes
 			{
@@ -1893,13 +1894,13 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] MA5X - Series Smart Link Optic";
-		model="\TFV_Weapons\AR\MA5_smartlink";
+		model="\OPTRE_Weapons\AR\MA5_smartlink";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\AR\MA5_smartlink";
+			modelOptics="\OPTRE_Weapons\AR\MA5_smartlink";
 			inertia=0.1;
 			class OpticsModes
 			{
@@ -1950,13 +1951,13 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] MA5X - Series Smart Link Optic (Grey)";
-		model="\TFV_Weapons\AR\MA5C_smartlink";
+		model="\OPTRE_Weapons\AR\MA5C_smartlink";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\AR\MA5C_smartlink";
+			modelOptics="\OPTRE_Weapons\AR\MA5C_smartlink";
 			inertia=0.1;
 			class OpticsModes
 			{
@@ -2007,13 +2008,13 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] MA5X - Series Smart Link Optic (HAMR)";
-		model="\TFV_Weapons\AR\MA5_smartlink";
+		model="\OPTRE_Weapons\AR\MA5_smartlink";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\AR\MA5_smartlink";
+			modelOptics="\OPTRE_Weapons\AR\MA5_smartlink";
 			inertia=0.1;
 			class OpticsModes
 			{
@@ -2052,7 +2053,7 @@ class CfgWeapons
 					memoryPointCamera="opticView2";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\BR\BR_Optic"
+						"\OPTRE_Weapons\BR\BR_Optic"
 					};
 					visionMode[]={};
 				};
@@ -2066,13 +2067,13 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] MA5X - Series Smart Link Optic (Grey) (HAMR)";
-		model="\TFV_Weapons\AR\MA5C_smartlink";
+		model="\OPTRE_Weapons\AR\MA5C_smartlink";
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=1;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\AR\MA5C_smartlink";
+			modelOptics="\OPTRE_Weapons\AR\MA5C_smartlink";
 			inertia=0.1;
 			class OpticsModes
 			{
@@ -2111,7 +2112,7 @@ class CfgWeapons
 					memoryPointCamera="opticView2";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\BR\BR_Optic"
+						"\OPTRE_Weapons\BR\BR_Optic"
 					};
 					visionMode[]={};
 				};
@@ -2125,8 +2126,8 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M7 SLS/V 5B Reflex with Smartlink";
-		model="\TFV_Weapons\SMG\m7_sights";
-		picture="\TFV_weapons\smg\icons\scope";
+		model="\OPTRE_Weapons\SMG\m7_sights";
+		picture="\OPTRE_Weapons\smg\icons\scope";
 		inertia=0.1;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -2170,7 +2171,7 @@ class CfgWeapons
 					memoryPointCamera="opticView2";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\BR\BR_Optic"
+						"\OPTRE_Weapons\BR\BR_Optic"
 					};
 					visionMode[]={};
 				};
@@ -2185,15 +2186,15 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] EVOS-D Mk1 SF Scope";
-		model="\TFV_Weapons\DMR\scope";
-		picture="\TFV_weapons\br\icons\scope";
+		model="\OPTRE_Weapons\DMR\scope";
+		picture="\OPTRE_Weapons\br\icons\scope";
 		inertia=0.1;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=2;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\DMR\scope";
+			modelOptics="\OPTRE_Weapons\DMR\scope";
 			class OpticsModes
 			{
 				class DMR_Scope
@@ -2218,7 +2219,7 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\DMR\M395_optic10"
+						"\OPTRE_Weapons\DMR\M395_optic10"
 					};
 					visionMode[]={};
 					cameraDir="";
@@ -2233,11 +2234,11 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M295 DMR A4 SF Scope";
-		model="\TFV_Weapons\BR\BMR_Scope";
-		picture="\TFV_weapons\br\icons\scope";
+		model="\OPTRE_Weapons\BR\BMR_Scope";
+		picture="\OPTRE_Weapons\br\icons\scope";
 		class ItemInfo: ItemInfo
 		{
-			modelOptics="\TFV_Weapons\BR\BMR_Scope";
+			modelOptics="\OPTRE_Weapons\BR\BMR_Scope";
 		};
 	};
 	class TFV_M393_Scope_v2: ItemCore
@@ -2247,15 +2248,15 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] EVOS-D Mk3 SF Scope";
-		model="\TFV_Weapons\DMR\M395Optic";
-		picture="\TFV_Weapons\DMR\icons\M395__Scope_Icon";
+		model="\OPTRE_Weapons\DMR\M395Optic";
+		picture="\OPTRE_Weapons\DMR\icons\M395__Scope_Icon";
 		inertia=0;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=10;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\DMR\M395Optic";
+			modelOptics="\OPTRE_Weapons\DMR\M395Optic";
 			class OpticsModes
 			{
 				class M395_Scope_View
@@ -2274,9 +2275,9 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\DMR\M395_optic5",
-						"\TFV_Weapons\DMR\M395_optic10",
-						"\TFV_Weapons\DMR\M395_optic15"
+						"\OPTRE_Weapons\DMR\M395_optic5",
+						"\OPTRE_Weapons\DMR\M395_optic10",
+						"\OPTRE_Weapons\DMR\M395_optic15"
 					};
 					opticsPPEffects[]=
 					{
@@ -2298,15 +2299,15 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] M15 SF Combat Optical Gunsight";
-		model="\TFV_Weapons\DMR\M395ACOG";
-		picture="\TFV_Weapons\DMR\icons\M395__ACOG_Icon";
+		model="\OPTRE_Weapons\DMR\M395ACOG";
+		picture="\OPTRE_Weapons\DMR\icons\M395__ACOG_Icon";
 		inertia=0.1;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
 			mass=10;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\DMR\M395Optic";
+			modelOptics="\OPTRE_Weapons\DMR\M395Optic";
 			class OpticsModes
 			{
 				class ACOG_Scope
@@ -2342,8 +2343,8 @@ class CfgWeapons
 		scope=2;
 		scopeArsenal=2;
 		displayName="[TFV] SR-10 SF Rapid Acquisition Sight";
-		model="\TFV_Weapons\DMR\M395EOTECH";
-		picture="\TFV_Weapons\DMR\icons\M395__EOTECH_Icon";
+		model="\OPTRE_Weapons\DMR\M395EOTECH";
+		picture="\OPTRE_Weapons\DMR\icons\M395__EOTECH_Icon";
 		inertia=0.1;
 		class ItemInfo: InventoryOpticsItem_Base_F
 		{
@@ -2395,7 +2396,7 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\DMR\M395_optic10"
+						"\OPTRE_Weapons\DMR\M395_optic10"
 					};
 					visionMode[]={};
 					cameraDir="";
@@ -2417,7 +2418,7 @@ class CfgWeapons
 			mass=2;
 			opticType=1;
 			optics=1;
-			modelOptics="\TFV_Weapons\BR\BR_Scope";
+			modelOptics="\OPTRE_Weapons\BR\BR_Scope";
 			class OpticsModes
 			{
 				class BR55HB_BUIS2
@@ -2455,7 +2456,7 @@ class CfgWeapons
 					memoryPointCamera="opticView";
 					modelOptics[]=
 					{
-						"\TFV_Weapons\BR\BR_Optic"
+						"\OPTRE_Weapons\BR\BR_Optic"
 					};
 					visionMode[]={};
 				};
@@ -2716,14 +2717,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
 					1,
 					1,
 					2000
@@ -2930,14 +2931,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
 					1,
 					1,
 					2000
@@ -3129,7 +3130,7 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] MA5BX + M301 GL Assault Rifle";
 		baseWeapon="TFV_MA5BXGL";
-		model="\TFV_Weapons\AR\MA5BGL.p3d";
+		model="\OPTRE_Weapons\AR\MA5BGL.p3d";
 		muzzles[]=
 		{
 			"this",
@@ -3257,14 +3258,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
 					1,
 					1,
 					2000
@@ -3471,14 +3472,14 @@ class CfgWeapons
 			{
 				begin1[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_1.wss",
 					1,
 					1,
 					2000
 				};
 				begin2[]=
 				{
-					"\TFV_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
+					"\OPTRE_Weapons\AR\Data\sounds\AssaultRifle_2.wss",
 					1,
 					1,
 					2000
@@ -5305,7 +5306,7 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] BR55XHB Battle Rifle";
 		baseWeapon="TFV_BR55XHB";
-		model="\TFV_Weapons\BR\BRHB";
+		model="\OPTRE_Weapons\BR\BRHB";
 		modes[]=
 		{
 			"Single",
@@ -5445,7 +5446,7 @@ class CfgWeapons
 		scopeArsenal=2;
 		displayName="[TFV] BR55X Battle Rifle";
 		baseWeapon="TFV_BR55X";
-		model="\TFV_Weapons\BR\BR";
+		model="\OPTRE_Weapons\BR\BR";
 		class WeaponSlotsInfo: WeaponSlotsInfo
 		{
 			mass=82;
@@ -5749,8 +5750,8 @@ class CfgWeapons
 		{
 			"TFV_3Rnd_54mm_Mag"
 		};
-		model="\TFV_Weapons\Sniper\M99";
-		modelOptics="\TFV_Weapons\Sniper\Sniper_Oracle10_Optic";
+		model="\OPTRE_Weapons\Sniper\M99";
+		modelOptics="\OPTRE_Weapons\Sniper\Sniper_Oracle10_Optic";
 		opticType=1;
 		optics=1;
 		opticsID=1;
@@ -5820,7 +5821,7 @@ class CfgWeapons
 		model="\V_SO_Weapons\data\M48\M48B_Cricket";
 		picture="\V_SO_Weapons\data\M48\M48B_Cricket";
 		initSpeed=80;
-		modelOptics="\TFV_Weapons\Rockets\M41_Optic";
+		modelOptics="\OPTRE_Weapons\Rockets\M41_Optic";
 		ODST_1="TFV_ODST_HUD_AmmoCount_RL";
 		Glasses="TFV_GLASS_HUD_AmmoCount_RL";
 		Eye="TFV_EYE_HUD_AmmoCount_RL";
@@ -5846,9 +5847,9 @@ class CfgWeapons
 		handAnim[]=
 		{
 			"OFP2_ManSkeleton",
-			"\TFV_Weapons\Rockets\Data\Anim\m41_hand_anim.rtm",
+			"\OPTRE_Weapons\Rockets\Data\Anim\m41_hand_anim.rtm",
 			"Spartan_ManSkeleton",
-			"\TFV_Weapons\Rockets\Data\Anim\m41_hand_anim_Spartan.rtm"
+			"\OPTRE_Weapons\Rockets\Data\Anim\m41_hand_anim_Spartan.rtm"
 		};
 		class WeaponSlotsInfo
 		{
