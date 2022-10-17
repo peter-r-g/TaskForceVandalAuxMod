@@ -2,7 +2,7 @@
 
 rem ### Configuration Options.
 rem ## The path to the addon builder executable.
-set ADDONBUILDER_EXE="E:\Steam Games\steamapps\common\Arma 3 Tools\AddonBuilder\AddonBuilder.exe"
+set ADDONBUILDER_EXE="E:\SteamLibrary\steamapps\common\Arma 3 Tools\AddonBuilder\AddonBuilder.exe"
 
 
 
