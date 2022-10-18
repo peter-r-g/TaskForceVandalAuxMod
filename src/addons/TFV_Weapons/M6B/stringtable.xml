@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="Operation: TREBUCHET">
+	<Package name="optre_language_weapons">
+		<Container name="Weapons">
+				<Container name="Library">
+					<Container name="M6B - DisplayName">
+						<Key ID="STR_OPTRE_CfgWeapons_M6B">
+							<Original>M6B Handgun</Original>
+							<English>M6B Handgun</English>
+							<Czech>M6B Pistole</Czech>
+							<French>M6B Arme de poing</French>
+							<German>M6B Handfeuerwaffe</German>
+							<Italian>M6B Pistola</Italian>
+							<Polish>M6B Pistolet</Polish>
+							<Portuguese>M6B Handgun</Portuguese>
+							<Russian>М6B Пистолет</Russian>
+							<Spanish>M6B Pistola</Spanish>
+							<Korean>M6B 권총</Korean>
+							<Japanese>M6B 拳銃</Japanese>
+							<Chinese>M6B 手槍</Chinese>
+							<Turkish>M6B Tabanca</Turkish>
+						</Key>
+					</Container>
+				</Container>
+			<Container name="ShortDescription"
+				<Key ID="STR_OPTRE_CfgWeapons_Handgun_127x40">
+					<Original>
+						Handgun<br />Caliber: 127x40 mm
+					</Original>
+					<Chinese>
+						手槍<br />口徑：127x40 mm
+					</Chinese>
+					<French>
+						Arme de poing<br />Calibre : 127x40 mm
+					</French>
+					<Spanish>
+						Pistola<br />Calibre: 127x40 mm
+					</Spanish>
+					<Italian>
+						Pistola<br />Calibro: 127x40 mm
+					</Italian>
+					<Polish>
+						Pistolet<br />Kaliber: 127x40 mm
+					</Polish>
+					<Russian>
+						Пистолет<br />Калибр: 127x40 мм
+					</Russian>
+					<German>
+						Handfeuerwaffe<br />Kaliber: 127x40 mm
+					</German>
+					<Czech>
+						Pistole<br />Ráže: 127x40 mm
+					</Czech>
+					<English>
+						Handgun<br />Caliber: 127x40 mm
+					</English>
+					<Portuguese>
+						Pistola<br />Calibre: 9 x 19 mm
+					</Portuguese>
+					<Korean>
+						권총<br />구경: 127x40mm
+					</Korean>
+					<Chinesesimp>
+						手枪<br />口径：127x40 毫米
+					</Chinesesimp>
+					<Japanese>
+						拳銃<br />口径：127x40 mm
+					</Japanese>
+					<Turkish>
+						Tabanca<br />Kalibre: 127x40 mm
+					</Turkish>
+				</Key>
+			</Container>
+				<Container name="Library"</Container>
+				<Container name="Pistols">
+				<Key ID="STR_OPTRE_CfgWeapons_M6B_Library">
+          <Original>The M6B Personal Defense Weapon System, manufactured by Misriah Armory, was introduced as "Officer's Model" variation of the M6 series during the mid 25th century. It saw little military use, and was primarily adopted by civilian security forces.</Original>
+          <English>The M6B Personal Defense Weapon System, manufactured by Misriah Armory, was introduced as "Officer's Model" variation of the M6 series during the mid 25th century. It saw little military use, and was primarily adopted by civilian security forces.</English>
+          <German>Die M6B Selbstverteidigungswaffe, produziert durch Misriah Armory, wurde mitte des 25th Jahrhunderts als "Offizier Version" der M6 Serie eingeführt. Sie sah wenig militärischen Nutzen und wurde hauptsächlich von zivilen Sicherheitsdiensten benutzt.</German>
+		  <Russian>персональное оружие самообороны, разработанное Арсеналами Мисриа, показанное в 25 веке как "Офицерская модель" вариации серии М6. Оно не вошло в активный обиход, и в основном использовалось гражданскими силами обороны.</Russian>
+		  <French>Le système d'armes personnel de défense M6B, fabriquée par Misriah Armory, fut introduit comme une version "Modèle pour Officiers" de la série M6 au milieu de 25e siècle. Il connu une utilisation militaire limitée et fut principalement adopté par les forces de sécurité civiles.</French>
+		  <Polish>System Broni Ochrony Osobistej M6B, wyprodukowany przez Zbrojownię Misriah, wprowadzono jako wariant "oficerski" w serii M6 w połowie XXVI wieku. Nie zyskał popularności wśród wojskowych, za to zaadoptowały go cywilne służby bezpieczeństwa.</Polish>
+		  <Italian>Il sistema di armi di difesa personale M6B, prodotto dalla Misriah Armory, è stato introdotto come variante "modello per ufficiali" della serie M6 durante la metà del 25 secolo. Ha visto poco uso militare, ed è stato adottato principalmente dalle forze di sicurezza civili.</Italian>
+		  <Spanish>El sistema de armas de defensa personal M6B, fabricado por Misriah Armory, se introdujo como una variación del "modelo de oficial" de la serie M6 a mediados del siglo 25. Tuvo poco uso militar y fue adoptado principalmente por las fuerzas de seguridad civiles.</Spanish>
+			</Key>
+			<Container name="Magazines">
+				<Container name="DisplayName">
+					<Key ID="STR_optre_cfgmagazines_8rnd_127x40">
+	          <Original>12.7x40 mm 8Rnd Mag</Original>
+	          <English>12.7x40 mm 8Rnd Mag</English>
+	          <Czech>12,7x40 mm, 8ks zásobník</Czech>
+	          <French>Mag. 8 balles 12.7x40 mm</French>
+	          <German>8-Schuss-12,7x40mm-Magazin</German>
+	          <Italian>Caricatore 8 colpi 12,7x40 mm</Italian>
+	          <Polish>8-nab. mag. 12,7x40 mm</Polish>
+	          <Portuguese>Carregador 8Mun 12,7x40mm</Portuguese>
+	          <Russian>Магазин, 8 патр 12,7 x 40 мм</Russian>
+	          <Spanish>Cargador de 8 proyectiles 12,7x40 mm</Spanish>
+	          <Korean>12.7x40 mm 8발 탄창</Korean>
+	          <Japanese>12.7x40 mm 8Rnd マガジン</Japanese>
+	          <Chinesesimp>12.7x40 mm 8 发 弹匣</Chinesesimp>
+	          <Chinese>12.7x40 mm 8 發遠程步槍彈匣</Chinese>
+	          <Turkish>12.7x40 mm 8 Merm. Şarjör</Turkish>
+	        </Key>
+				</Container>
+			</Container>
+		</Container>
+	</Package>
+</Project>

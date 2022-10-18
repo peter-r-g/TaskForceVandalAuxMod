@@ -1,0 +1,5 @@
+ar/stringtable.xml;
+DMR/stringtable.xml;
+Charges/icons/*.paa;
+MA37K/stringtable.xml;
+M6B/stringtable.xml
