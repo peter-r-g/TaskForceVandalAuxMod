@@ -1,1 +1,1 @@
-data/*.paa
+*.paa
