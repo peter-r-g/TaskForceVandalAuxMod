@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class TFV_patch_vehicles
+	class TFV_Vehicles
 	{
 		author="1st MEU Mod Team";
 		requiredAddons[]=
@@ -15,6 +15,7 @@ class CfgPatches
 		weapons[]={};
 	};
 };
+
 class CfgVehicles
 {
 	class Land_optre_milcrate_h3_long;
