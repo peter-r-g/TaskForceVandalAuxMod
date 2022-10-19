@@ -1,8 +1,8 @@
 class CfgPatches
 {
-    class TFV_Armor_Neek
+    class TFV_Armor_Romano
     {
-        name = "Task Force Vandal Aux - Armor (Neek)";
+        name = "Task Force Vandal Aux - Armor (Romano)";
         author = "Gooman";
 
         addonRootClass = "TFV_Armor";
@@ -30,11 +30,11 @@ class CfgWeapons
     class TFV_ODST_Helmet_Neek : OPTRE_UNSC_CH252D_Helmet
     {
         author = "Article 2 Studios & Gooman";
-        displayName = "CH252D Helmet [Neek]";
+        displayName = "CH252D Helmet [Romano]";
         hiddenSelectionsTextures[] =
         {
-            "TFV_Armor\Neek\data\neek_odst_helmet_co.paa",
-            "TFV_Armor\Neek\data\neek_odst_visor_co.paa"
+            "TFV_Armor\Romano\data\romano_odst_helmet_co.paa",
+            "TFV_Armor\Romano\data\romano_odst_visor_co.paa"
         };
     };
 
@@ -44,10 +44,10 @@ class CfgWeapons
         scopeArsenal = 1;
         scopeCurator = 1;
         author = "Article 2 Studios & Gooman";
-        displayName = "CH252D Helmet [Neek]";
+        displayName = "CH252D Helmet [Romano]";
         hiddenSelectionsTextures[] =
         {
-            "TFV_Armor\Neek\data\neek_odst_helmet_co.paa"
+            "TFV_Armor\Romano\data\romano_odst_helmet_co.paa"
         };
     };
 
@@ -57,11 +57,11 @@ class CfgWeapons
         "TFV_Armor\Common\m52d_vest_co.paa", \
         "TFV_Armor\Common\m52d_legs_co.paa", \
         "optre_unsc_units\army\data\ghillie_woodland_co.paa", \
-		"TFV_Armor\Neek\data\neek_odst_armor_co.paa" \
+		"TFV_Armor\Romano\data\romano_odst_armor_co.paa" \
     }
     class TFV_M52D_Vest_Basic_Neek : OPTRE_UNSC_M52D_Armor
     {
-        displayName = "M52D Body Armor (Basic) (Neek)";
+        displayName = "M52D Body Armor (Basic) (Romano)";
         VEST_NEEK;
         class ItemInfo : ItemInfo
         {
