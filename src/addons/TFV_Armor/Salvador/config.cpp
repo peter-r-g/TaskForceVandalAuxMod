@@ -36,6 +36,12 @@ class CfgWeapons
             "TFV_Armor\Salvador\data\salvador_odst_helmet_co.paa",
             "TFV_Armor\Salvador\data\salvador_odst_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Salvador";
+            Detachment = "ODST";
+        };
     };
 
     class TFV_ODST_Helmet_Salvador_dp : OPTRE_UNSC_CH252D_Helmet_dp
@@ -68,8 +74,46 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_SALVADOR;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Salvador";
+            Class = "Basic";
+        };
     };
     #undef VEST_SALVADOR
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Salvador
+        {
+            label = "J. Salvador";
+            author = "Gooman";
+            options[] = { "Class" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Basic" };
+            };
+        };
+
+        class TFV_Helmet_Salvador
+        {
+            label = "J. Salvador";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ODST" };
+            };
+        };
+    };
 };
 
 class cfgMods

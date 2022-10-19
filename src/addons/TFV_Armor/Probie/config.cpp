@@ -36,6 +36,12 @@ class CfgWeapons
             "TFV_Armor\Probie\data\probie_odst_helmet_co.paa",
             "TFV_Armor\probie\data\probie_odst_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Probie";
+            Detachment = "ODST";
+        };
     };
 
     class TFV_ODST_Helmet_Probie_dp : OPTRE_UNSC_CH252D_Helmet_dp
@@ -68,8 +74,46 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_PROBIE;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Probie";
+            Class = "Basic";
+        };
     };
     #undef VEST_PROBIE
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Probie
+        {
+            label = "Probie";
+            author = "Gooman";
+            options[] = { "Class" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Basic" };
+            };
+        };
+
+        class TFV_Helmet_Probie
+        {
+            label = "Probie";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ODST" };
+            };
+        };
+    };
 };
 
 class cfgMods

@@ -36,6 +36,12 @@ class CfgWeapons
             "TFV_Armor\Shepard\data\shepard_odst_helmet_co.paa",
             "TFV_Armor\Shepard\data\shepard_odst_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Shepard";
+            Detachment = "ODST";
+        };
     };
 
     class TFV_ODST_Helmet_Shepard_dp : OPTRE_UNSC_CH252D_Helmet_dp
@@ -68,8 +74,46 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_SHEPARD;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Shepard";
+            Class = "Basic";
+        };
     };
     #undef VEST_SHEPARD
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Shepard
+        {
+            label = "N. Shepard";
+            author = "Gooman";
+            options[] = { "Class" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Basic" };
+            };
+        };
+
+        class TFV_Helmet_Shepard
+        {
+            label = "N. Shepard";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ODST" };
+            };
+        };
+    };
 };
 
 class cfgMods

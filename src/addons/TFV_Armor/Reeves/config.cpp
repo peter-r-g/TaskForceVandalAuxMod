@@ -50,6 +50,13 @@ class CfgWeapons
             "TFV_Armor\Reeves\data\reeves_oni_helmet_co.paa",
             "TFV_Armor\Reeves\data\reeves_oni_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Reeves";
+            Detachment = "ONI";
+            Variant = "First";
+        };
     };
 
     class TFV_Recon_Helmet_Reeves2 : OPTRE_UNSC_RECON_HELMET
@@ -61,6 +68,13 @@ class CfgWeapons
             "TFV_Armor\Reeves\data\reevestwo_oni_helmet_co.paa",
             "TFV_Armor\Reeves\data\reevestwo_oni_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Reeves";
+            Detachment = "ONI";
+            Variant = "Second";
+        };
     };
 
     class TFV_ODST_Helmet_Reeves2 : OPTRE_UNSC_CH252D_Helmet
@@ -71,6 +85,13 @@ class CfgWeapons
         {
             "TFV_Armor\Reeves\data\reevestwo_odst_helmet_co.paa",
             "TFV_Armor\Reeves\data\reevestwo_odst_visor_co.paa"
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Reeves";
+            Detachment = "ODST";
+            Variant = "Second";
         };
     };
 
@@ -221,6 +242,13 @@ class CfgWeapons
             };
             VEST_REEVES;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Reeves";
+            Class = "Demolitions";
+            Variant = "First";
+        };
     };
 
     class TFV_M52D_Vest_Demolitions_Reeves2 : OPTRE_UNSC_M52D_Armor_Demolitions
@@ -312,6 +340,13 @@ class CfgWeapons
             };
             VEST_REEVES2;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Reeves";
+            Class = "Demolitions";
+            Variant = "Second";
+        };
     };
 
     class TFV_M52D_Vest_Light_Reeves : OPTRE_UNSC_M52D_Armor_Light
@@ -323,6 +358,13 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_REEVES;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Reeves";
+            Class = "Light";
+            Variant = "First";
+        };
     };
 
     class TFV_M52D_Vest_Light_Reeves2 : OPTRE_UNSC_M52D_Armor_Light
@@ -333,6 +375,13 @@ class CfgWeapons
         {
             containerClass = "Supply200";
             VEST_REEVES2;
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Reeves";
+            Class = "Light";
+            Variant = "Second";
         };
     };
 
@@ -425,6 +474,13 @@ class CfgWeapons
             };
             VEST_REEVES;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Reeves";
+            Class = "Rifleman";
+            Variant = "First";
+        };
     };
 
     class TFV_M52D_Vest_Rifleman_Reeves2 : OPTRE_UNSC_M52D_Armor_Rifleman
@@ -515,6 +571,13 @@ class CfgWeapons
                 "CustomKit_Scorch"
             };
             VEST_REEVES2;
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Reeves";
+            Class = "Rifleman";
+            Variant = "Second";
         };
     };
 
@@ -607,6 +670,13 @@ class CfgWeapons
             };
             VEST_REEVES;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Reeves";
+            Class = "Scout";
+            Variant = "First";
+        };
     };
 
     class TFV_M52D_Vest_Scout_Reeves2 : OPTRE_UNSC_M52D_Armor_Scout
@@ -698,9 +768,60 @@ class CfgWeapons
             };
             VEST_REEVES2;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Reeves";
+            Class = "Scout";
+            Variant = "Second";
+        };
     };
     #undef VEST_REEVES
     #undef VEST_REEVES2
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Reeves
+        {
+            label = "J. Reeves";
+            author = "Gooman";
+            options[] = { "Class", "Variant" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Demolitions", "Light", "Rifleman", "Scout" };
+            };
+
+            class Variant
+            {
+                label = "Variant";
+                values[] = { "First", "Second" };
+            };
+        };
+
+        class TFV_Helmet_Reeves
+        {
+            label = "J. Reeves";
+            author = "Gooman";
+            options[] = { "Detachment", "Variant" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ODST", "ONI" };
+            };
+
+            class Variant
+            {
+                label = "Variant";
+                values[] = { "First", "Second" };
+            };
+        };
+    };
 };
 
 class cfgMods

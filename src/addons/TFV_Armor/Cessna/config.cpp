@@ -38,6 +38,12 @@ class CfgWeapons
             "TFV_Armor\Cessna\data\cessna_odst_helmet_co.paa",
             "TFV_Armor\Cessna\data\cessna_odst_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Cessna";
+            Detachment = "ODST";
+        };
     };
 
     class TFV_ODST_Helmet_Cessna_dp : OPTRE_UNSC_CH252D_Helmet_dp
@@ -70,6 +76,12 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_CESSNA;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Cessna";
+            Class = "Basic";
+        };
     };
 
     class TFV_M52D_Vest_Demolitions_Cessna : OPTRE_UNSC_M52D_Armor_Demolitions
@@ -81,8 +93,46 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_CESSNA;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Cessna";
+            Class = "Demolitions";
+        };
     };
     #undef VEST_CESSNA
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Cessna
+        {
+            label = "E. Cessna";
+            author = "Gooman";
+            options[] = { "Class" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Basic", "Demolitions" };
+            };
+        };
+
+        class TFV_Helmet_Cessna
+        {
+            label = "E. Cessna";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ODST" };
+            };
+        };
+    };
 };
 
 class cfgMods

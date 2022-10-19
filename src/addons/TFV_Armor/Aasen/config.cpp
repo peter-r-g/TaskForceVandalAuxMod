@@ -36,6 +36,12 @@ class CfgWeapons
             "TFV_Armor\Aasen\data\aasen_oni_helmet_co.paa",
             "TFV_Armor\Aasen\data\aasen_oni_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Aasen";
+            Detachment = "ONI";
+        };
     };
 
     class TFV_Recon_Helmet_Aasen_dp : OPTRE_UNSC_RECON_HELMET_dp
@@ -69,8 +75,46 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_AASEN;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Aasen";
+            Class = "Light";
+        };
     };
     #undef VEST_AASEN
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Aasen
+        {
+            label = "K. Aasen";
+            author = "Gooman";
+            options[] = { "Class" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Light" };
+            };
+        };
+
+        class TFV_Helmet_Aasen
+        {
+            label = "K. Aasen";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ONI" };
+            };
+        };
+    };
 };
 
 class cfgMods

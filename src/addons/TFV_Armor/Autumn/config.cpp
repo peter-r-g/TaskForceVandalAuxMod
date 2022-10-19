@@ -41,6 +41,12 @@ class CfgWeapons
             "TFV_Armor\Autumn\data\autumn_odst_helmet_co.paa",
             "TFV_Armor\Autumn\data\autumn_odst_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Autumn";
+            Detachment = "ODST";
+        };
     };
 
     class TFV_Recon_Helmet_Autumn : OPTRE_UNSC_RECON_HELMET
@@ -51,6 +57,12 @@ class CfgWeapons
         {
             "TFV_Armor\Autumn\data\autumn_oni_helmet_co.paa",
             "TFV_Armor\Autumn\data\autumn_oni_visor_co.paa"
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Autumn";
+            Detachment = "ONI";
         };
     };
 
@@ -98,6 +110,12 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_AUTUMN;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Autumn";
+            Class = "Light";
+        };
     };
 
     class TFV_M52D_Vest_Rifleman_Autumn : OPTRE_UNSC_M52D_Armor_Rifleman
@@ -109,8 +127,46 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_AUTUMN;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Autumn";
+            Class = "Rifleman";
+        };
     };
     #undef VEST_AUTUMN
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Autumn
+        {
+            label = "C. Autumn";
+            author = "Gooman";
+            options[] = { "Class" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Light", "Rifleman" };
+            };
+        };
+
+        class TFV_Helmet_Autumn
+        {
+            label = "C. Autumn";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ODST", "ONI" };
+            };
+        };
+    };
 };
 
 class cfgMods

@@ -33,6 +33,12 @@ class CfgWeapons
             "TFV_Armor\Fish\data\fish_pilot_helmet_co.paa",
             "TFV_Armor\Fish\data\fish_pilot_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Fish";
+            Detachment = "Pilot";
+        };
     };
 
     class TFV_Pilot_Helmet_Fish_dp : VX19_1stMEU_dp
@@ -45,6 +51,25 @@ class CfgWeapons
         hiddenSelectionsTextures[] =
         {
             "TFV_Armor\Fish\data\fish_pilot_helmet_co.paa"
+        };
+    };
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Helmet_Fish
+        {
+            label = "P. Fish";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "Pilot" };
+            };
         };
     };
 };

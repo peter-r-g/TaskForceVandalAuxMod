@@ -41,6 +41,12 @@ class CfgWeapons
             "TFV_Armor\Castle\data\castle_oni_helmet_co.paa",
             "TFV_Armor\Castle\data\castle_oni_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Castle";
+            Detachment = "ONI";
+        };
     };
 
     class TFV_ODST_Helmet_Castle : OPTRE_UNSC_CH252D_Helmet
@@ -51,6 +57,12 @@ class CfgWeapons
         {
             "TFV_Armor\Castle\data\castle_odst_helmet_co.paa",
             "TFV_Armor\Castle\data\castle_odst_visor_co.paa"
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Castle";
+            Detachment = "ODST";
         };
     };
 
@@ -98,6 +110,12 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_CASTLE;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Castle";
+            Class = "Light";
+        };
     };
 
     class TFV_M52D_Vest_Rifleman_Castle : OPTRE_UNSC_M52D_Armor_Rifleman
@@ -109,8 +127,46 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_CASTLE;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Castle";
+            Class = "Rifleman";
+        };
     };
     #undef VEST_CASTLE
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Castle
+        {
+            label = "F. Castle";
+            author = "Gooman";
+            options[] = { "Class" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Light", "Rifleman" };
+            };
+        };
+
+        class TFV_Helmet_Castle
+        {
+            label = "F. Castle";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ODST", "ONI" };
+            };
+        };
+    };
 };
 
 class cfgMods

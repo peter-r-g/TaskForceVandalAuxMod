@@ -41,6 +41,12 @@ class CfgWeapons
             "TFV_Armor\Roy\data\roy_oni_helmet_co.paa",
             "TFV_Armor\Roy\data\roy_oni_visor_co.paa"
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Roy";
+            Detachment = "ONI";
+        };
     };
 
     class TFV_ODST_Helmet_Roy : OPTRE_UNSC_CH252D_Helmet
@@ -51,6 +57,12 @@ class CfgWeapons
         {
             "TFV_Armor\Roy\data\roy_odst_helmet_co.paa",
             "TFV_Armor\Roy\data\roy_odst_visor_co.paa"
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Helmet_Roy";
+            Detachment = "ODST";
         };
     };
 
@@ -98,6 +110,12 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_ROY;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Roy";
+            Class = "Basic";
+        };
     };
 
     class TFV_M52D_Vest_Medic_Roy : OPTRE_UNSC_M52D_Armor_Medic
@@ -109,8 +127,46 @@ class CfgWeapons
             containerClass = "Supply200";
             VEST_ROY;
         };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Roy";
+            Class = "Medic";
+        };
     };
     #undef VEST_ROY
+};
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {
+        class TFV_Vest_Roy
+        {
+            label = "P. Roy";
+            author = "Gooman";
+            options[] = { "Class" };
+
+            class Class
+            {
+                label = "Class";
+                values[] = { "Basic", "Medic" };
+            };
+        };
+
+        class TFV_Helmet_Roy
+        {
+            label = "P. Roy";
+            author = "Gooman";
+            options[] = { "Detachment" };
+
+            class Detachment
+            {
+                label = "Detachment";
+                values[] = { "ODST", "ONI" };
+            };
+        };
+    };
 };
 
 class cfgMods
