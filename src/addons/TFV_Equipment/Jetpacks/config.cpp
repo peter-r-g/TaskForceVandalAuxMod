@@ -43,7 +43,7 @@ class CfgVehicles
 
         NSM_jumppack_is_jumppack = 1;
         NSM_jumppack_spam_delay = 1;
-        NSM_jumppack_energy_capacity = 200;
+        NSM_jumppack_energy_capacity = 100;
         NSM_jumppack_recharge = 0;
         NSM_jumppack_jump_types[] = {
             {
@@ -57,7 +57,17 @@ class CfgVehicles
                     0           // can prone jump(5)(no=0,yes=1)
                 }
             },
-            { "Short Jump", { 25, 7, 25, 0, 1, 1 } }
+            {
+                "Short Jump",
+                {
+                    12,
+                    5,
+                    30,
+                    0,
+                    1,
+                    0
+                }
+            }
         };
 
         NSM_jumppack_jump_effect_script = "NSM_jumppack_effect_fnc_jt_21";
@@ -86,7 +96,7 @@ class CfgVehicles
 
         NSM_jumppack_is_jumppack = 1;
         NSM_jumppack_spam_delay = 1;
-        NSM_jumppack_energy_capacity = 200;
+        NSM_jumppack_energy_capacity = 100;
         NSM_jumppack_recharge = 5;
         NSM_jumppack_jump_types[] = {
             {
@@ -96,11 +106,21 @@ class CfgVehicles
                     20,         // verticle velo(1)
                     50,         // cost(2)
                     0,          // angle(3)
-                    0,          // directional(4)(no=0,yes=1)?
-                    0           // can prone jump(5)(no=0,yes=1)?
+                    0,          // directional(4)(no=0,yes=1)
+                    0           // can prone jump(5)(no=0,yes=1)
                 }
             },
-            { "Short Jump", { 25, 7, 25, 0, 1, 1 } }
+            {
+                "Short Jump",
+                {
+                    12,
+                    5,
+                    30,
+                    0,
+                    1,
+                    0
+                }
+            }
         };
 
         NSM_jumppack_jump_effect_script = "NSM_jumppack_effect_fnc_jt_21";
@@ -129,7 +149,7 @@ class CfgVehicles
 
         NSM_jumppack_is_jumppack = 1;
         NSM_jumppack_spam_delay = 1;
-        NSM_jumppack_energy_capacity = 200;
+        NSM_jumppack_energy_capacity = 100;
         NSM_jumppack_recharge = 5;
         NSM_jumppack_jump_types[] = {
             {
@@ -139,11 +159,21 @@ class CfgVehicles
                     20,         // verticle velo(1)
                     50,         // cost(2)
                     0,          // angle(3)
-                    0,          // directional(4)(no=0,yes=1)?
-                    0           // can prone jump(5)(no=0,yes=1)?
+                    0,          // directional(4)(no=0,yes=1)
+                    0           // can prone jump(5)(no=0,yes=1)
                 }
             },
-            { "Short Jump", { 25, 7, 25, 0, 1, 1 } }
+            {
+                "Short Jump",
+                {
+                    12,
+                    5,
+                    30,
+                    0,
+                    1,
+                    0
+                }
+            }
         };
 
         NSM_jumppack_jump_effect_script = "NSM_jumppack_effect_fnc_jt_21";
