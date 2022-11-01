@@ -30,8 +30,15 @@ class CfgWeapons
     class OPTRE_UNSC_CH252D_Helmet_dp;
     class OPTRE_UNSC_M52A_Armor1_WDL;
     class OPTRE_UNSC_M52D_Armor : OPTRE_UNSC_M52A_Armor1_WDL { class ItemInfo; };
-    class OPTRE_UNSC_M52D_Armor_Medic: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Demolitions : OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Light : OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Marksman : OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Medic : OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Rifleman : OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Scout: OPTRE_UNSC_M52D_Armor { class ItemInfo; };
+    class OPTRE_UNSC_M52D_Armor_Sniper : OPTRE_UNSC_M52D_Armor { class ItemInfo; };
 
+    #pragma region Helmets
     class TFV_Recon_Helmet_Roy : OPTRE_UNSC_RECON_HELMET
     {
         author = "Article 2 Studios & Gooman";
@@ -92,6 +99,7 @@ class CfgWeapons
             "TFV_Armor\Roy\data\roy_odst_helmet_co.paa"
         };
     };
+    #pragma endregion
 
     #define VEST_ROY hiddenSelectionsTextures[]= \
     { \
@@ -118,6 +126,57 @@ class CfgWeapons
         };
     };
 
+    class TFV_M52D_Vest_Demolitions_Roy : OPTRE_UNSC_M52D_Armor_Demolitions
+    {
+        displayName = "M52D Body Armor (Demolitions) (Roy)";
+        VEST_ROY;
+        class ItemInfo : ItemInfo
+        {
+            containerClass = "Supply200";
+            VEST_ROY;
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Roy";
+            Class = "Demolitions";
+        };
+    };
+
+    class TFV_M52D_Vest_Light_Roy : OPTRE_UNSC_M52D_Armor_Light
+    {
+        displayName = "M52D Body Armor (Light) (Roy)";
+        VEST_ROY;
+        class ItemInfo : ItemInfo
+        {
+            containerClass = "Supply200";
+            VEST_ROY;
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Roy";
+            Class = "Light";
+        };
+    };
+
+    class TFV_M52D_Vest_Marksman_Roy : OPTRE_UNSC_M52D_Armor_Marksman
+    {
+        displayName = "M52D Body Armor (Marksman) (Roy)";
+        VEST_ROY;
+        class ItemInfo : ItemInfo
+        {
+            containerClass = "Supply200";
+            VEST_ROY;
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Roy";
+            Class = "Marksman";
+        };
+    };
+
     class TFV_M52D_Vest_Medic_Roy : OPTRE_UNSC_M52D_Armor_Medic
     {
         displayName = "M52D Body Armor (Medic) (Roy)";
@@ -132,6 +191,57 @@ class CfgWeapons
         {
             model = "TFV_Vest_Roy";
             Class = "Medic";
+        };
+    };
+
+    class TFV_M52D_Vest_Rifleman_Roy : OPTRE_UNSC_M52D_Armor_Rifleman
+    {
+        displayName = "M52D Body Armor (Rifleman) (Roy)";
+        VEST_ROY;
+        class ItemInfo : ItemInfo
+        {
+            containerClass = "Supply200";
+            VEST_ROY;
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Roy";
+            Class = "Rifleman";
+        };
+    };
+
+    class TFV_M52D_Vest_Scout_Roy : OPTRE_UNSC_M52D_Armor_Scout
+    {
+        displayName = "M52D Body Armor (Scout) (Roy)";
+        VEST_ROY;
+        class ItemInfo : ItemInfo
+        {
+            containerClass = "Supply200";
+            VEST_ROY;
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Roy";
+            Class = "Scout";
+        };
+    };
+
+    class TFV_M52D_Vest_Sniper_Roy : OPTRE_UNSC_M52D_Armor_Sniper
+    {
+        displayName = "M52D Body Armor (Sniper) (Roy)";
+        VEST_ROY;
+        class ItemInfo : ItemInfo
+        {
+            containerClass = "Supply200";
+            VEST_ROY;
+        };
+
+        class XtdGearInfo
+        {
+            model = "TFV_Vest_Roy";
+            Class = "Sniper";
         };
     };
     #undef VEST_ROY
@@ -150,7 +260,7 @@ class XtdGearModels
             class Class
             {
                 label = "Class";
-                values[] = { "Basic", "Medic" };
+                values[] = { "Basic", "Demolitions", "Light", "Marksman", "Medic", "Rifleman", "Scout", "Sniper" };
             };
         };
 
