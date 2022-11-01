@@ -156,90 +156,10 @@ class CfgWeapons
     class TFV_M52D_Vest_Demolitions_Reeves : OPTRE_UNSC_M52D_Armor_Demolitions
     {
         displayName = "M52D Body Armor (Demolitions) (Reeves)";
-        hiddenSelections[] =
-        {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "AP_SG",
-            "AP_SMG",
-            "AP_Sniper",
-            "AP_Thigh",
-            "AP_Frag",
-            "AP_Smoke",
-            "APO_AR",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
         VEST_REEVES;
         class ItemInfo : ItemInfo
         {
             containerClass = "Supply200";
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "AP_SG",
-                "AP_SMG",
-                "AP_Sniper",
-                "AP_Thigh",
-                "AP_Frag",
-                "AP_Smoke",
-                "APO_AR",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
             VEST_REEVES;
         };
 
@@ -254,90 +174,10 @@ class CfgWeapons
     class TFV_M52D_Vest_Demolitions_Reeves2 : OPTRE_UNSC_M52D_Armor_Demolitions
     {
         displayName = "M52D Body Armor (Demolitions) (Reeves VER 2)";
-        hiddenSelections[] =
-        {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "AP_SG",
-            "AP_SMG",
-            "AP_Sniper",
-            "AP_Thigh",
-            "AP_Frag",
-            "AP_Smoke",
-            "APO_AR",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
         VEST_REEVES2;
         class ItemInfo : ItemInfo
         {
             containerClass = "Supply200";
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "AP_SG",
-                "AP_SMG",
-                "AP_Sniper",
-                "AP_Thigh",
-                "AP_Frag",
-                "AP_Smoke",
-                "APO_AR",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
             VEST_REEVES2;
         };
 
@@ -388,90 +228,10 @@ class CfgWeapons
     class TFV_M52D_Vest_Rifleman_Reeves : OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Reeves)";
-        hiddenSelections[] =
-        {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "AP_SG",
-            "AP_SMG",
-            "AP_Sniper",
-            "AP_Thigh",
-            "APO_BR",
-            "APO_Knife",
-            "APO_SMG",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
         VEST_REEVES;
         class ItemInfo : ItemInfo
         {
             containerClass = "Supply200";
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "AP_SG",
-                "AP_SMG",
-                "AP_Sniper",
-                "AP_Thigh",
-                "APO_BR",
-                "APO_Knife",
-                "APO_SMG",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
             VEST_REEVES;
         };
 
@@ -486,90 +246,10 @@ class CfgWeapons
     class TFV_M52D_Vest_Rifleman_Reeves2 : OPTRE_UNSC_M52D_Armor_Rifleman
     {
         displayName = "M52D Body Armor (Rifleman) (Reeves VER 2)";
-        hiddenSelections[] =
-        {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "AP_SG",
-            "AP_SMG",
-            "AP_Sniper",
-            "AP_Thigh",
-            "APO_BR",
-            "APO_Knife",
-            "APO_SMG",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
         VEST_REEVES2;
         class ItemInfo : ItemInfo
         {
             containerClass = "Supply200";
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "AP_SG",
-                "AP_SMG",
-                "AP_Sniper",
-                "AP_Thigh",
-                "APO_BR",
-                "APO_Knife",
-                "APO_SMG",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
             VEST_REEVES2;
         };
 
@@ -584,90 +264,10 @@ class CfgWeapons
     class TFV_M52D_Vest_Scout_Reeves : OPTRE_UNSC_M52D_Armor_Scout
     {
         displayName = "M52D Body Armor (Scout) (Reeves)";
-        hiddenSelections[] =
-        {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "AP_SG",
-            "AP_SMG",
-            "AP_Sniper",
-            "AP_Thigh",
-            "AP_Frag",
-            "APO_AR",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
         VEST_REEVES;
         class ItemInfo : ItemInfo
         {
             containerClass = "Supply200";
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "AP_SG",
-                "AP_SMG",
-                "AP_Sniper",
-                "AP_Thigh",
-                "AP_Frag",
-                "APO_AR",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
             VEST_REEVES;
         };
 
@@ -682,90 +282,10 @@ class CfgWeapons
     class TFV_M52D_Vest_Scout_Reeves2 : OPTRE_UNSC_M52D_Armor_Scout
     {
         displayName = "M52D Body Armor (Scout) (Reeves VER 2)";
-        hiddenSelections[] =
-        {
-            "camo",
-            "camo2",
-            "camo3",
-            "camo4",
-            "camo5",
-            "A_KneesMarLeft",
-            "A_KneesMarRight",
-            "A_Ghillie",
-            "AS_LargeLeft",
-            "AS_LargeRight",
-            "AS_MediumLeft",
-            "AS_MediumRight",
-            "AS_ODSTCQBLeft",
-            "AS_ODSTCQBRight",
-            "AS_ODSTSniperLeft",
-            "AS_ODSTSniperRight",
-            "AS_SmallLeft",
-            "AS_SmallRight",
-            "AP_AR",
-            "AP_BR",
-            "AP_Canteen",
-            "AP_GL",
-            "AP_Knife",
-            "AP_MGThigh",
-            "AP_AR",
-            "AP_Pack",
-            "AP_Pistol",
-            "AP_Rounds",
-            "AP_SG",
-            "AP_SMG",
-            "AP_Sniper",
-            "AP_Thigh",
-            "AP_Frag",
-            "APO_AR",
-            "APO_BR",
-            "APO_Sniper",
-            "CustomKit_Scorch"
-        };
         VEST_REEVES2;
         class ItemInfo : ItemInfo
         {
             containerClass = "Supply200";
-            hiddenSelections[] =
-            {
-                "camo",
-                "camo2",
-                "camo3",
-                "camo4",
-                "camo5",
-                "A_KneesMarLeft",
-                "A_KneesMarRight",
-                "A_Ghillie",
-                "AS_LargeLeft",
-                "AS_LargeRight",
-                "AS_MediumLeft",
-                "AS_MediumRight",
-                "AS_ODSTCQBLeft",
-                "AS_ODSTCQBRight",
-                "AS_ODSTSniperLeft",
-                "AS_ODSTSniperRight",
-                "AS_SmallLeft",
-                "AS_SmallRight",
-                "AP_AR",
-                "AP_BR",
-                "AP_Canteen",
-                "AP_GL",
-                "AP_Knife",
-                "AP_MGThigh",
-                "AP_AR",
-                "AP_Pack",
-                "AP_Pistol",
-                "AP_Rounds",
-                "AP_SG",
-                "AP_SMG",
-                "AP_Sniper",
-                "AP_Thigh",
-                "AP_Frag",
-                "APO_AR",
-                "APO_BR",
-                "APO_Sniper",
-                "CustomKit_Scorch"
-            };
             VEST_REEVES2;
         };
 
