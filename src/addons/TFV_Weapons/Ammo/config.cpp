@@ -801,7 +801,7 @@ class CfgAmmo
 		explosive=1;
 		warheadName="Smoke";
 		ace_frag_enabled=0;
-		displayName="M41 White Smoke Rockets";
+		displayName="[TFV] M41 White Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_White";
 		class ace_missileguidance
 		{
@@ -810,32 +810,32 @@ class CfgAmmo
 	};
 	class TFV_M41_SMK_B: TFV_M41_SMK_W
 	{
-		displayName="M41 Blue Smoke Rockets";
+		displayName="[TFV] M41 Blue Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Blue";
 	};
 	class TFV_M41_SMK_R: TFV_M41_SMK_W
 	{
-		displayName="M41 Red Smoke Rockets";
+		displayName="[TFV] M41 Red Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Red";
 	};
 	class TFV_M41_SMK_G: TFV_M41_SMK_W
 	{
-		displayName="M41 Green Smoke Rockets";
+		displayName="[TFV] M41 Green Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Green";
 	};
 	class TFV_M41_SMK_O: TFV_M41_SMK_W
 	{
-		displayName="M41 Orange Smoke Rockets";
+		displayName="[TFV] M41 Orange Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Orange";
 	};
 	class TFV_M41_SMK_P: TFV_M41_SMK_W
 	{
-		displayName="M41 Purple Smoke Rockets";
+		displayName="[TFV] M41 Purple Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Purple";
 	};
 	class TFV_M41_SMK_Y: TFV_M41_SMK_W
 	{
-		displayName="M41 Yellow Smoke Rockets";
+		displayName="[TFV] M41 Yellow Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Yellow";
 	};
 	class TFV_M41_Rocket_HE_SACLOS_ProximityFuse: TFV_M41_Rocket_HE_Base
@@ -2070,7 +2070,7 @@ class CfgAmmo
 	};
 	class TFV_M_ANVILSMK_W_Rocket: TFV_M_ANVIL_1_Rocket
 	{
-		displayName="White Smoke Rockets";
+		displayName="[TFV] White Smoke Rockets";
 		hit=0;
 		indirectHit=0;
 		explosive=1;
@@ -2079,32 +2079,32 @@ class CfgAmmo
 	};
 	class TFV_M_ANVILSMK_B_Rocket: TFV_M_ANVILSMK_W_Rocket
 	{
-		displayName="Blue Smoke Rockets";
+		displayName="[TFV] Blue Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Blue";
 	};
 	class TFV_M_ANVILSMK_R_Rocket: TFV_M_ANVILSMK_W_Rocket
 	{
-		displayName="Red Smoke Rockets";
+		displayName="[TFV] Red Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Red";
 	};
 	class TFV_M_ANVILSMK_G_Rocket: TFV_M_ANVILSMK_W_Rocket
 	{
-		displayName="Green Smoke Rockets";
+		displayName="[TFV] Green Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Green";
 	};
 	class TFV_M_ANVILSMK_O_Rocket: TFV_M_ANVILSMK_W_Rocket
 	{
-		displayName="Orange Smoke Rockets";
+		displayName="[TFV] Orange Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Orange";
 	};
 	class TFV_M_ANVILSMK_P_Rocket: TFV_M_ANVILSMK_W_Rocket
 	{
-		displayName="Purple Smoke Rockets";
+		displayName="[TFV] Purple Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Purple";
 	};
 	class TFV_M_ANVILSMK_Y_Rocket: TFV_M_ANVILSMK_W_Rocket
 	{
-		displayName="Yellow Smoke Rockets";
+		displayName="[TFV] Yellow Smoke Rockets";
 		explosionEffects="TFV_ComplexSmokeRocketEffect_Yellow";
 	};
 	class TFV_Bo_500lb: Bo_Mk82
@@ -2338,7 +2338,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Ammo\MA5Ammo.p3d";
-		displayname="60Rnd 7.62x51mm Magazine";
+		displayName="[TFV] 60Rnd 7.62x51mm Magazine";
 		displaynameshort="7.62x51mm";
 		ammo="TFV_B_762x51_Ball";
 		count=60;
@@ -2352,7 +2352,7 @@ class CfgMagazines
 	class TFV_60Rnd_762x51_Mag_Tracer: TFV_60Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
-		displayname="60Rnd 7.62x51mm Magazine (Tracers)";
+		displayName="[TFV] 60Rnd 7.62x51mm Magazine (Tracers)";
 		displaynameshort="7.62x51mm Tracer";
 		ammo="TFV_B_762x51_Tracer";
 		descriptionshort="60 Round Magazine<br/>7.62x51mm<br/>Tracer";
@@ -2362,13 +2362,13 @@ class CfgMagazines
 	class TFV_60Rnd_762x51_Mag_Tracer_Yellow: TFV_60Rnd_762x51_Mag_Tracer
 	{
 		dlc="OPTRE";
-		displayname="60Rnd 7.62x51mm Magazine (Tracers Yellow)";
+		displayName="[TFV] 60Rnd 7.62x51mm Magazine (Tracers Yellow)";
 		ammo="TFV_B_762x51_Tracer_Yellow";
 	};
 	class TFV_32Rnd_762x51_Mag: TFV_60Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
-		displayname="32Rnd 7.62x51mm Magazine";
+		displayName="[TFV] 32Rnd 7.62x51mm Magazine";
 		count=32;
 		initspeed=950;
 		descriptionshort="32 Round Magazine<br>7.62x51mm<br>(Increased Muzzle Velocity)";
@@ -2377,7 +2377,7 @@ class CfgMagazines
 	class TFV_32Rnd_762x51_Mag_Tracer: TFV_60Rnd_762x51_Mag_Tracer
 	{
 		dlc="OPTRE";
-		displayname="32Rnd 7.62x51mm Magazine (Tracers)";
+		displayName="[TFV] 32Rnd 7.62x51mm Magazine (Tracers)";
 		count=32;
 		descriptionshort="32 Round Magazine<br>7.62x51mm<br>(Increased Muzzle Velocity)<br>Tracer";
 		mass=10;
@@ -2385,7 +2385,7 @@ class CfgMagazines
 	class TFV_32Rnd_762x51_Mag_Tracer_Yellow: TFV_60Rnd_762x51_Mag_Tracer_Yellow
 	{
 		dlc="OPTRE";
-		displayname="32Rnd 7.62x51mm Magazine (Tracers Yellow)";
+		displayName="[TFV] 32Rnd 7.62x51mm Magazine (Tracers Yellow)";
 		count=32;
 		descriptionshort="32 Round Magazine<br>7.62x51mm<br>(Increased Muzzle Velocity)<br>Tracer";
 		mass=10;
@@ -2394,14 +2394,14 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		initspeed=400;
-		displayname="32Rnd 7.62x51mm Magazine (UW)";
+		displayName="[TFV] 32Rnd 7.62x51mm Magazine (UW)";
 		ammo="TFV_B_762x51_UW";
 	};
 	class TFV_25Rnd_762x51_Mag: TFV_60Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\br\BMR_Magazine.p3d";
-		displayname="25Rnd 7.62x51mm Magazine";
+		displayName="[TFV] 25Rnd 7.62x51mm Magazine";
 		displaynameshort="7.62x51mm";
 		ammo="TFV_B_762x51_Ball";
 		count=25;
@@ -2415,7 +2415,7 @@ class CfgMagazines
 	class TFV_25Rnd_762x51_Mag_Tracer: TFV_25Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
-		displayname="25Rnd 7.62x51mm Magazine (Tracers)";
+		displayName="[TFV] 25Rnd 7.62x51mm Magazine (Tracers)";
 		ammo="TFV_B_762x51_Tracer";
 		tracersEvery=1;
 		lastRoundsTracer=25;
@@ -2423,14 +2423,14 @@ class CfgMagazines
 	class TFV_25Rnd_762x51_Mag_Tracer_Yellow: TFV_25Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
-		displayname="25Rnd 7.62x51mm Magazine (Tracers Yellow)";
+		displayName="[TFV] 25Rnd 7.62x51mm Magazine (Tracers Yellow)";
 		ammo="TFV_B_762x51_Tracer_Yellow";
 	};
 	class TFV_100Rnd_762x51_Box: TFV_60Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\MG\magazine_1.p3d";
-		displayname="100Rnd 7.62x51mm Box Magazine";
+		displayName="[TFV] 100Rnd 7.62x51mm Box Magazine";
 		displaynameshort="7.62x51mm";
 		ammo="TFV_B_762x51_Ball";
 		count=100;
@@ -2444,7 +2444,7 @@ class CfgMagazines
 	class TFV_100Rnd_762x51_Box_Tracer: TFV_100Rnd_762x51_Box
 	{
 		dlc="OPTRE";
-		displayname="100Rnd 7.62x51mm Box Magazine (Tracers)";
+		displayName="[TFV] 100Rnd 7.62x51mm Box Magazine (Tracers)";
 		displaynameshort="7.62x51mm Tracer";
 		ammo="TFV_B_762x51_Tracer";
 		picture="\OPTRE_Weapons\MG\icons\magazine.paa";
@@ -2455,13 +2455,13 @@ class CfgMagazines
 	class TFV_100Rnd_762x51_Box_Tracer_Yellow: TFV_100Rnd_762x51_Box_Tracer
 	{
 		dlc="OPTRE";
-		displayname="100Rnd 7.62x51mm Box Magazine (Tracers Yellow)";
+		displayName="[TFV] 100Rnd 7.62x51mm Box Magazine (Tracers Yellow)";
 		ammo="TFV_B_762x51_Tracer_Yellow";
 	};
 	class TFV_400Rnd_762x51_Box_Tracer: TFV_100Rnd_762x51_Box_Tracer
 	{
 		dlc="OPTRE";
-		displayname="400Rnd 7.62x51mm Box Magazine (Tracers)";
+		displayName="[TFV] 400Rnd 7.62x51mm Box Magazine (Tracers)";
 		count=400;
 		lastRoundsTracer=400;
 		mass=120;
@@ -2470,7 +2470,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Ammo\MA5Ammo.p3d";
-		displayname="15Rnd 7.62x51mm Magazine";
+		displayName="[TFV] 15Rnd 7.62x51mm Magazine";
 		displaynameshort="7.62x51mm";
 		ammo="TFV_B_762x51_Ball";
 		count=15;
@@ -2484,7 +2484,7 @@ class CfgMagazines
 	class TFV_15Rnd_762x51_Mag_Tracer: TFV_15Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
-		displayname="15Rnd 7.62x51mm Magazine (Tracers)";
+		displayName="[TFV] 15Rnd 7.62x51mm Magazine (Tracers)";
 		displaynameshort="7.62x51mm Tracer";
 		ammo="TFV_B_762x51_Tracer";
 		descriptionshort="15 Round Magazine<br>7.62x51mm<br>Tracer";
@@ -2494,14 +2494,14 @@ class CfgMagazines
 	class TFV_15Rnd_762x51_Mag_Tracer_Yellow: TFV_15Rnd_762x51_Mag_Tracer
 	{
 		dlc="OPTRE";
-		displayname="15Rnd 7.62x51mm Magazine (Tracers Yellow)";
+		displayName="[TFV] 15Rnd 7.62x51mm Magazine (Tracers Yellow)";
 		ammo="TFV_B_762x51_Tracer_Yellow";
 	};
 	class TFV_36Rnd_95x40_Mag: 20Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Ammo\BR55Ammo.p3d";
-		displayname="36Rnd 9.5x40mm Magazine";
+		displayName="[TFV] 36Rnd 9.5x40mm Magazine";
 		displaynameshort="9.5x40mm";
 		ammo="TFV_B_95x40_Ball";
 		count=36;
@@ -2515,7 +2515,7 @@ class CfgMagazines
 	class TFV_36Rnd_95x40_Mag_Tracer: TFV_36Rnd_95x40_Mag
 	{
 		dlc="OPTRE";
-		displayname="36Rnd 9.5x40mm Magazine (Tracers)";
+		displayName="[TFV] 36Rnd 9.5x40mm Magazine (Tracers)";
 		displaynameshort="9.5x40mm Tracer";
 		ammo="TFV_B_95x40_Tracer";
 		descriptionshort="36 Round Magazine<br>9.5x40mm<br>Tracer";
@@ -2525,14 +2525,14 @@ class CfgMagazines
 	class TFV_36Rnd_95x40_Mag_Tracer_Yellow: TFV_36Rnd_95x40_Mag_Tracer
 	{
 		dlc="OPTRE";
-		displayname="36Rnd 9.5x40mm Magazine (Tracers Yellow)";
+		displayName="[TFV] 36Rnd 9.5x40mm Magazine (Tracers Yellow)";
 		ammo="TFV_B_95x40_Tracer_Yellow";
 	};
 	class TFV_100Rnd_95x40_Box: 150Rnd_762x51_Box
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\MG\magazine_1.p3d";
-		displayname="100Rnd 9.5x40mm Box Magazine";
+		displayName="[TFV] 100Rnd 9.5x40mm Box Magazine";
 		displaynameshort="9.5x40mm";
 		ammo="TFV_B_95x40_Ball";
 		count=100;
@@ -2546,7 +2546,7 @@ class CfgMagazines
 	class TFV_100Rnd_95x40_Box_Tracer: TFV_100Rnd_95x40_Box
 	{
 		dlc="OPTRE";
-		displayname="100Rnd 9.5x40mm Box Magazine (Tracers)";
+		displayName="[TFV] 100Rnd 9.5x40mm Box Magazine (Tracers)";
 		displaynameshort="9.5x40mm Tracer";
 		ammo="TFV_B_95x40_Tracer";
 		picture="\OPTRE_Weapons\MG\icons\magazine.paa";
@@ -2557,13 +2557,13 @@ class CfgMagazines
 	class TFV_100Rnd_95x40_Box_Tracer_Yellow: TFV_100Rnd_95x40_Box_Tracer
 	{
 		dlc="OPTRE";
-		displayname="100Rnd 9.5x40mm Box Magazine (Tracers Yellow)";
+		displayName="[TFV] 100Rnd 9.5x40mm Box Magazine (Tracers Yellow)";
 		ammo="TFV_B_95x40_Tracer_Yellow";
 	};
 	class TFV_200Rnd_95x40_Box: TFV_100Rnd_95x40_Box
 	{
 		dlc="OPTRE";
-		displayname="200Rnd 9.5x40mm Box Magazine";
+		displayName="[TFV] 200Rnd 9.5x40mm Box Magazine";
 		count=200;
 		picture="\OPTRE_Weapons\MG\icons\magazine.paa";
 		descriptionshort="200 Round Box Magazine<br>9.5x40mm";
@@ -2572,7 +2572,7 @@ class CfgMagazines
 	class TFV_200Rnd_95x40_Box_Tracer: TFV_200Rnd_95x40_Box
 	{
 		dlc="OPTRE";
-		displayname="200Rnd 9.5x40mm Box Magazine (Tracers)";
+		displayName="[TFV] 200Rnd 9.5x40mm Box Magazine (Tracers)";
 		displaynameshort="9.5x40mm Tracer";
 		ammo="TFV_B_95x40_Tracer";
 		picture="\OPTRE_Weapons\MG\icons\magazine.paa";
@@ -2583,14 +2583,14 @@ class CfgMagazines
 	class TFV_200Rnd_95x40_Box_Tracer_Yellow: TFV_200Rnd_95x40_Box_Tracer
 	{
 		dlc="OPTRE";
-		displayname="200Rnd 9.5x40mm Box Magazine (Tracers Yellow)";
+		displayName="[TFV] 200Rnd 9.5x40mm Box Magazine (Tracers Yellow)";
 		ammo="TFV_B_95x40_Tracer_Yellow";
 	};
 	class TFV_64Rnd_57x31_Mag: 50Rnd_570x28_SMG_03
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Ammo\BR55Ammo.p3d";
-		displayname="64Rnd 5.7x31mm Magazine";
+		displayName="[TFV] 64Rnd 5.7x31mm Magazine";
 		displaynameshort="5.7x31mm";
 		ammo="TFV_B_57x31_Ball";
 		count=64;
@@ -2603,7 +2603,7 @@ class CfgMagazines
 	class TFV_64Rnd_57x31_Mag_Tracer: TFV_64Rnd_57x31_Mag
 	{
 		dlc="OPTRE";
-		displayname="64Rnd 5.7x31mm Magazine (Tracers)";
+		displayName="[TFV] 64Rnd 5.7x31mm Magazine (Tracers)";
 		displaynameshort="5.7x31mm Tracer";
 		descriptionshort="64 Round Magazine<br>5.7x31mm<br>Tracer";
 		ammo="TFV_B_57x31_Tracer";
@@ -2613,14 +2613,14 @@ class CfgMagazines
 	class TFV_64Rnd_57x31_Mag_Tracer_Yellow: TFV_64Rnd_57x31_Mag_Tracer
 	{
 		dlc="OPTRE";
-		displayname="64Rnd 5.7x31mm Magazine (Tracers Yellow)";
+		displayName="[TFV] 64Rnd 5.7x31mm Magazine (Tracers Yellow)";
 		ammo="TFV_B_57x31_Tracer_Yellow";
 	};
 	class TFV_40Rnd_30x06_Mag: 20Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\AR\MA5_Magazine.p3d";
-		displayname="40Rnd .30-06 Magazine";
+		displayName="[TFV] 40Rnd .30-06 Magazine";
 		displaynameshort=".30-06";
 		ammo="TFV_B_30x06_Ball";
 		count=40;
@@ -2634,7 +2634,7 @@ class CfgMagazines
 	class TFV_40Rnd_30x06_Mag_Tracer: TFV_40Rnd_30x06_Mag
 	{
 		dlc="OPTRE";
-		displayname="40Rnd .30-06 Magazine (Tracers)";
+		displayName="[TFV] 40Rnd .30-06 Magazine (Tracers)";
 		displaynameshort=".30-06 Tracer";
 		ammo="TFV_B_30x06_Ball_Tracer";
 		descriptionshort="40 Round Magazine<br>.30-06<br>Tracer";
@@ -2653,7 +2653,7 @@ class CfgMagazines
 		{
 			"OPTRE_Weapons\Ammo\data\M6_Ammo_CO.paa"
 		};
-		displayname="8Rnd 12.7x40mm Magazine";
+		displayName="[TFV] 8Rnd 12.7x40mm Magazine";
 		displaynameshort="12.7x40mm";
 		ammo="TFV_B_127x40_Ball";
 		count=8;
@@ -2667,7 +2667,7 @@ class CfgMagazines
 	class TFV_8Rnd_127x40_AP_Mag: TFV_8Rnd_127x40_Mag
 	{
 		dlc="OPTRE";
-		displayname="8Rnd 12.7x40mm AP Magazine";
+		displayName="[TFV] 8Rnd 12.7x40mm AP Magazine";
 		displaynameshort="12.7x40mm AP";
 		ammo="TFV_B_127x40_AP";
 		descriptionshort="8 Round Magazine<br>12.7x40mm<br>Armor Piercing";
@@ -2677,7 +2677,7 @@ class CfgMagazines
 	class TFV_8Rnd_127x40_Mag_Tracer: TFV_8Rnd_127x40_Mag
 	{
 		dlc="OPTRE";
-		displayname="8Rnd 12.7x40mm Magazine (Tracers)";
+		displayName="[TFV] 8Rnd 12.7x40mm Magazine (Tracers)";
 		displaynameshort="12.7x40mm Tracer";
 		picture="\OPTRE_Weapons\pistol\icons\magazine.paa";
 		ammo="TFV_B_127x40_Tracer";
@@ -2688,7 +2688,7 @@ class CfgMagazines
 	class TFV_12Rnd_127x40_Mag: TFV_8Rnd_127x40_Mag
 	{
 		dlc="OPTRE";
-		displayname="12Rnd 12.7x40mm Magazine";
+		displayName="[TFV] 12Rnd 12.7x40mm Magazine";
 		count=12;
 		descriptionshort="12 Round Magazine<br>12.7x40mm<br>Semi-Armor Piercing High Explosive";
 		mass=8;
@@ -2698,7 +2698,7 @@ class CfgMagazines
 	class TFV_12Rnd_127x40_Mag_Tracer: TFV_12Rnd_127x40_Mag
 	{
 		dlc="OPTRE";
-		displayname="12Rnd 12.7x40mm Magazine (Tracers)";
+		displayName="[TFV] 12Rnd 12.7x40mm Magazine (Tracers)";
 		descriptionshort="12 Round Magazine<br>12.7x40mm<br>Semi-Armor Piercing High Explosive Tracer";
 		tracersEvery=1;
 		lastRoundsTracer=12;
@@ -2707,7 +2707,7 @@ class CfgMagazines
 	class TFV_16Rnd_127x40_Mag: TFV_12Rnd_127x40_Mag
 	{
 		dlc="OPTRE";
-		displayname="16Rnd 12.7x40mm Magazine";
+		displayName="[TFV] 16Rnd 12.7x40mm Magazine";
 		count=16;
 		descriptionshort="16 Round Magazine<br>12.7x40mm<br>Semi-Armor Piercing High Explosive";
 		mass=9;
@@ -2717,7 +2717,7 @@ class CfgMagazines
 	class TFV_16Rnd_127x40_Mag_Tracer: TFV_16Rnd_127x40_Mag
 	{
 		dlc="OPTRE";
-		displayname="16Rnd 12.7x40mm Magazine (Tracers)";
+		displayName="[TFV] 16Rnd 12.7x40mm Magazine (Tracers)";
 		descriptionshort="16 Round Magazine<br>12.7x40mm<br>Semi-Armor Piercing High Explosive Tracer";
 		tracersEvery=1;
 		lastRoundsTracer=16;
@@ -2727,7 +2727,7 @@ class CfgMagazines
 	{
 		author="Article 2 Studios";
 		dlc="OPTRE";
-		displayName="10Rnd BR37 Magazine (SP)";
+		displayName="[TFV] 10Rnd BR37 Magazine (SP)";
 		displayNameShort=".338 Lapua";
 		descriptionshort="10 Round Magazine Soft Point";
 		picture="\OPTRE_Weapons\br\icons\magazine.paa";
@@ -2738,13 +2738,13 @@ class CfgMagazines
 	};
 	class TFV_10RND_338_VLD: TFV_10RND_338_SP
 	{
-		displayName="10Rnd BR37 Magazine (VLD)";
+		displayName="[TFV] 10Rnd BR37 Magazine (VLD)";
 		descriptionshort="10 Round Magazine Very Low Drag";
 		ammo="TFV_B_338_VLD";
 	};
 	class TFV_10RND_338_AP: TFV_10RND_338_SP
 	{
-		displayName="10Rnd BR37 Magazine (AP)";
+		displayName="[TFV] 10Rnd BR37 Magazine (AP)";
 		descriptionshort="10 Round Magazine Armor Piercing";
 		ammo="TFV_B_338_AP";
 	};
@@ -2753,7 +2753,7 @@ class CfgMagazines
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Shotgun\Shell_mag_S.p3d";
 		scope=2;
-		displayname="6Rnd 8 Gauge Pellets";
+		displayName="[TFV] 6Rnd 8 Gauge Pellets";
 		displaynameshort="8 Gauge Pellets";
 		ammo="TFV_8Gauge_Pellets";
 		count=6;
@@ -2766,7 +2766,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Shotgun\Shell_mag_P.p3d";
-		displayname="6Rnd 8 Gauge Slugs";
+		displayName="[TFV] 6Rnd 8 Gauge Slugs";
 		displaynameshort="8 Gauge Slugs";
 		ammo="TFV_8Gauge_Slugs";
 		initspeed=800;
@@ -2778,7 +2778,7 @@ class CfgMagazines
 	class TFV_12Rnd_8Gauge_Pellets: TFV_6Rnd_8Gauge_Pellets
 	{
 		dlc="OPTRE";
-		displayname="12Rnd 8 Gauge Pellets";
+		displayName="[TFV] 12Rnd 8 Gauge Pellets";
 		count=12;
 		descriptionshort="12 Rounds of 8 Gauge Pellets";
 		mass=16;
@@ -2786,7 +2786,7 @@ class CfgMagazines
 	class TFV_12Rnd_8Gauge_Slugs: TFV_6Rnd_8Gauge_Slugs
 	{
 		dlc="OPTRE";
-		displayname="12Rnd 8 Gauge Slugs";
+		displayName="[TFV] 12Rnd 8 Gauge Slugs";
 		count=12;
 		descriptionshort="12 Rounds of 8 Gauge Slugs";
 		mass=16;
@@ -2794,7 +2794,7 @@ class CfgMagazines
 	class TFV_6Rnd_8Gauge_HEDP: TFV_6Rnd_8Gauge_Slugs
 	{
 		dlc="OPTRE";
-		displayname="6Rnd 8 Gauge HEDP";
+		displayName="[TFV] 6Rnd 8 Gauge HEDP";
 		displaynameshort="8 Gauge HEDP";
 		ammo="TFV_8Gauge_HEDP";
 		count=6;
@@ -2808,7 +2808,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Ammo\M7Ammo.p3d";
-		displayname="60Rnd 5x23mm Magazine";
+		displayName="[TFV] 60Rnd 5x23mm Magazine";
 		displaynameshort="5x23mm";
 		ammo="TFV_B_5x23_Caseless";
 		count=60;
@@ -2822,7 +2822,7 @@ class CfgMagazines
 	class TFV_60Rnd_5x23mm_Mag_tracer: TFV_60Rnd_5x23mm_Mag
 	{
 		dlc="OPTRE";
-		displayname="60Rnd 5x23mm Magazine (Tracers)";
+		displayName="[TFV] 60Rnd 5x23mm Magazine (Tracers)";
 		displaynameshort="5x23mm Tracer";
 		ammo="TFV_B_5x23_Caseless_Tracer";
 		descriptionshort="60 Round Magazine<br>5x23mm<br>Tracer";
@@ -2832,13 +2832,13 @@ class CfgMagazines
 	class TFV_60Rnd_5x23mm_Mag_tracer_yellow: TFV_60Rnd_5x23mm_Mag_tracer
 	{
 		dlc="OPTRE";
-		displayname="60Rnd 5x23mm Magazine (Tracers Yellow)";
+		displayName="[TFV] 60Rnd 5x23mm Magazine (Tracers Yellow)";
 		ammo="TFV_B_5x23_Caseless_Tracer_Yellow";
 	};
 	class TFV_48Rnd_5x23mm_Mag: TFV_60Rnd_5x23mm_Mag
 	{
 		dlc="OPTRE";
-		displayname="48Rnd 5x23mm Magazine";
+		displayName="[TFV] 48Rnd 5x23mm Magazine";
 		count=48;
 		initspeed=700;
 		descriptionshort="48 Round Magazine<br>5x23mm";
@@ -2849,7 +2849,7 @@ class CfgMagazines
 	class TFV_48Rnd_5x23mm_JHP_Mag: TFV_48Rnd_5x23mm_Mag
 	{
 		dlc="OPTRE";
-		displayname="48Rnd 5x23mm (JHP) Magazine";
+		displayName="[TFV] 48Rnd 5x23mm (JHP) Magazine";
 		displaynameshort="5x23mm JHP";
 		ammo="TFV_B_5x23_Caseless_JHP";
 		descriptionshort="48 Round Magazine<br>5x23mm<br>Jacketed Hollow Point";
@@ -2857,7 +2857,7 @@ class CfgMagazines
 	class TFV_48Rnd_5x23mm_FMJ_Mag: TFV_48Rnd_5x23mm_Mag
 	{
 		dlc="OPTRE";
-		displayname="48Rnd 5x23mm (FMJ) Magazine";
+		displayName="[TFV] 48Rnd 5x23mm (FMJ) Magazine";
 		displaynameshort="5x23mm FMJ";
 		ammo="TFV_B_5x23_Caseless_FMJ";
 		descriptionshort="48 Round Magazine<br>5x23mm<br>Full Metal Jacket";
@@ -2865,7 +2865,7 @@ class CfgMagazines
 	class TFV_48Rnd_5x23mm_Mag_tracer: TFV_48Rnd_5x23mm_Mag
 	{
 		dlc="OPTRE";
-		displayname="48Rnd 5x23mm Magazine (Tracers)";
+		displayName="[TFV] 48Rnd 5x23mm Magazine (Tracers)";
 		displaynameshort="5x23mm Tracer";
 		ammo="TFV_B_5x23_Caseless_Tracer";
 		descriptionshort="48 Round Magazine<br>5x23mm<br>Tracer";
@@ -2875,14 +2875,14 @@ class CfgMagazines
 	class TFV_48Rnd_5x23mm_Mag_tracer_yellow: TFV_48Rnd_5x23mm_Mag_tracer
 	{
 		dlc="OPTRE";
-		displayname="48Rnd 5x23mm Magazine (Tracers Yellow)";
+		displayName="[TFV] 48Rnd 5x23mm Magazine (Tracers Yellow)";
 		ammo="TFV_B_5x23_Caseless_Tracer_Yellow";
 	};
 	class TFV_4Rnd_145x114_APFSDS_Mag: 20Rnd_762x51_Mag
 	{
 		dlc="OPTRE";
 		model="\OPTRE_Weapons\Sniper\SRS99C_Mag.p3d";
-		displayname="4Rnd 14.5x114mm APFSDS Magazine";
+		displayName="[TFV] 4Rnd 14.5x114mm APFSDS Magazine";
 		displaynameshort="APFSDS";
 		ammo="TFV_B_145x114_APFSDS";
 		count=4;
@@ -2896,7 +2896,7 @@ class CfgMagazines
 	class TFV_4Rnd_145x114_HVAP_Mag: TFV_4Rnd_145x114_APFSDS_Mag
 	{
 		dlc="OPTRE";
-		displayname="4Rnd 14.5x114mm HVAP Magazine";
+		displayName="[TFV] 4Rnd 14.5x114mm HVAP Magazine";
 		displaynameshort="HVAP";
 		ammo="TFV_B_145x114_HVAP";
 		initspeed=850;
@@ -2906,7 +2906,7 @@ class CfgMagazines
 	class TFV_4Rnd_145x114_HEDP_Mag: TFV_4Rnd_145x114_HVAP_Mag
 	{
 		dlc="OPTRE";
-		displayname="4Rnd 14.5x114mm HEDP Magazine";
+		displayName="[TFV] 4Rnd 14.5x114mm HEDP Magazine";
 		displaynameshort="HEDP";
 		ammo="TFV_B_145x114_HEDP";
 		descriptionshort="4 Round Magazine<br>14.5x114mm<br>High Explosive Dual Purpose";
@@ -2915,7 +2915,7 @@ class CfgMagazines
 	class TFV_7Rnd_20mm_APFSDS_Mag: TFV_4Rnd_145x114_APFSDS_Mag
 	{
 		dlc="OPTRE";
-		displayname="7Rnd 20mm APFSDS Magazine";
+		displayName="[TFV] 7Rnd 20mm APFSDS Magazine";
 		displaynameshort="APFSDS";
 		ammo="TFV_B_20mm_APFSDS";
 		count=7;
@@ -2929,7 +2929,7 @@ class CfgMagazines
 	class TFV_7Rnd_20mm_HEDP_Mag: TFV_4Rnd_145x114_HEDP_Mag
 	{
 		dlc="OPTRE";
-		displayname="7Rnd 20mm HEDP Magazine";
+		displayName="[TFV] 7Rnd 20mm HEDP Magazine";
 		displaynameshort="HEDP";
 		ammo="TFV_B_145x114_HEDP";
 		descriptionshort="7 Round Magazine<br>20mm<br>High Explosive Dual Purpose";
@@ -2939,7 +2939,7 @@ class CfgMagazines
 	class TFV_M41_Twin_HEAT: RPG32_HE_F
 	{
 		dlc="OPTRE";
-		displayname="M19 HEAT (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 HEAT (Un-guided) Twin Rockets";
 		displaynameshort="HEAT";
 		descriptionshort="High Explosive Anti Tank<br/>Un-guided";
 		ammo="TFV_M41_Rocket_HEAT";
@@ -2963,13 +2963,13 @@ class CfgMagazines
 		dlc="OPTRE";
 		ammo="TFV_M41_Rocket_HEAP";
 		descriptionshort="High Explosive Anti Personnel<br/>Un-guided";
-		displayname="M19 HEAP Twin Rockets";
+		displayName="[TFV] M19 HEAP Twin Rockets";
 		displaynameshort="HEAP";
 	};
 	class TFV_M41_Twin_HEAT_G: TFV_M41_Twin_HEAT
 	{
 		dlc="OPTRE";
-		displayname="M19 HEAT (IR) Twin Rockets";
+		displayName="[TFV] M19 HEAT (IR) Twin Rockets";
 		displaynameshort="HEAT (IR Guided)";
 		descriptionshort="High Explosive Anti Tank<br/>IR Guided";
 		ammo="TFV_M41_Rocket_HEAT_Guided";
@@ -2978,7 +2978,7 @@ class CfgMagazines
 	class TFV_M41_Twin_HEAT_SACLOS: RPG32_HE_F
 	{
 		dlc="OPTRE";
-		displayname="M19 HEAT (SACLOS) Twin Rockets";
+		displayName="[TFV] M19 HEAT (SACLOS) Twin Rockets";
 		displaynameshort="HEAT (SACLOS)";
 		descriptionshort="High Explosive Anti Tank<br/>Semi-automatic command to line-of-sight (SACLOS)";
 		ammo="TFV_M41_Rocket_HEAT_SACLOS";
@@ -2993,7 +2993,7 @@ class CfgMagazines
 	class TFV_M41_Twin_HE_SACLOS_ProximityFuse: TFV_M41_Twin_HEAT_SACLOS
 	{
 		dlc="OPTRE";
-		displayname="M19 HE (SACLOS proximity-fuse) Twin Rockets";
+		displayName="[TFV] M19 HE (SACLOS proximity-fuse) Twin Rockets";
 		displaynameshort="HE (SACLOS proximity-fuse)";
 		descriptionshort="High Explosive proximity-fuse<br/>Semi-automatic command to line-of-sight (SACLOS)";
 		ammo="TFV_M41_Rocket_HE_SACLOS_ProximityFuse";
@@ -3002,35 +3002,35 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		descriptionshort="High Explosive<br/>Un-guided";
-		displayname="M19 HE (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 HE (Un-guided) Twin Rockets";
 		displaynameshort="High Explosive Dumb-Fire";
 		ammo="TFV_M41_Rocket_HE";
 	};
 	class TFV_M41_Twin_HEAT_SALH: TFV_M41_Twin_HEAT_SACLOS
 	{
 		dlc="OPTRE";
-		displayname="M19 HEAT (SALH) Twin Rockets";
+		displayName="[TFV] M19 HEAT (SALH) Twin Rockets";
 		displaynameshort="HEAT (SALH)";
 		descriptionshort="High Explosive Anti Tank<br/>SALH";
 		ammo="TFV_M41_Rocket_HEAT_Laser";
 	};
 	class TFV_M41_Twin_HEAT_Thermal: TFV_M41_Twin_HEAT_SACLOS
 	{
-		displayname="M19 HEAT (Heat-Seeking) Twin Rockets";
+		displayName="[TFV] M19 HEAT (Heat-Seeking) Twin Rockets";
 		displaynameshort="HEAT (Heat-seeking)";
 		descriptionshort="High Explosive Anti Tank<br/>Heat-Seeking";
 		ammo="TFV_M41_Rocket_HEAT_Thermal";
 	};
 	class TFV_M41_Twin_HE_SALH_ProximityFuse: TFV_M41_Twin_HEAT_SALH
 	{
-		displayname="M19 HE (SALH proximity-fuse) Twin Rockets";
+		displayName="[TFV] M19 HE (SALH proximity-fuse) Twin Rockets";
 		displaynameshort="HE (SALH proximity-fuse)";
 		descriptionshort="High Explosive proximity-fuse<br/>Semi-Active Laser Homing (SALH)";
 		ammo="TFV_M41_Rocket_HE_Laser_ProximityFuse";
 	};
 	class TFV_M41_Twin_HE_Thermal_ProximityFuse: TFV_M41_Twin_HEAT_Thermal
 	{
-		displayname="M19 HE (Heat-seeking proximity-fuse) Twin Rockets";
+		displayName="[TFV] M19 HE (Heat-seeking proximity-fuse) Twin Rockets";
 		displaynameshort="HE (Heat-seeking proximity-fuse)";
 		descriptionshort="High Explosive proximity-fuse<br/>Heat-Seeking";
 		ammo="TFV_M41_Rocket_HE_Thermal_ProximityFuse";
@@ -3038,7 +3038,7 @@ class CfgMagazines
 	class TFV_M41_Twin_Smoke_W: TFV_M41_Twin_HE
 	{
 		descriptionshort="Smoke (White)<br/>Un-guided";
-		displayname="M19 White Smoke (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 White Smoke (Un-guided) Twin Rockets";
 		displaynameshort="Smoke (white) Dumb-Fire";
 		mass=40;
 		ammo="TFV_M41_SMK_W";
@@ -3046,42 +3046,42 @@ class CfgMagazines
 	class TFV_M41_Twin_Smoke_B: TFV_M41_Twin_Smoke_W
 	{
 		descriptionshort="Smoke (Blue)<br/>Un-guided";
-		displayname="M19 Blue Smoke (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 Blue Smoke (Un-guided) Twin Rockets";
 		displaynameshort="Smoke (Blue) Dumb-Fire";
 		ammo="TFV_M41_SMK_B";
 	};
 	class TFV_M41_Twin_Smoke_R: TFV_M41_Twin_Smoke_W
 	{
 		descriptionshort="Smoke (Red)<br/>Un-guided";
-		displayname="M19 Red Smoke (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 Red Smoke (Un-guided) Twin Rockets";
 		displaynameshort="Smoke (Red) Dumb-Fire";
 		ammo="TFV_M41_SMK_R";
 	};
 	class TFV_M41_Twin_Smoke_G: TFV_M41_Twin_Smoke_W
 	{
 		descriptionshort="Smoke (Green)<br/>Un-guided";
-		displayname="M19 Green Smoke (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 Green Smoke (Un-guided) Twin Rockets";
 		displaynameshort="Smoke (Green) Dumb-Fire";
 		ammo="TFV_M41_SMK_G";
 	};
 	class TFV_M41_Twin_Smoke_O: TFV_M41_Twin_Smoke_W
 	{
 		descriptionshort="Smoke (Orange)<br/>Un-guided";
-		displayname="M19 Orange Smoke (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 Orange Smoke (Un-guided) Twin Rockets";
 		displaynameshort="Smoke (Orange) Dumb-Fire";
 		ammo="TFV_M41_SMK_O";
 	};
 	class TFV_M41_Twin_Smoke_P: TFV_M41_Twin_Smoke_W
 	{
 		descriptionshort="Smoke (Purple)<br/>Un-guided";
-		displayname="M19 Purple Smoke (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 Purple Smoke (Un-guided) Twin Rockets";
 		displaynameshort="Smoke (Purple) Dumb-Fire";
 		ammo="TFV_M41_SMK_P";
 	};
 	class TFV_M41_Twin_Smoke_Y: TFV_M41_Twin_Smoke_W
 	{
 		descriptionshort="Smoke (Yellow)<br/>Un-guided";
-		displayname="M19 Yellow Smoke (Un-guided) Twin Rockets";
+		displayName="[TFV] M19 Yellow Smoke (Un-guided) Twin Rockets";
 		displaynameshort="Smoke (Yellow) Dumb-Fire";
 		ammo="TFV_M41_SMK_Y";
 	};
@@ -3089,7 +3089,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="3Rnd ALIM Gauss Slugs";
+		displayName="[TFV] 3Rnd ALIM Gauss Slugs";
 		displayNameShort="25x130mm Slug";
 		ammo="TFV_25x130mm_Slug";
 		initSpeed=13680;
@@ -3100,7 +3100,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="15Rnd ALIM Gauss Slugs";
+		displayName="[TFV] 15Rnd ALIM Gauss Slugs";
 		displayNameShort="25x130mm Slug";
 		ammo="TFV_25x130mm_Slug";
 		initSpeed=13680;
@@ -3111,7 +3111,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="M6 Laser Battery";
+		displayName="[TFV] M6 Laser Battery";
 		displayNameShort="Laser";
 		ammo="TFV_SpLaserAmmo";
 		model="\OPTRE_Weapons\Ammo\boxAmmo.p3d";
@@ -3130,7 +3130,7 @@ class CfgMagazines
 	class TFV_1Rnd_MAC_Rounds: TFV_3Rnd_ALIM_Gauss_Slugs
 	{
 		dlc="OPTRE";
-		displayName="MAC Round";
+		displayName="[TFV] MAC Round";
 		displayNameShort="MAC Round";
 		ammo="TFV_MAC_Round";
 		count=1;
@@ -3138,7 +3138,7 @@ class CfgMagazines
 	class TFV_1000Rnd_127x99_M41: TFV_3Rnd_ALIM_Gauss_Slugs
 	{
 		dlc="OPTRE";
-		displayName="1000Rnd M41 LAAG Belt";
+		displayName="[TFV] 1000Rnd M41 LAAG Belt";
 		displayNameShort="12.7x99";
 		ammo="TFV_B_127x99_Ball";
 		initSpeed=900;
@@ -3150,7 +3150,7 @@ class CfgMagazines
 	class TFV_1000Rnd_127x99_M41_HE: TFV_1000Rnd_127x99_M41
 	{
 		dlc="OPTRE";
-		displayName="1000Rnd M41 LAAG Belt";
+		displayName="[TFV] 1000Rnd M41 LAAG Belt";
 		displayNameShort="12.7x99";
 		ammo="TFV_B_127x99_HE";
 		initSpeed=900;
@@ -3162,7 +3162,7 @@ class CfgMagazines
 	class TFV_200Rnd_127x99_M247H: TFV_1000Rnd_127x99_M41
 	{
 		dlc="OPTRE";
-		displayName="200Rnd M247H Box";
+		displayName="[TFV] 200Rnd M247H Box";
 		displayNameShort="12.7x99 HE";
 		ammo="TFV_B_127x99_HE";
 		initSpeed=900;
@@ -3175,7 +3175,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="3Rnd 102mm Guided HEAT Rockets";
+		displayName="[TFV] 3Rnd 102mm Guided HEAT Rockets";
 		displayNameShort="102mm Guided HEAT";
 		count=3;
 		ammo="TFV_M41_Rocket_ATGM";
@@ -3216,7 +3216,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="2Rnd Guided HEAT Missiles";
+		displayName="[TFV] 2Rnd Guided HEAT Missiles";
 		displayNameShort="GAT HEAT";
 		count=2;
 		ammo="TFV_M41_Rocket_ATGM2";
@@ -3257,7 +3257,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="'ANVIL I' Rocket Pods";
+		displayName="[TFV] 'ANVIL I' Rocket Pods";
 		displayNameShort="Dumb HE Rockets";
 		count=1;
 		ammo="TFV_M_ANVIL_1_Rocket";
@@ -3298,7 +3298,7 @@ class CfgMagazines
 	};
 	class TFV_16Rnd_Anvil1_missiles: TFV_1Rnd_Anvil1_missiles
 	{
-		displayName="16x 'ANVIL I' HE Rockets";
+		displayName="[TFV] 16x 'ANVIL I' HE Rockets";
 		displayNameShort="Dumb HE Rockets";
 		count=16;
 		hardpoints[]=
@@ -3311,7 +3311,7 @@ class CfgMagazines
 	};
 	class TFV_32Rnd_Anvil1_missiles: TFV_1Rnd_Anvil1_missiles
 	{
-		displayName="32x 'ANVIL I' HE Rockets";
+		displayName="[TFV] 32x 'ANVIL I' HE Rockets";
 		displayNameShort="Dumb HE Rockets";
 		count=32;
 		hardpoints[]=
@@ -3322,7 +3322,7 @@ class CfgMagazines
 	};
 	class TFV_16Rnd_Anvil2_missiles: TFV_1Rnd_Anvil1_missiles
 	{
-		displayName="16x 'ANVIL II' IR HE Rockets";
+		displayName="[TFV] 16x 'ANVIL II' IR HE Rockets";
 		displayNameShort="IR HE Rockets";
 		ammo="TFV_M_ANVIL_2_IR";
 		count=16;
@@ -3337,7 +3337,7 @@ class CfgMagazines
 	};
 	class TFV_32Rnd_Anvil2_missiles: TFV_1Rnd_Anvil1_missiles
 	{
-		displayName="32x 'ANVIL II' IR HE Rockets";
+		displayName="[TFV] 32x 'ANVIL II' IR HE Rockets";
 		displayNameShort="IR HE Rockets";
 		count=32;
 		ammo="TFV_M_ANVIL_2_IR";
@@ -3351,7 +3351,7 @@ class CfgMagazines
 	};
 	class TFV_16Rnd_Anvil3_missiles: TFV_1Rnd_Anvil1_missiles
 	{
-		displayName="16x 'ANVIL III' SALH HE Rockets";
+		displayName="[TFV] 16x 'ANVIL III' SALH HE Rockets";
 		displayNameShort="SALH HE Rockets";
 		count=16;
 		hardpoints[]=
@@ -3366,7 +3366,7 @@ class CfgMagazines
 	};
 	class TFV_32Rnd_Anvil3_missiles: TFV_1Rnd_Anvil1_missiles
 	{
-		displayName="32x 'ANVIL III' SALH HE Rockets";
+		displayName="[TFV] 32x 'ANVIL III' SALH HE Rockets";
 		displayNameShort="SALH HE Rockets";
 		count=32;
 		hardpoints[]=
@@ -3380,44 +3380,44 @@ class CfgMagazines
 	};
 	class TFV_16Rnd_AnvilSMK_W_missiles: TFV_16Rnd_Anvil1_missiles
 	{
-		displayName="16x 'ANVIL SMK-W' Smoke Rockets";
+		displayName="[TFV] 16x 'ANVIL SMK-W' Smoke Rockets";
 		displayNameShort="'ANVIL SMK-W' Smoke Rockets";
 		pylonWeapon="TFV_missiles_AnvilSMK";
 		ammo="TFV_M_ANVILSMK_W_Rocket";
 	};
 	class TFV_16Rnd_AnvilSMK_B_missiles: TFV_16Rnd_AnvilSMK_W_missiles
 	{
-		displayName="16x 'ANVIL SMK-B' Smoke Rocket";
+		displayName="[TFV] 16x 'ANVIL SMK-B' Smoke Rocket";
 		displayNameShort="'ANVIL SMK-B' Smoke Rockets";
 		ammo="TFV_M_ANVILSMK_B_Rocket";
 	};
 	class TFV_16Rnd_AnvilSMK_R_missiles: TFV_16Rnd_AnvilSMK_W_missiles
 	{
-		displayName="16x 'ANVIL SMK-R' Smoke Rocket";
+		displayName="[TFV] 16x 'ANVIL SMK-R' Smoke Rocket";
 		displayNameShort="'ANVIL SMK-R' Smoke Rockets";
 		ammo="TFV_M_ANVILSMK_R_Rocket";
 	};
 	class TFV_16Rnd_AnvilSMK_G_missiles: TFV_16Rnd_AnvilSMK_W_missiles
 	{
-		displayName="16x 'ANVIL SMK-G' Smoke Rocket";
+		displayName="[TFV] 16x 'ANVIL SMK-G' Smoke Rocket";
 		displayNameShort="'ANVIL SMK-G' Smoke Rockets";
 		ammo="TFV_M_ANVILSMK_G_Rocket";
 	};
 	class TFV_16Rnd_AnvilSMK_O_missiles: TFV_16Rnd_AnvilSMK_W_missiles
 	{
-		displayName="16x 'ANVIL SMK-O' Smoke Rocket";
+		displayName="[TFV] 16x 'ANVIL SMK-O' Smoke Rocket";
 		displayNameShort="'ANVIL SMK-O' Smoke Rockets";
 		ammo="TFV_M_ANVILSMK_O_Rocket";
 	};
 	class TFV_16Rnd_AnvilSMK_P_missiles: TFV_16Rnd_AnvilSMK_W_missiles
 	{
-		displayName="16x 'ANVIL SMK-P' Smoke Rocket";
+		displayName="[TFV] 16x 'ANVIL SMK-P' Smoke Rocket";
 		displayNameShort="'ANVIL SMK-P' Smoke Rockets";
 		ammo="TFV_M_ANVILSMK_P_Rocket";
 	};
 	class TFV_16Rnd_AnvilSMK_Y_missiles: TFV_16Rnd_AnvilSMK_W_missiles
 	{
-		displayName="16x 'ANVIL SMK-Y' Smoke Rocket";
+		displayName="[TFV] 16x 'ANVIL SMK-Y' Smoke Rocket";
 		displayNameShort="'ANVIL SMK-Y' Smoke Rockets";
 		ammo="TFV_M_ANVILSMK_Y_Rocket";
 	};
@@ -3425,7 +3425,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="6Rnd ASGM-2 'Argent V' Guided AA Rockets";
+		displayName="[TFV] 6Rnd ASGM-2 'Argent V' Guided AA Rockets";
 		displayNameShort="6Rnd Guided AA";
 		count=6;
 		ammo="TFV_M_ASGM2_AA";
@@ -3466,7 +3466,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="12Rnd ASGM-2 'Argent V' Guided AA Rockets";
+		displayName="[TFV] 12Rnd ASGM-2 'Argent V' Guided AA Rockets";
 		displayNameShort="12Rnd Guided AA";
 		count=12;
 	};
@@ -3474,7 +3474,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="48Rnd ASGM-2 'Argent V' Guided AA Rockets";
+		displayName="[TFV] 48Rnd ASGM-2 'Argent V' Guided AA Rockets";
 		displayNameShort="48Rnd Guided AA";
 		count=48;
 	};
@@ -3484,14 +3484,14 @@ class CfgMagazines
 		initSpeed=100;
 		maxLeadSpeed=450;
 		count=8;
-		displayName="8Rnd ASGM-4 Rockets";
+		displayName="[TFV] 8Rnd ASGM-4 Rockets";
 		displaynameshort="8Rnd AAAT";
 	};
 	class TFV_4Rnd_ASGM10_missiles: 4Rnd_GAA_missiles
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="4Rnd ASGM-10 'Argent X' Guided AA Missile";
+		displayName="[TFV] 4Rnd ASGM-10 'Argent X' Guided AA Missile";
 		displayNameShort="6Rnd Guided AA";
 		count=6;
 		ammo="TFV_M_ASGM10_AA";
@@ -3532,7 +3532,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="8Rnd ASGM-10 'Argent X' Guided AA Missile";
+		displayName="[TFV] 8Rnd ASGM-10 'Argent X' Guided AA Missile";
 		displayNameShort="8Rnd Guided AA";
 		count=8;
 	};
@@ -3540,7 +3540,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="12Rnd ASGM-10 'Argent X' Guided AA Missile";
+		displayName="[TFV] 12Rnd ASGM-10 'Argent X' Guided AA Missile";
 		displayNameShort="12Rnd Guided AA";
 		count=12;
 	};
@@ -3548,7 +3548,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="C2GMLS";
+		displayName="[TFV] C2GMLS";
 		displayNameShort="Class-2 MR";
 		descriptionShort="Class-2 MR Self-Guided Missiles";
 		count=1;
@@ -3558,7 +3558,7 @@ class CfgMagazines
 	};
 	class TFV_12Rnd_C2GMLS_missiles: TFV_1Rnd_C2GMLS_missiles
 	{
-		displayName="12x C2GMLS";
+		displayName="[TFV] 12x C2GMLS";
 		displayNameShort="Class-2 MR";
 		descriptionShort="Class-2 MR Self-Guided Missiles";
 		count=12;
@@ -3571,7 +3571,7 @@ class CfgMagazines
 	};
 	class TFV_8Rnd_C2GMLS_missiles: TFV_1Rnd_C2GMLS_missiles
 	{
-		displayName="8x C2GMLS";
+		displayName="[TFV] 8x C2GMLS";
 		displayNameShort="Class-2 MR";
 		descriptionShort="Class-2 MR Self-Guided Missiles";
 		count=8;
@@ -3582,7 +3582,7 @@ class CfgMagazines
 	};
 	class TFV_6Rnd_C2GMLS_missiles: TFV_1Rnd_C2GMLS_missiles
 	{
-		displayName="6x C2GMLS";
+		displayName="[TFV] 6x C2GMLS";
 		displayNameShort="Class-2 MR";
 		descriptionShort="Class-2 MR Self-Guided Missiles";
 		count=6;
@@ -3596,7 +3596,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="AGM-90B 'Scorpion' Guided AT Missile";
+		displayName="[TFV] AGM-90B 'Scorpion' Guided AT Missile";
 		displayNameShort="Guided AT";
 		count=1;
 		ammo="TFV_M_Scorpion_AT";
@@ -3637,7 +3637,7 @@ class CfgMagazines
 	};
 	class TFV_4Rnd_Scorpion_missiles: TFV_1Rnd_Scorpion_missiles
 	{
-		displayName="4x AGM-90B 'Scorpion' Guided AT Missile";
+		displayName="[TFV] 4x AGM-90B 'Scorpion' Guided AT Missile";
 		displayNameShort="4x Guided AT";
 		count=4;
 		hardpoints[]=
@@ -3652,7 +3652,7 @@ class CfgMagazines
 	};
 	class TFV_8Rnd_Scorpion_missiles: TFV_1Rnd_Scorpion_missiles
 	{
-		displayName="8x AGM-90B 'Scorpion' Guided AT Missile";
+		displayName="[TFV] 8x AGM-90B 'Scorpion' Guided AT Missile";
 		displayNameShort="8x Guided AT";
 		count=8;
 		hardpoints[]=
@@ -3664,7 +3664,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="1x AGM-502 'Jack Knife' SALH-ATGM";
+		displayName="[TFV] 1x AGM-502 'Jack Knife' SALH-ATGM";
 		displayNameShort="SALH-ATGM";
 		descriptionShort="'Jack Knife' Laser Guided Anti-Tank Missile";
 		count=1;
@@ -3705,7 +3705,7 @@ class CfgMagazines
 	};
 	class TFV_1Rnd_Jackknife_missile: TFV_Jackknife_missile
 	{
-		displayName="1x AGM-502 'Jack Knife' SALH-ATGM";
+		displayName="[TFV] 1x AGM-502 'Jack Knife' SALH-ATGM";
 		hardpoints[]=
 		{
 			"OPAEX_Hardpoint_AV14",
@@ -3715,7 +3715,7 @@ class CfgMagazines
 	};
 	class TFV_2Rnd_Jackknife_missile: TFV_Jackknife_missile
 	{
-		displayName="2x AGM-502 'Jack Knife' SALH-ATGM";
+		displayName="[TFV] 2x AGM-502 'Jack Knife' SALH-ATGM";
 		count=2;
 		hardpoints[]=
 		{
@@ -3725,7 +3725,7 @@ class CfgMagazines
 	};
 	class TFV_3Rnd_Jackknife_missile: TFV_Jackknife_missile
 	{
-		displayName="3x AGM-502 'Jack Knife' SALH-ATGM";
+		displayName="[TFV] 3x AGM-502 'Jack Knife' SALH-ATGM";
 		count=3;
 		hardpoints[]=
 		{
@@ -3735,7 +3735,7 @@ class CfgMagazines
 	};
 	class TFV_4Rnd_Jackknife_missile: TFV_Jackknife_missile
 	{
-		displayName="4x AGM-502 'Jack Knife' SALH-ATGM";
+		displayName="[TFV] 4x AGM-502 'Jack Knife' SALH-ATGM";
 		count=4;
 		hardpoints[]=
 		{
@@ -3746,7 +3746,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="12Rnd Mk208A 500lb Bomb";
+		displayName="[TFV] 12Rnd Mk208A 500lb Bomb";
 		displayNameShort="12Rnd 500lb Bomb";
 		count=12;
 		ammo="TFV_Bo_500lb";
@@ -3757,7 +3757,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="24Rnd Mk208A 500lb Bomb";
+		displayName="[TFV] 24Rnd Mk208A 500lb Bomb";
 		displayNameShort="24Rnd 500lb Bomb";
 		count=24;
 	};
@@ -3765,7 +3765,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="36Rnd Mk208A 500lb Bomb";
+		displayName="[TFV] 36Rnd Mk208A 500lb Bomb";
 		displayNameShort="36Rnd 500lb Bomb";
 		count=36;
 	};
@@ -3773,7 +3773,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="48Rnd Mk208A 500lb Bomb";
+		displayName="[TFV] 48Rnd Mk208A 500lb Bomb";
 		displayNameShort="48Rnd 500lb Bomb";
 		count=48;
 	};
@@ -3781,7 +3781,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="12Rnd Mk208B 1000lb Bomb";
+		displayName="[TFV] 12Rnd Mk208B 1000lb Bomb";
 		displayNameShort="12Rnd 1000lb Bomb";
 		count=12;
 		ammo="TFV_Bo_1000lb";
@@ -3792,7 +3792,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="24Rnd Mk208B 1000lb Bomb";
+		displayName="[TFV] 24Rnd Mk208B 1000lb Bomb";
 		displayNameShort="24Rnd 1000lb Bomb";
 		count=24;
 	};
@@ -3800,7 +3800,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="36Rnd Mk208B 1000lb Bomb";
+		displayName="[TFV] 36Rnd Mk208B 1000lb Bomb";
 		displayNameShort="36Rnd 1000lb Bomb";
 		count=36;
 	};
@@ -3808,7 +3808,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="8Rnd Mk208C 2000lb Bomb";
+		displayName="[TFV] 8Rnd Mk208C 2000lb Bomb";
 		displayNameShort="8Rnd 2000lb Bomb";
 		count=8;
 		ammo="TFV_Bo_2000lb";
@@ -3819,7 +3819,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="16Rnd Mk208C 2000lb Bomb";
+		displayName="[TFV] 16Rnd Mk208C 2000lb Bomb";
 		displayNameShort="16Rnd 2000lb Bomb";
 		count=16;
 	};
@@ -3827,7 +3827,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="4Rnd GBU-1071 Laser Guided Bomb";
+		displayName="[TFV] 4Rnd GBU-1071 Laser Guided Bomb";
 		displayNameShort="4Rnd LG Bomb";
 		count=4;
 		ammo="TFV_Bo_GBU1071_LGB";
@@ -3838,7 +3838,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="8Rnd GBU-1071 Laser Guided Bomb";
+		displayName="[TFV] 8Rnd GBU-1071 Laser Guided Bomb";
 		displayNameShort="8Rnd LG Bomb";
 		count=8;
 	};
@@ -3846,7 +3846,7 @@ class CfgMagazines
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="12Rnd CBU-901 Cluster Bomb";
+		displayName="[TFV] 12Rnd CBU-901 Cluster Bomb";
 		displayNameShort="12Rnd Cluster Bomb";
 		count=12;
 		ammo="TFV_Bo_cluster_AP";
@@ -3882,7 +3882,7 @@ class CfgMagazines
 	class TFV_2500Rnd_50mm_HE: 500Rnd_Cannon_30mm_Plane_CAS_02_F
 	{
 		author="Article 2 Studios";
-		displayName="2500Rnd 50mm HE";
+		displayName="[TFV] 2500Rnd 50mm HE";
 		displayNameShort="50mm HE";
 		ammo="TFV_B_50mm";
 		count=2500;
@@ -3890,7 +3890,7 @@ class CfgMagazines
 	class TFV_2500Rnd_50mm_HE2: 500Rnd_Cannon_30mm_Plane_CAS_02_F
 	{
 		author="Article 2 Studios";
-		displayName="2500Rnd 50mm HE";
+		displayName="[TFV] 2500Rnd 50mm HE";
 		displayNameShort="50mm HE";
 		ammo="TFV_B_50mm_HE";
 		count=2500;
@@ -3898,7 +3898,7 @@ class CfgMagazines
 	class TFV_2500Rnd_50mm_APFSDS: TFV_2500Rnd_50mm_HE
 	{
 		author="Article 2 Studios";
-		displayName="2500Rnd 50mm APFSDS";
+		displayName="[TFV] 2500Rnd 50mm APFSDS";
 		displayNameShort="50mm APFSDS";
 		ammo="TFV_B_50mm_APFSDS";
 		count=2500;
@@ -3912,14 +3912,14 @@ class CfgMagazines
 	};
 	class TFV_100Rnd_50mm_HE: TFV_2500Rnd_50mm_HE
 	{
-		displayName="100Rnd 50mm HE";
+		displayName="[TFV] 100Rnd 50mm HE";
 		author="Article 2 Studios";
 		count=100;
 	};
 	class TFV_100Rnd_50mm_APFSDS: TFV_2500Rnd_50mm_HE
 	{
 		author="Article 2 Studios";
-		displayName="100Rnd 50mm APFSDS";
+		displayName="[TFV] 100Rnd 50mm APFSDS";
 		displayNameShort="50mm APFSDS";
 		ammo="TFV_B_50mm_APFSDS";
 		count=100;
@@ -3927,7 +3927,7 @@ class CfgMagazines
 	class TFV_300Rnd_30mm_HE: 140Rnd_30mm_MP_shells_Tracer_Red
 	{
 		author="Article 2 Studios";
-		displayName="300Rnd 30mm MP";
+		displayName="[TFV] 300Rnd 30mm MP";
 		displayNameShort="30mm MP";
 		ammo="TFV_B_30mm_HE";
 		initSpeed=1070;
@@ -3936,7 +3936,7 @@ class CfgMagazines
 	class TFV_250Rnd_30mm_AP: 60Rnd_30mm_APFSDS_shells_Tracer_Yellow
 	{
 		author="Article 2 Studios";
-		displayName="250Rnd 30mm APFSDS";
+		displayName="[TFV] 250Rnd 30mm APFSDS";
 		displaynameshort="30mm APFSDS";
 		ammo="TFV_B_30mm_AP";
 		count=250;
@@ -3946,7 +3946,7 @@ class CfgMagazines
 	class TFV_300Rnd_30mm_HE2: 140Rnd_30mm_MP_shells_Tracer_Red
 	{
 		author="Article 2 Studios";
-		displayName="300Rnd 30mm MP";
+		displayName="[TFV] 300Rnd 30mm MP";
 		displayNameShort="30mm MP";
 		ammo="TFV_B_30mm_HE2";
 		initSpeed=1070;
@@ -3955,7 +3955,7 @@ class CfgMagazines
 	class TFV_250Rnd_30mm_AP2: 60Rnd_30mm_APFSDS_shells_Tracer_Yellow
 	{
 		author="Article 2 Studios";
-		displayName="250Rnd 30mm APFSDS";
+		displayName="[TFV] 250Rnd 30mm APFSDS";
 		displaynameshort="30mm APFSDS";
 		ammo="TFV_B_30mm_AP2";
 		count=250;
@@ -3965,7 +3965,7 @@ class CfgMagazines
 	class TFV_300Rnd_40mm_HE: 140Rnd_30mm_MP_shells_Tracer_Red
 	{
 		author="Article 2 Studios";
-		displayName="300Rnd 40mm HE";
+		displayName="[TFV] 300Rnd 40mm HE";
 		displayNameShort="40mm HE";
 		ammo="TFV_B_40mm_HE";
 		initSpeed=1070;
@@ -3974,7 +3974,7 @@ class CfgMagazines
 	class TFV_1200Rnd_40mm_HE: 140Rnd_30mm_MP_shells_Tracer_Red
 	{
 		author="Article 2 Studios";
-		displayName="1200Rnd 40mm HE";
+		displayName="[TFV] 1200Rnd 40mm HE";
 		displayNameShort="40mm HE";
 		ammo="TFV_B_40mm_HE";
 		initSpeed=1070;
@@ -3983,7 +3983,7 @@ class CfgMagazines
 	class TFV_250Rnd_40mm_AP: 60Rnd_30mm_APFSDS_shells_Tracer_Yellow
 	{
 		author="Article 2 Studios";
-		displayName="250Rnd 40mm APFSDS";
+		displayName="[TFV] 250Rnd 40mm APFSDS";
 		displaynameshort="40mm APFSDS";
 		ammo="TFV_B_40mm_AP";
 		count=250;
@@ -3997,7 +3997,7 @@ class CfgMagazines
 	class TFV_750Rnd_70mm_HE: 140Rnd_30mm_MP_shells_Tracer_Red
 	{
 		author="Article 2 Studios";
-		displayName="750Rnd 70mm HE";
+		displayName="[TFV] 750Rnd 70mm HE";
 		displayNameShort="70mm HE";
 		ammo="TFV_B_70mm_HE";
 		initSpeed=1070;
@@ -4021,7 +4021,7 @@ class CfgMagazines
 	{
 		ammo="TFV_Sh_105mm_SAPHE";
 		count=60;
-		displayname="105mm SAPHE";
+		displayName="[TFV] 105mm SAPHE";
 		displaynameshort="SAPHE";
 		initspeed=2000;
 		lastroundstracer=0;
@@ -4031,32 +4031,32 @@ class CfgMagazines
 	class TFV_60Rnd_105mm_HEAT: TFV_60Rnd_105mm_SAPHE
 	{
 		ammo="TFV_Sh_105mm_HEAT";
-		displayname="105mm HEAT";
+		displayName="[TFV] 105mm HEAT";
 		displaynameshort="HEAT";
 	};
 	class TFV_60Rnd_105mm_APBC: TFV_60Rnd_105mm_SAPHE
 	{
 		ammo="TFV_Sh_105mm_APBC";
-		displayname="105mm AP";
+		displayName="[TFV] 105mm AP";
 		displaynameshort="AP";
 	};
 	class TFV_40Rnd_120mm_HE: TFV_60Rnd_105mm_SAPHE
 	{
 		ammo="TFV_Sh_120mm_HE";
 		count=40;
-		displayname="120mm HE";
+		displayName="[TFV] 120mm HE";
 		displaynameshort="HE";
 	};
 	class TFV_40Rnd_120mm_HEAT: TFV_40Rnd_120mm_HE
 	{
 		ammo="TFV_Sh_120mm_HEAT";
-		displayname="120mm HEAT";
+		displayName="[TFV] 120mm HEAT";
 		displaynameshort="HEAT";
 	};
 	class TFV_40Rnd_120mm_AP: TFV_40Rnd_120mm_HE
 	{
 		ammo="TFV_Sh_120mm_AP";
-		displayname="120mm AP";
+		displayName="[TFV] 120mm AP";
 		displaynameshort="AP";
 	};
 	class TFV_40Rnd_120mm_HE_2: TFV_40Rnd_120mm_HE
@@ -4072,20 +4072,20 @@ class CfgMagazines
 	{
 		ammo="TFV_Sh_90mm_APBC";
 		count=30;
-		displayname="90mm APBC";
+		displayName="[TFV] 90mm APBC";
 		displaynameshort="APBC";
 		tracersevery=1;
 	};
 	class TFV_30Rnd_90mm_SAPHE: TFV_30Rnd_90mm_APBC
 	{
 		ammo="TFV_Sh_90mm_SAPHE";
-		displayname="90mm SAPHE";
+		displayName="[TFV] 90mm SAPHE";
 		displaynameshort="SAPHE";
 	};
 	class TFV_10Rnd_90mm_S1: TFV_30Rnd_90mm_APBC
 	{
 		ammo="TFV_Sh_90mm_S1";
-		displayname="90mm S1 Canister";
+		displayName="[TFV] 90mm S1 Canister";
 		displaynameshort="Canister";
 		count=10;
 	};
@@ -4093,7 +4093,7 @@ class CfgMagazines
 	{
 		ammo="TFV_Sh_75mm_AP";
 		count=4;
-		displayname="75mm AP";
+		displayName="[TFV] 75mm AP";
 		displaynameshort="AP";
 		tracersevery=1;
 		muzzleImpulseFactor[]={0,0};
@@ -4101,14 +4101,14 @@ class CfgMagazines
 	class TFV_4Rnd_75mm_HE: TFV_4Rnd_75mm_AP
 	{
 		ammo="TFV_Sh_75mm_HE";
-		displayname="75mm HE";
+		displayName="[TFV] 75mm HE";
 		displaynameshort="HE";
 	};
 	class TFV_1Rnd_Shiva_nuke_missile: 2Rnd_LG_Scalpel
 	{
 		dlc="OPTRE";
 		scope=2;
-		displayName="1Rnd 'SHIVA' TACTICAL NUCLEAR MISSILE";
+		displayName="[TFV] 1Rnd 'SHIVA' TACTICAL NUCLEAR MISSILE";
 		displayNameShort="1Rnd NUCLEAR MISSILE";
 		count=1;
 		ammo="TFV_M_Shiva_Nuke";
@@ -4155,7 +4155,7 @@ class CfgMagazines
 		dlc="OPTRE";
 		ammo="TFV_G_M9_Frag";
 		mass=8;
-		displayName="M9 HE-DP Grenade";
+		displayName="[TFV] M9 HE-DP Grenade";
 		descriptionShort="Hand Grenade";
 		displayNameShort="M9 Frag";
 		model="\OPTRE_Weapons\explosives\m9_grenade.p3d";
@@ -4168,7 +4168,7 @@ class CfgMagazines
 	class TFV_M2_Smoke: SmokeShell
 	{
 		dlc="OPTRE";
-		displayName="M2 Smoke Grenade (White)";
+		displayName="[TFV] M2 Smoke Grenade (White)";
 		picture="\A3\Weapons_f\data\ui\gear_smokegrenade_white_ca.paa";
 		pictureWire="\OPTRE_Weapons\data\Pictures\WireWeaponIcons\Throw\M2_SMOKE.paa";
 		model="\OPTRE_Weapons\explosives\m2_smk_grenade.p3d";
@@ -4180,7 +4180,7 @@ class CfgMagazines
 	class TFV_M2_Smoke_Blue: TFV_M2_Smoke
 	{
 		dlc="OPTRE";
-		displayName="M2 Smoke Grenade (Blue)";
+		displayName="[TFV] M2 Smoke Grenade (Blue)";
 		model="\OPTRE_Weapons\explosives\m2_smk_grenade.p3d";
 		ammo="TFV_G_M2_BSmoke";
 		descriptionShort="Smoke Grenade<br>Blue";
@@ -4189,7 +4189,7 @@ class CfgMagazines
 	class TFV_M2_Smoke_Yellow: TFV_M2_Smoke
 	{
 		dlc="OPTRE";
-		displayName="M2 Smoke Grenade (Yellow)";
+		displayName="[TFV] M2 Smoke Grenade (Yellow)";
 		model="\OPTRE_Weapons\explosives\m2_smk_grenade.p3d";
 		ammo="TFV_G_M2_YSmoke";
 		descriptionShort="Smoke Grenade<br>Yellow";
@@ -4198,7 +4198,7 @@ class CfgMagazines
 	class TFV_M2_Smoke_Red: TFV_M2_Smoke
 	{
 		dlc="OPTRE";
-		displayName="M2 Smoke Grenade (Red)";
+		displayName="[TFV] M2 Smoke Grenade (Red)";
 		model="\OPTRE_Weapons\explosives\m2_smk_grenade.p3d";
 		ammo="TFV_G_M2_RSmoke";
 		descriptionShort="Smoke Grenade<br>Red";
@@ -4207,7 +4207,7 @@ class CfgMagazines
 	class TFV_M2_Smoke_Green: TFV_M2_Smoke
 	{
 		dlc="OPTRE";
-		displayName="M2 Smoke Grenade (Green)";
+		displayName="[TFV] M2 Smoke Grenade (Green)";
 		model="\OPTRE_Weapons\explosives\m2_smk_grenade.p3d";
 		ammo="TFV_G_M2_GSmoke";
 		descriptionShort="Smoke Grenade<br>Green";
@@ -4216,7 +4216,7 @@ class CfgMagazines
 	class TFV_M2_Smoke_Orange: TFV_M2_Smoke
 	{
 		dlc="OPTRE";
-		displayName="M2 Smoke Grenade (Orange)";
+		displayName="[TFV] M2 Smoke Grenade (Orange)";
 		model="\OPTRE_Weapons\explosives\m2_smk_grenade.p3d";
 		ammo="TFV_G_M2_OSmoke";
 		descriptionShort="Smoke Grenade<br>Orange";
@@ -4225,7 +4225,7 @@ class CfgMagazines
 	class TFV_M2_Smoke_Purple: TFV_M2_Smoke
 	{
 		dlc="OPTRE";
-		displayName="M2 Smoke Grenade (Purple)";
+		displayName="[TFV] M2 Smoke Grenade (Purple)";
 		model="\OPTRE_Weapons\explosives\m2_smk_grenade.p3d";
 		ammo="TFV_G_M2_PSmoke";
 		descriptionShort="Smoke Grenade<br>Purple";
@@ -4234,7 +4234,7 @@ class CfgMagazines
 	class TFV_M8_Flare: TFV_M2_Smoke
 	{
 		dlc="OPTRE";
-		displayName="M8 Signal Flare (Red)";
+		displayName="[TFV] M8 Signal Flare (Red)";
 		model="\OPTRE_Weapons\explosives\m8_flare.p3d";
 		ammo="TFV_G_M8_Flare";
 		descriptionShort="Emergency Flare";
@@ -4243,35 +4243,35 @@ class CfgMagazines
 	class TFV_M8_Flare_Green: TFV_M8_Flare
 	{
 		dlc="OPTRE";
-		displayName="M8 Signal Flare (Green)";
+		displayName="[TFV] M8 Signal Flare (Green)";
 		displayNameShort="Flare (Green)";
 		ammo="TFV_G_M8_Flare_Green";
 	};
 	class TFV_M8_Flare_Yellow: TFV_M8_Flare
 	{
 		dlc="OPTRE";
-		displayName="M8 Signal Flare (Yellow)";
+		displayName="[TFV] M8 Signal Flare (Yellow)";
 		displayNameShort="Flare (Yellow)";
 		ammo="TFV_G_M8_Flare_Yellow";
 	};
 	class TFV_M8_Flare_White: TFV_M8_Flare
 	{
 		dlc="OPTRE";
-		displayName="M8 Signal Flare (White)";
+		displayName="[TFV] M8 Signal Flare (White)";
 		displayNameShort="Flare (White)";
 		ammo="TFV_G_M8_Flare_White";
 	};
 	class TFV_M8_Flare_Blue: TFV_M8_Flare
 	{
 		dlc="OPTRE";
-		displayName="M8 Signal Flare (Blue)";
+		displayName="[TFV] M8 Signal Flare (Blue)";
 		displayNameShort="Flare (Blue)";
 		ammo="TFV_G_M8_Flare_Blue";
 	};
 	class TFV_ELB47_Strobe: TFV_M2_Smoke
 	{
 		dlc="OPTRE";
-		displayName="ELB-47 Strobe";
+		displayName="[TFV] ELB-47 Strobe";
 		model="\OPTRE_Weapons\items\beacon.p3d";
 		ammo="TFV_G_ELB47_Strobe";
 		descriptionShort="Emergency Beacon";
@@ -4280,7 +4280,7 @@ class CfgMagazines
 	class M319_HE_Grenade_Shell: 1Rnd_HE_Grenade_Shell
 	{
 		dlc="OPTRE";
-		displayName="M319 HE";
+		displayName="[TFV] M319 HE";
 		model="OPTRE_Weapons\gl\mag_he.p3d";
 		ammo="M319_HE";
 		displayNameShort="HE";
@@ -4288,7 +4288,7 @@ class CfgMagazines
 	class M319_HEDP_Grenade_Shell: 1Rnd_HE_Grenade_Shell
 	{
 		dlc="OPTRE";
-		displayName="M319 HEDP";
+		displayName="[TFV] M319 HEDP";
 		model="OPTRE_Weapons\gl\mag_hedp.p3d";
 		ammo="M319_HEDP";
 		displayNameShort="HEDP";
@@ -4297,7 +4297,7 @@ class CfgMagazines
 	class M319_Smoke: 1Rnd_smoke_grenade_shell
 	{
 		dlc="OPTRE";
-		displayName="M319 Smoke";
+		displayName="[TFV] M319 Smoke";
 		model="OPTRE_Weapons\gl\mag_smk.p3d";
 		ammo="M319_Smoke";
 		displayNameShort="White Smoke";
@@ -4305,7 +4305,7 @@ class CfgMagazines
 	class M319_Smoke_Red: 1Rnd_smoke_grenade_shell
 	{
 		dlc="OPTRE";
-		displayName="M319 Smoke Red";
+		displayName="[TFV] M319 Smoke Red";
 		model="OPTRE_Weapons\gl\mag_smkred.p3d";
 		ammo="M319_Smoke_Red";
 		displayNameShort="Red Smoke";
@@ -4313,7 +4313,7 @@ class CfgMagazines
 	class M319_Smoke_Green: 1Rnd_smoke_grenade_shell
 	{
 		dlc="OPTRE";
-		displayName="M319 Smoke Green";
+		displayName="[TFV] M319 Smoke Green";
 		model="OPTRE_Weapons\gl\mag_smkgrn.p3d";
 		ammo="M319_Smoke_Green";
 		displayNameShort="Green Smoke";
@@ -4321,7 +4321,7 @@ class CfgMagazines
 	class M319_Smoke_Orange: 1Rnd_smoke_grenade_shell
 	{
 		dlc="OPTRE";
-		displayName="M319 Smoke Orange";
+		displayName="[TFV] M319 Smoke Orange";
 		model="OPTRE_Weapons\gl\mag_smkorg.p3d";
 		ammo="M319_Smoke_Orange";
 		displayNameShort="Orange Smoke";
@@ -4329,7 +4329,7 @@ class CfgMagazines
 	class M319_Buckshot: TFV_6Rnd_8Gauge_Pellets
 	{
 		dlc="OPTRE";
-		displayName="M319 Buckshot";
+		displayName="[TFV] M319 Buckshot";
 		model="OPTRE_Weapons\gl\mag_buckshot.p3d";
 		ammo="M319_Buckshot";
 		displayNameShort="Buckshot";
@@ -4337,72 +4337,72 @@ class CfgMagazines
 	};
 	class TFV_1Rnd_Smoke_Grenade_shell: 1Rnd_smoke_grenade_shell
 	{
-		displayName="Impact Smoke Round (White)";
+		displayName="[TFV] Impact Smoke Round (White)";
 		ammo="TFV_40mm_Smoke";
 	};
 	class TFV_3Rnd_Smoke_Grenade_shell: 3Rnd_Smoke_Grenade_shell
 	{
-		displayName="3Rnd 3GL Impact Smoke Rounds (White)";
+		displayName="[TFV] 3Rnd 3GL Impact Smoke Rounds (White)";
 		ammo="TFV_40mm_Smoke";
 	};
 	class TFV_1Rnd_SmokeRed_Grenade_shell: 1Rnd_SmokeRed_Grenade_shell
 	{
-		displayName="Impact Smoke Round (Red)";
+		displayName="[TFV] Impact Smoke Round (Red)";
 		ammo="TFV_40mm_SmokeRed";
 	};
 	class TFV_3Rnd_SmokeRed_Grenade_shell: 3Rnd_SmokeRed_Grenade_shell
 	{
-		displayName="3Rnd 3GL Impact Smoke Rounds (Red)";
+		displayName="[TFV] 3Rnd 3GL Impact Smoke Rounds (Red)";
 		ammo="TFV_40mm_SmokeRed";
 	};
 	class TFV_1Rnd_SmokeGreen_Grenade_shell: 1Rnd_SmokeGreen_Grenade_shell
 	{
-		displayName="Impact Smoke Round (Green)";
+		displayName="[TFV] Impact Smoke Round (Green)";
 		ammo="TFV_40mm_SmokeGreen";
 	};
 	class TFV_3Rnd_SmokeGreen_Grenade_shell: 3Rnd_SmokeGreen_Grenade_shell
 	{
-		displayName="3Rnd 3GL Impact Smoke Rounds (Green)";
+		displayName="[TFV] 3Rnd 3GL Impact Smoke Rounds (Green)";
 		ammo="TFV_40mm_SmokeGreen";
 	};
 	class TFV_1Rnd_SmokeYellow_Grenade_shell: 1Rnd_SmokeYellow_Grenade_shell
 	{
-		displayName="Impact Smoke Round (Yellow)";
+		displayName="[TFV] Impact Smoke Round (Yellow)";
 		ammo="TFV_40mm_SmokeYellow";
 	};
 	class TFV_3Rnd_SmokeYellow_Grenade_shell: 3Rnd_SmokeYellow_Grenade_shell
 	{
-		displayName="3Rnd 3GL Impact Smoke Rounds (Yellow)";
+		displayName="[TFV] 3Rnd 3GL Impact Smoke Rounds (Yellow)";
 		ammo="TFV_40mm_SmokeYellow";
 	};
 	class TFV_1Rnd_SmokePurple_Grenade_shell: 1Rnd_SmokePurple_Grenade_shell
 	{
-		displayName="Impact Smoke Round (Purple)";
+		displayName="[TFV] Impact Smoke Round (Purple)";
 		ammo="TFV_40mm_SmokePurple";
 	};
 	class TFV_3Rnd_SmokePurple_Grenade_shell: 3Rnd_SmokePurple_Grenade_shell
 	{
-		displayName="3Rnd 3GL Impact Smoke Rounds (Purple)";
+		displayName="[TFV] 3Rnd 3GL Impact Smoke Rounds (Purple)";
 		ammo="TFV_40mm_SmokePurple";
 	};
 	class TFV_1Rnd_SmokeBlue_Grenade_shell: 1Rnd_SmokeBlue_Grenade_shell
 	{
-		displayName="Impact Smoke Round (Blue)";
+		displayName="[TFV] Impact Smoke Round (Blue)";
 		ammo="TFV_40mm_SmokeBlue";
 	};
 	class TFV_3Rnd_SmokeBlue_Grenade_shell: 3Rnd_SmokeBlue_Grenade_shell
 	{
-		displayName="3Rnd 3GL Impact Smoke Rounds (Blue)";
+		displayName="[TFV] 3Rnd 3GL Impact Smoke Rounds (Blue)";
 		ammo="TFV_40mm_SmokeBlue";
 	};
 	class TFV_1Rnd_SmokeOrange_Grenade_shell: 1Rnd_SmokeOrange_Grenade_shell
 	{
-		displayName="Impact Smoke Round (Orange)";
+		displayName="[TFV] Impact Smoke Round (Orange)";
 		ammo="TFV_40mm_SmokeOrange";
 	};
 	class TFV_3Rnd_SmokeOrange_Grenade_shell: 3Rnd_SmokeOrange_Grenade_shell
 	{
-		displayName="3Rnd 3GL Impact Smoke Rounds (Orange)";
+		displayName="[TFV] 3Rnd 3GL Impact Smoke Rounds (Orange)";
 		ammo="TFV_40mm_SmokeOrange";
 	};
 };
